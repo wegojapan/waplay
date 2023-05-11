@@ -1,0 +1,191 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+    .box_gnav .contact a {
+        opacity: 1;
+    }
+}
+
+#con_page {
+    .con_sub {
+        .box_sub {
+            @include cV(margin-bottom, 100px, 10%);
+            .box_txt {
+                @include cV(padding, 0 10%, 0 5%, 0 5%);
+                h3.tit {
+                    @include cV(margin, 40px 0, 5% 0);
+                    font-weight: 400;
+                    strong, small, span {display: block;}
+                    strong {
+                        @include font('en');
+                        @include fsz-cha(30,30,24);
+                    }
+                    small {
+                        @include fsz-cha(10,10,8);
+
+                    }
+                    span {
+                        @include fsz-cha(15,15,13);
+                        @include cV(margin-top, 20px, 3%, 3%);
+                    }
+                }
+                .txt {
+                    line-height: 2;
+                    color: #666;
+                    @include fsz-cha(16,16,14);
+                }
+                .btn_more {
+                    a {
+                        color: $baseColor;
+                        @include fsz-cha(13,13,11);
+                    }
+                }
+            }
+            form {
+                box-sizing: border-box;
+                @include cV(padding, 0 10%, 0 5%, 0 5%);
+                @include cV(margin-top, 50px, 5%, 5%);
+                .box_law {
+                    .law {
+                        border: 1px solid black;
+                        box-sizing: border-box;
+                        padding: 1em 1.5em;
+                        @include fsz-cha(14,14,13);
+                        ul {
+                            li {
+                                @include cV(margin-top, 20px, 7%);
+                                strong {
+                                    display: block;
+                                }
+                                dl {
+                                    margin-bottom: 0;
+                                    dt,dd {display: inline;}
+                                    dt {
+                                        &:after {
+                                            content: ":";
+                                            padding: 0 0.5em;
+                                        }
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                    .box_agree {
+                        @include cV(padding-top, 15px, 2%);
+                        @include fsz-cha(16,16,15);
+                    }
+                    
+                }
+                fieldset {
+                    @include cV(margin-top, 100px, 10%, 10%);
+                    legend {
+                        border-bottom: 1px solid black;
+                        width: 100%;
+                        @include fsz-cha(24,24,20);
+                        @include cV(padding-bottom, 10px, 2%);
+                        @include cV(margin-bottom, 15px, 3%);
+                    }
+                    dl {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: space-between;
+                        @include cV(margin-bottom, 0, 5%);
+                        dd {
+                            display: inline-block;
+                        }
+                    }
+                    input {
+                        background-color: #f9f9f9;
+                        accent-color: $pointColor;
+                        &::placeholder {
+                            font-size: 80%;
+                            color: #c6c6c6;
+                        }
+                    }
+                    textarea {
+                        background-color: #f9f9f9;
+                        resize: vertical;
+                        min-height: 200px;
+                        width: 100%;
+                        padding: 1em;
+                        box-sizing: border-box;
+                        font-family: "Noto Sans JP",sans-serif;
+                    }
+                    &.form_base {
+                        dl {
+                            dt {@include cV(width, 15%, 100%);}
+                            dd {
+                                @include cV(width, 85%, 100%);
+                                @include cV(margin, 10px 0, 3% 0);
+                                input {
+                                    width: 100%;
+                                    padding: 0.7em 1em;
+                                    box-sizing: border-box;
+                                }
+                                &.half {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    input {
+                                        @include cV(width, 49%, 100%);
+                                        @include cV(margin-bottom, 0, 3%);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.form_contents {
+                        dl {
+                            dt {@include cV(width, 20%, 100%);}
+                            dd {
+                                @include cV(width, 80%, 100%);
+                                @include cV(margin, 10px 0, 3% 0);
+                                p.cate {
+                                    @include cV(display, inline-block, flex);
+                                    @include cV(text-align, center, left);
+                                    @include cV(border-radius, 8px, 0);
+                                    @include cV(padding, 0.5em 1em 0.5em 0, 0.5em 0);
+                                    box-sizing: border-box;
+                                }
+                                input[type=text] {
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    padding: 0.5em 1em;
+                                }
+                            }
+                            @include mq(sp) {
+                                dd .cate {
+                                    width: 100%;
+                                    border-bottom: 1px dotted #c9c9c9;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    input {width: 5%;}
+                                    label {width:93%;}
+                                }
+                            }
+                        }
+                    }
+                }
+                .box_send {
+                    @include cV(margin-top, 30px, 5%);
+                    button {
+                        -webkit-appearance: none;
+                        appearance: none;
+                        box-sizing: border-box;
+                        width: 100%;
+                        padding: 1em;
+                        background-color: black;
+                        color: white;
+                        @include cV(border-radius, 0, 8px, 8px);
+                        @include fsz-cha(16,16,15);
+                    }
+                }
+            }
+            @include mq(pc) {
+                form .box_send button:hover {cursor: pointer;}
+            }
+        }
+    }
+}

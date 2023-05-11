@@ -1,0 +1,246 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+    .box_gnav .story a {
+        opacity: 1;
+    }
+}
+
+#con_page {
+    .con_visual {
+        &.menagement {
+            background: url(../imgs/story/img_management.jpg) no-repeat center;
+            background-size: cover;
+        }
+        &.partner {
+            background: url(../imgs/story/img_partner.jpg) no-repeat center;
+            background-size: cover;
+        }
+        &.social {
+            background: url(../imgs/story/img_social.jpg) no-repeat center;
+            background-size: cover;
+        }
+    }
+    .con_sub {
+        .pnav {
+            .box_route {
+                @include cV(width, 50%, 100%);
+            }
+            .box_cate {
+                @include cV(width, 50%, 100%);
+            }
+        }
+        .box_sub {
+            .box_story, .box_cate {
+                @include cV(padding-top, 100px, 15%, 15%);
+                .box_txt {
+                    @include cV(padding, 0 10%, 0 5%, 0 5%);
+                    h3.tit {
+                        @include cV(margin, 40px 0, 5% 0);
+                        font-weight: 400;
+                        strong, small, span {display: block;}
+                        strong {
+                            @include font('en');
+                            @include fsz-cha(30,30,22);
+                        }
+                        small {
+                            @include fsz-cha(10,10,8);
+
+                        }
+                        span {
+                            @include fsz-cha(15,15,13);
+                            @include cV(margin-top, 20px, 3%, 3%);
+                        }
+                    }
+                    .txt {
+                        line-height: 2;
+                        color: #666;
+                        @include fsz-cha(16,16,14);
+                    }
+                    .btn_more {
+                        a {
+                            color: $baseColor;
+                            @include fsz-cha(13,13,11);
+                        }
+                    }
+                }
+                .tag {
+                    display: flex;
+                    flex-wrap: wrap;
+                    @include cV(margin-top, 30px, 5%);
+                    li {
+                        @include fsz-cha(13,13,11);
+                        border: 1px solid #d9d9d9;
+                        color: #a4a4a4;
+                        padding: 0.3em 0.5em;
+                        border-radius: 8px;
+                        @include cV(margin-right, 8px, 1%);
+                        @include cV(margin-bottom, 8px, 1%);
+                    }
+                }
+                &.txt_only {
+                    @include cV(padding-top, 80px, 10%, 10%);
+                }
+                &:first-child {
+                    padding-top: 0;
+                }
+                &:last-child {
+                    @include cV(margin-bottom, 100px, 10%, 10%);
+                }
+                @include mq(pc) {
+                    .btn_link a:hover {
+                        color: black;
+                        text-decoration: underline;
+                        opacity: 1;
+                    }
+                }
+            }
+            .box_story {
+                .box_img {
+                    width: 100%;
+                    height: 300px;
+                    &.management {
+                        background: url(../imgs/story/img_management.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.partner {
+                        background: url(../imgs/story/img_partner.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.social {
+                        background: url(../imgs/story/img_social.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                }
+            }
+            .box_cate {
+                .box_img {
+                    @extend %bw;
+                    @include cV(height, 300px, 30vw, 40vw);
+                    &.oem {
+                        background: url(../imgs/business/img_oem.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.import {
+                        background: url(../imgs/business/img_import.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.export {
+                        background: url(../imgs/business/img_export.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.yakiniku {
+                        background: url(../imgs/business/img_yakiniku.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.ramen {
+                        background: url(../imgs/business/img_ramen.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.dining {
+                        background: url(../imgs/business/img_dining.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.web {
+                        background: url(../imgs/business/img_website.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.marketing {
+                        background: url(../imgs/business/img_marketing.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.golf {
+                        background: url(../imgs/business/img_golf.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.parkgolf {
+                        background: url(../imgs/business/img_parkgolf.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.store {
+                        background: url(../imgs/business/img_store.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                    &.office {
+                        background: url(../imgs/business/img_office.jpg) no-repeat center;
+                        background-size: cover;
+                    }
+                }
+                .box_txt {
+                    h3.st {
+                        @include cV(margin, 20px 0, 5% 0);
+                        strong {
+                            @include fsz-cha(20,20,16);
+                            display: inline-block;
+                            font-weight: bold;
+                        }
+                        small {
+                            @include fsz-cha(10,10,8);
+                            display: inline-block;
+                            @include font('en');
+                            @include cV(margin-left, 8px, 3%);
+                        }
+                    }
+                }
+            }
+            .box_list {
+                @include cV(padding, 0 10%, 0 5%, 0 5%);
+                @include cV(margin-top, 100px, 15%, 15%);
+                h4.st {
+                    @include fsz-cha(24,24,18);
+                    @include cV(text-align, left, center, center);
+                    strong {
+                        display: block;
+                        line-height: 1;
+                    }
+                    small {
+                        font-weight: 400;
+                        font-size: 70%;
+                    }
+                }
+                h4.st + dl {
+                    @include cV(margin-top, 50px, 10%);
+                }
+                dl {
+                    @include cV(margin-top, 70px, 15%);
+                    @include fsz-cha(15,15,13);
+                    dt, dd {
+                        border-bottom: 1px solid #d9d9d9;
+                        box-sizing: border-box;
+                        padding: 1em 0;
+                    }
+                    dt {
+                        @include font('en');
+                        font-weight: bold;
+                        border-bottom: 1px solid black;
+                    }
+                    dd {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                    }
+                }
+            }
+            .box_photo {
+                @include cV(padding, 0 10%, 0 5%, 0 5%);
+                @include cV(margin-top, 100px, 15%, 15%);
+                .img {
+                    width: 100%;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        @include mq(sp) {
+            .pnav::-webkit-scrollbar {
+                display: none;
+            }
+            .pnav {
+                overflow-x: scroll;
+            }
+        }
+    }
+}

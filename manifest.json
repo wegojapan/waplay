@@ -1,0 +1,17 @@
+{
+    "name": "WAPLAY",
+    "short_name": "WAPLAY",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "description": "ワプレー｜必要なすべてのサービスの見積を簡単にもらおう。全国民交流プラットフォーム、われらのプレー",
+    "icons": [
+      {
+        "src": "https://wegojp.com/imgs/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ]
+  }

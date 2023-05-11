@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+    .box_gnav .company a {
+        opacity: 1;
+    }
+}
+
+#con_page {
+    .con_visual {
+        background: url(../imgs/img_company.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .con_sub {
+        .pnav {
+            .box_route {
+                @include cV(width, 50%, 100%);
+            }
+            .box_cate {
+                @include cV(width, 50%, 100%);
+            }
+        }
+        
+        .box_sub {
+            @include cV(padding, 0 10%, 0 5%, 0 5%);
+            h3.st {
+                @include cV(padding-top, 100px, 15%, 35%);
+                @include cV(margin-bottom, 50px, 8%, 10%);
+                strong {
+                    display: block;
+                    @include font('en');
+                    @include fsz-cha(14,14,13);
+                    font-weight: 500;
+                }
+                span {
+                    display: block;
+                    @include fsz-cha(24,24,20);
+                    border-bottom: 1px solid black;
+                    @include cV(padding-bottom, 20px, 3%, 3%);
+                }
+            }
+            .tit_en {
+                @include cV(margin-bottom, 60px, 10%, 10%);
+                strong {
+                    @include font('en');
+                    display: block;
+                    line-height: 1.2;
+                    @include fsz-cha(45,45,30);
+                    @include cV(margin-bottom, 20px, 3%);
+                    span {
+                        color: #D9D9D9;
+                    }
+                }
+                em {
+                    display: block;
+                    @include fsz-cha(20,20,15);
+                }
+            }
+            .txt {
+                line-height: 2;
+                @include fsz-cha(16,16,14);
+                color: #333;
+            }
+            .box_sign {
+                text-align: right;
+                @include cV(margin-top, 60px, 8%, 8%);
+                .sign {
+                    display: block;
+                    @include fsz-cha(30,30,22);
+                    font-family: 'Mr Dafoe', cursive;
+                }
+            }
+            dl {
+                @include fsz-cha(16,16,14);
+                dt {
+                    @include cV(margin-bottom, 0.8em, 0.3em);
+                }
+                dd {
+                    @include cV(margin-bottom, 0.8em, 1.5em);
+                    color: #333;
+                    ul li {
+                        margin-bottom: 0.8em;
+                    }
+                }
+            }
+            .box_info {
+                dl {
+                    display: flex;
+                    flex-wrap: wrap;
+                    dt {
+                        @include cV(width, 20%, 25%, 100%);
+                        @include cV(font-weight, 400, 700);
+                    }
+                    dd {
+                        box-sizing: border-box;
+                        @include cV(width, 80%, 75%, 100%);
+                        span {padding-right: 0.5em;}
+                    }
+                }
+            }
+            .box_history {
+                @include cV(margin-bottom, 100px, 15%, 15%);
+                dl {
+                    display: flex;
+                    flex-wrap: wrap;
+                    dt {
+                        width: 50px;
+                        font-weight: bold;
+                    }
+                    dd {
+                        width: calc(100% - 50px);
+                    }
+                }
+            }
+            .tab {
+                @include cV(margin-bottom, 50px, 10%, 10%);
+                button {
+                    @include fsz-cha(24,24,20);
+                    @include cV(margin-left, 40px, 5%, 5%);
+                    background-color: white;
+                    color: black;
+                    opacity: 0.3;
+                    &.active {
+                        opacity: 1;
+                    }
+                    &:first-child {margin-left: 0;}
+                }
+            }
+        }
+    }
+}

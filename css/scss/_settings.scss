@@ -7,8 +7,19 @@ $columnWidth: 1280;
 // Font Set
 $baseSize: 16;
 // Color Set
-$baseColor: #333;
-$pointColor: #145ebe;
+$baseColor: #000;
+$pointColor: #5726cb;
+$subPointColor: #6666c5;
+$pointColorLight: #EDE7FE;
+$red: #cb262c;
+$brown: #b28160;
+$yellow: #f2a633;
+$skyBlue: #5fb0d8;
+$dkGray: #a4a4a4;
+$gray: #c1c1c1;
+$lightGray: #e6e6e6;
+$whiteGray: #f9f9f9;
+$bgGray: #f2f4f6;
 
 @mixin mq($device, $val: null, $val2: null) {
 	@if $device == pc {
@@ -124,7 +135,7 @@ $pointColor: #145ebe;
 	width: 90%;
 	margin: auto;
 	@include mq(pc) {
-		padding: 0 100px;
+		padding: 0 5%;
 	}
 	@include mq(tab_sp) {
 		width: 880 / 960 * 100%;

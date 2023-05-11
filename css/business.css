@@ -260,7 +260,7 @@
   background-size: cover;
 }
 #con_page .con_sub .box_sub .box_business .box_txt .btn_more a, #con_page .con_sub .box_sub .box_cate .box_txt .btn_more a {
-  color: #333;
+  color: #000;
   font-size: 82%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {

@@ -102,7 +102,7 @@
   }
 }
 #con_page .con_sub .box_sub .box_txt .btn_more a {
-  color: #333;
+  color: #000;
   font-size: 82%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -253,7 +253,7 @@
 }
 #con_page .con_sub .box_sub form fieldset input {
   background-color: #f9f9f9;
-  accent-color: #145ebe;
+  accent-color: #5726cb;
 }
 #con_page .con_sub .box_sub form fieldset input::-moz-placeholder {
   font-size: 80%;

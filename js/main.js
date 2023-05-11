@@ -1,27 +1,22 @@
 ﻿  /* readyEvent
 ------------------------------------------------------------------------*/
 document.addEventListener("DOMContentLoaded", function(e) {
-	// Slick slider
-	$('.box_slider').slick({
-		slidesToShow: 3,
-		dots: true,
-		variableWidth: true,
-		responsive: [
-		  {
-			breakpoint: 1280,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 2
-			}
-		  },
-		  {
-			breakpoint: 480,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 1
-			}
-		  }
-		]
-	});
+    // main banner slider
+    $(function() {
+        var $slider = $('.slider');
+        var $count = $('.slider-count');
+        var slickOptions = {
+            fade: true,
+            arrows: false
+        };
+
+        $slider.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide) {
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            $count.text(i + '/' + slick.slideCount);
+        });
+
+        $slider.slick(slickOptions);
+    });
+	
 	
 });

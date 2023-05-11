@@ -50,44 +50,6 @@
         </li>
         <li class="nav">
             <p class="tit">
-                <strong>BUSINESS</strong>
-                <span>ビジネス</span>
-            </p>
-            <ul class="gallery view_sp">
-                <li class="brand">
-                    <a href="<?=DIR?>business/#brand" >
-                        <small>ブランド運営</small>
-                    </a>
-                </li>
-                <li class="trading">
-                    <a href="<?=DIR?>business/trading.php" >
-                        <small>貿易/商社</small>
-                    </a>
-                </li>
-                <li class="resturant">
-                    <a href="<?=DIR?>business/resturant.php" >
-                        <small>外食事業</small>
-                    </a>
-                </li>
-                <li class="ebiz">
-                    <a href="<?=DIR?>business/ebiz.php" >
-                        <small>オンライン事業</small>
-                    </a>
-                </li>
-                <li class="leisure">
-                    <a href="<?=DIR?>business/leisure.php" >
-                        <small>レジャー関連事業</small>
-                    </a>
-                </li>
-                <li class="interior">
-                    <a href="<?=DIR?>business/interior.php" >
-                        <small>インテリア</small>
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav">
-            <p class="tit">
                 <strong>STORY</strong>
                 <span>活動内容</span>
             </p>

@@ -1,10 +1,9 @@
 <header id="header">
-    <p class="btn_menu view_sp"></p>
-    <h1 class="logo">
+    <p class="logo">
         <a href="<?=DIR?>">
             <img src="<?=DIR?>imgs/common/waplay.svg" alt="waplay">
         </a>
-    </h1>
+    </p>
     <ui class="box_gnav">
         <li class="company">
             <a href="<?=DIR?>company">
@@ -27,7 +26,8 @@
     </ui>
     <div class="box_util">
         <ul class="box_sns">
-            <li class="view_sp"><a href="mailto:info@wegojp.com"><i class="fa-regular fa-envelope"></i></a></li>
+            <li><p class="btn_search view_sp"><img src="./imgs/common/ic/ic_search.svg" alt=""></p></li>
+            <li><p class="btn_menu view_sp"><img src="./imgs/common/ic/ic_bell.svg" alt=""></p></li>
         </ul>
         <ul class="address view_pc-tab">
             <li><strong>T.</strong>052.685.0215</li>

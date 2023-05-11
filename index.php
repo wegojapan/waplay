@@ -85,31 +85,37 @@
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_lesson.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_lesson.svg" alt="레슨"></a>
               </p>
               <small class="txt">レッスン</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_home.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_home.svg" alt="홈/리빙"></a>
               </p>
               <small class="txt">ホーム/リビング</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_car.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_car.svg" alt="자동차"></a>
               </p>
               <small class="txt">自動車</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_inte.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_inte.svg" alt="인테리어/철거"></a>
               </p>
               <small class="txt">インテリア/撤去</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
+              </p>
+              <small class="txt">アルバイト</small>
+          </li>
+          <li>
+              <p class="icon">
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_etc.svg" alt="모두보기"></a>
               </p>
               <small class="txt">アルバイト</small>
           </li>
@@ -187,29 +193,162 @@
         </div>
       </section>
 
-      <section class="wrp_slide_list hot_player">
+      <section class="con_slide_hot">
         <h2>
           <span>최근 인기 플레이어</span>
           <small><a href="#123">더보기</a></small>
         </h2>
-        <div class="con_slide_list">
-          <div class="box_slide_list player_list">
+        <div class="box_list">
+          <ul>
             <li>
-              <div class="pic">
-                <a href="#123">
-                  <p class="user"><img src="./imgs/user/user_01.jpg" alt="user"></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
-                </a>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
               </div>
               <dl class="box_txt">
-                  <dt>
-                    <span class="p_id">인스타슬레이어</span>
-                    <em class="ic_star"><img src="./imgs/common/ic/ic_star.svg" alt="star">5.0</em>
-                  </dt>
-                  <dd>
-                    <small class="cate">인플루언서</small>
-                    <small class="info">평균 <span>1 시간</span> 이내 응답</small>
-                  </dd>
+                <dt>
+                  <span class="p_name">인스타슬레이어</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">인플루언서</small>
+                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">이의있습니다</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">법률</small>
+                  <small class="time">평균 <em>30분</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">편의점마스터</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">아르바이트</small>
+                  <small class="time">평균 <em>10분</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">이사는나의힘</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">홈/리빙</small>
+                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">인스타슬레이어</span>
+                  <small class="ic_star"><img src="./imgs/common/ic/ic_star.svg" alt="star">5.0</small>
+                </dt>
+                <dd>
+                  <small class="cate">인플루언서</small>
+                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">이의있습니다</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">법률</small>
+                  <small class="time">평균 <em>30분</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">편의점마스터</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">아르바이트</small>
+                  <small class="time">평균 <em>10분</em> 이내 응답</small>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <div class="box_profile">
+                <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+              </div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">이사는나의힘</span>
+                  <small class="ic_star">
+                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                    <em class="score">5.0</em>
+                  </small>
+                </dt>
+                <dd>
+                  <small class="cate">홈/리빙</small>
+                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                </dd>
               </dl>
             </li>
           </ul>

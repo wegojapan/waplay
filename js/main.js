@@ -14,8 +14,15 @@ document.addEventListener("DOMContentLoaded", function(e) {
             var i = (currentSlide ? currentSlide : 0) + 1;
             $count.text(i + '/' + slick.slideCount);
         });
-
         $slider.slick(slickOptions);
+    });
+
+    
+    $('.con_slide_hot .box_list').slick({
+        infinite: true,
+        slidesToShow: 1,
+        arrows: false,
+        slidesToScroll: 1
     });
 	
 	

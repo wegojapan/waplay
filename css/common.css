@@ -426,7 +426,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_slide_list h2 {
@@ -479,7 +479,7 @@ li {
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-    margin-right: 8px;
+    margin-right: 1%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -717,7 +717,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_wrd_list h2 {

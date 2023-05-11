@@ -1,7 +1,7 @@
 <header id="header">
     <p class="logo">
         <a href="<?=DIR?>">
-            <img src="<?=DIR?>imgs/common/waplay.svg" alt="waplay">
+            <img src="./imgs/common/waplay.svg" alt="waplay">
         </a>
     </p>
     <ui class="box_gnav">

@@ -97,7 +97,7 @@ li {list-style-type: none;}
 
 /* header Style */
 #header {
-	@include cV(width, 247px, 180px, 100%);
+	@include cV(width, 245px, 75px, 100%);
 	@include cV(padding, 45px 35px 35px, 40px 20px 30px, 3%);
 	position: fixed;
 	background-color: white;
@@ -112,18 +112,21 @@ li {list-style-type: none;}
 		}
 	}
 	.box_gnav {
+		position: relative;
 		li {
 			@include cV(margin, 40px 0, 0);
 			a {
-				display: block;
+				display: flex;
+				flex-wrap: wrap;
 				opacity: 0.3;
 				span {
 					@include fsz-cha(20,16,12);
 					font-weight: bold;
 					display: block;
+					@include cV(margin-right, 15px, 0, 0);
 				}
 				em {
-					@include fsz-cha(18,14,11);
+					@include fsz-cha(16,14,9);
 					display: block;
 				}
 			}
@@ -148,16 +151,9 @@ li {list-style-type: none;}
 			
 		}
 	}
-	@include mq(pc) {
-		.box_gnav li a {
-			transition: 0.3s opacity;
-			&:hover {
-				opacity: 1;
-			}
-		}
-	}
+
 	@include mq(pc_s) {
-		width: 200px;
+		width: 220px;
 		.box_gnav {
 			li {
 				margin: 35px 0;
@@ -179,6 +175,24 @@ li {list-style-type: none;}
 		flex-direction: column;
 		justify-content: space-between;
 	}
+	@include mq(tab) {
+		.logo {
+			width: 100%;
+			.logo_waplay {display: none;}
+		}
+		.box_gnav li a {
+			width: 100%;
+			padding: 0.5em 0;
+			display: flex;
+			justify-content: center;
+			img {
+				max-width: none;
+				width: 100%;
+			}
+			em { display: none;}
+		}
+		.box_util .address {display: none;}
+	}
 	@include mq(sp) {
 		display: flex;
 		justify-content: space-between;
@@ -188,17 +202,50 @@ li {list-style-type: none;}
 		.box_gnav {
 			position: fixed;
 			left: 0;
-			bottom: -10%;
+			bottom: 0;
 			width: 100%;
 			display: flex;
-			border-top: 1px solid #d9d9d9;
-			background-color: #f9f9f9;
+			justify-content: space-around;
+			border-radius: 20px 20px 0 0;
+			background-color: white;
 			transition: bottom 0.35s;
 			li {
-				width: 25%;
+				width: 20%;
 				a {
 					text-align: center;
-					padding: 8% 0 25%;
+					padding: 10% 0 28%;
+					span, em {
+						width: 100%;
+					}
+				}
+				&.btn_play {
+					position: fixed;
+					z-index: 100;
+					display: inline-flex;
+					justify-content: center;
+					bottom: 5%;
+					a {
+						@include cV(width, 56px, 45px);
+						@include cV(height, 56px, 45px);
+						background-color: $pointColor;
+						border-radius: 50%;
+						border: 6px solid white;
+						display: inline-flex;
+						justify-content: center;
+						align-items: center;
+						opacity: 1;
+						padding: 0;
+						img {
+							color: white;
+							width:55%;
+						}
+					}
+				}
+				&:nth-child(2) {
+					padding-right: 5%;
+				}
+				&:nth-child(4) {
+					padding-left: 5%;
 				}
 			}
 			&.active {
@@ -316,24 +363,31 @@ li {list-style-type: none;}
 	}
 }
 
+
 #con_page {
-	@include cV(width, calc(100% - 247px),calc(100% - 180px), 100%);
+	@include cV(width, calc(100% - 245px),calc(100% - 75px), 100%);
 	@include cV(margin-top, 0, 60px);
     box-sizing: border-box;
+	@include cV(padding-bottom, 0, 30%);
 
 	// slide_list_form
 	.wrp_slide_list {
 		@include cV(padding, 0 0 0 5%, 0 0 0 3%);
 		@include cV(margin, 10% 0, 10% 0);
-		h2 {
-			@include fsz-cha(20,20);
-			@include cV(margin-bottom, 3%, 3%);
+		.box_tit {
+			@include cV(margin-bottom, 3%, 5%);
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			padding-right: 3%;
-			small {
-				@include fsz-cha(13,13,11);
+			@include tit_l;
+			.tit {
+				display: inline-block;
+				font-weight: 500;
+			}
+			.more {
+				font-weight: normal;
+				@include cV(font-size, 60%, 70%);
 				&:after {
 					content: "";
 					display: inline-block;
@@ -351,7 +405,7 @@ li {list-style-type: none;}
 				-webkit-overflow-scrolling: touch;
 				white-space: nowrap;
 				li {
-					@include cV(margin-right, 8px, 1%);
+					@include cV(margin-right, 8px, 8px);
 					@include cV(width, 176px, 42%);
 					min-width: 160px;
 					white-space: normal;
@@ -369,6 +423,7 @@ li {list-style-type: none;}
 								width: 100%;
 								height: 100%;
 								object-fit: cover;
+								image-rendering: optimizeSpeed;
 							}
 						}
 						.box_txt {
@@ -377,16 +432,17 @@ li {list-style-type: none;}
 							border: 1px solid $lightGray;
 							padding: 5% 8%;
 							span, small, dl {display: block;}
-							span {
-								@include fsz-cha(16,16,13);
-								line-height: 1.3;
-								font-weight: bold;
+							.p_name {
+								@include txt_m;
+								line-height: 1;
+								font-weight: 400;
 								white-space: nowrap;
 								overflow: hidden;
-								text-overflow: ellipsis; 
+								text-overflow: ellipsis;
+								@include cV(margin-bottom, 3px, 0.3em); 
 							}
-							small {
-								@include fsz-cha(13,13,12);
+							.p_wrd, .p_count, .p_member {
+								@include txt_mini;
 								color: $dkGray;
 								.c-num {
 									margin-left: 0.5em;
@@ -410,20 +466,133 @@ li {list-style-type: none;}
 				}
 			}
 		}
+		&.comm {
+			.con_slide_list {
+				.box_slide_list {
+					display: flex;
+					li {
+						border-radius: 16px;
+						background-color: $bgGray;
+						a {
+							box-sizing: border-box;
+							@include cV(padding, 10%, 10%);
+							display: flex;
+							height: 100%;
+							flex-direction: column;
+							justify-content: space-between;
+							.cate, .txt, .box_utill {
+							}
+							.cate {
+								@include txt_s;
+								@include cV(margin-bottom, 20px, 5%);
+								color: $dkGray;
+							}
+							.txt {
+								@include txt_l;
+								display: -webkit-box;
+								-webkit-box-orient: vertical;
+								-webkit-line-clamp: 3;
+								overflow: hidden;
+								text-overflow: ellipsis;
+								word-break: break-all;
+							}
+							.box_util {
+								display: flex;
+								@include cV(margin-top, 50px, 25%);
+								@include txt_s;
+								p {
+									margin-right: 5%;
+									color: $dkGray;
+								}
+								.logo {
+									@include cV(width, 100px, 40%);
+								}
+								
+							}
+						}
+						&:first-child {
+							background-color: $subPointColor;
+							a {
+								color: white;
+								.cate {color: white}
+							}
+							
+						}
+					}
+				}
+			}
+		}
 	}
-	// slide_hot
-	.con_slide_hot {
+
+	// world_icon_list_form
+	.con_wrd_list {
 		@include cV(padding, 0 5%, 0 3%);
 		@include cV(margin, 10% 0, 10% 0);
-		h2 {
-			@include fsz-cha(20,20);
-			@include cV(margin-bottom, 3%, 3%);
+		.box_tit {
+			@include tit_l;
+			@include cV(margin-bottom, 3%, 5%);
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			padding-right: 5%;
-			small {
-				@include fsz-cha(13,13,11);
+			padding-right: 3%;
+			font-weight: 500;
+		}
+		.box_wrd_list {
+			display: flex;
+			flex-wrap: wrap;
+			li {
+				text-align: center;
+				@include cV(width, 19.2%, 24.25%, 23.5%);
+				@include cV(margin-left, 1%, 2%);
+				margin-bottom: 5%;
+				.icon {
+					a {
+						background-color: $bgGray;
+						width: 100%;
+						border-radius: 16px;
+						display: inline-flex;
+						justify-content: center;
+						align-items: center;
+						@include cV(height, 7em, 4.5em);
+					}
+				}
+				.txt {
+					text-align: center;
+					@include fsz-cha(15,14,9);
+					@include cV(margin-top, 3%, 3%);
+					display: block;
+					line-height: 1.7;
+				}
+				@include mq(pc) {
+					&:nth-child(5n+1) {
+						margin-left: 0;
+					}
+				}
+				@include mq(tab_sp) {
+					&:nth-child(4n+1) {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+
+	// slide_hot
+	.con_slide_hot {
+		@include cV(padding, 0 0 0 5%, 0 0 0 3%);
+		@include cV(margin, 10% 0, 10% 0);
+		.box_tit {
+			@include tit_l;
+			@include cV(margin-bottom, 3%, 5%);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding-right: 3%;
+			.tit {
+				font-weight: 500;
+			}
+			.more {
+				@include txt_s;
 				&:after {
 					content: "";
 					display: inline-block;
@@ -436,7 +605,11 @@ li {list-style-type: none;}
 		}
 		.box_list {
 			ul {
+				display: block;
+				padding-right: 1.5em;
+				min-width: 320px;
 				li {
+					@include cV(width, 350px, 100%);
 					display: flex;
 					box-sizing: border-box;
 					align-items: center;
@@ -464,12 +637,12 @@ li {list-style-type: none;}
 							display: flex;
 							align-items: center;
 							.p_name {
-								@include fsz-cha(16,16,13);
+								@include txt_m;
 								margin-right: 0.5em;
 								line-height: 1;
 							}
 							.ic_star {
-								@include fsz-cha(13,13,11);
+								@include txt_s;
 								display: flex;
 								img {
 									width: 0.7em;
@@ -478,11 +651,16 @@ li {list-style-type: none;}
 							}
 						}
 						dd {
-							@include fsz-cha(13,13,13);
+							@include txt_s;
 							color: $dkGray;
-							.time {
-								em {
-									color: $pointColor;
+							small {
+								&:before {
+									content: "・";
+								}
+								&:first-child {
+									&:before {
+										display: none;
+									}
 								}
 							}
 						}
@@ -492,71 +670,7 @@ li {list-style-type: none;}
 		}
 	}
 
-
-	// world_icon_list_form
-	.con_wrd_list {
-		@include cV(padding, 0 5%, 0 3%);
-		@include cV(margin, 10% 0, 10% 0);
-		h2 {
-			@include fsz-cha(20,20);
-			@include cV(margin-bottom, 3%, 3%);
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding-right: 3%;
-			small {
-				@include fsz-cha(13,13,11);
-				&:after {
-					content: "";
-					display: inline-block;
-					width: 7px;
-					height: 10px;
-					background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
-					margin-left: 0.5em;
-				}
-			}
-		}
-		.box_wrd_list {
-			display: flex;
-			flex-wrap: wrap;
-			li {
-				text-align: center;
-				@include cV(width, 19.2%, 24.25%, 23.5%);
-				@include cV(margin-left, 1%, 2%);
-				margin-bottom: 5%;
-				.icon {
-					a {
-						background-color: $bgGray;
-						width: 100%;
-						border-radius: 16px;
-						display: inline-flex;
-						justify-content: center;
-						align-items: center;
-						@include cV(height, 7em, 4.5em);
-					}
-				}
-				.txt {
-					text-align: center;
-					@include fsz-cha(15,14,10);
-					display: block;
-					line-height: 1.7;
-					@include cV(margin-top, 3%, 3%);
-				}
-				@include mq(pc) {
-					&:nth-child(5n+1) {
-						margin-left: 0;
-					}
-				}
-				@include mq(tab_sp) {
-					&:nth-child(4n+1) {
-						margin-left: 0;
-					}
-				}
-			}
-		}
-	}
-
-
+	
 
 	// btn style
 	.btn_more {
@@ -577,7 +691,7 @@ li {list-style-type: none;}
 	}
 
 	@include mq(pc_s) {
-		width: calc(100% - 200px);
+		width: calc(100% - 220px);
 	}
 	@include mq(pc_tab) {
 		position: absolute;
@@ -592,6 +706,7 @@ li {list-style-type: none;}
 		}
 	}
 }
+
 
 
 /* Footer Style */

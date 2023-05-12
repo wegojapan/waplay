@@ -1,26 +1,30 @@
 <header id="header">
     <p class="logo">
-        <a href="<?=DIR?>">
-            <img src="./imgs/common/waplay.svg" alt="waplay">
+        <a href="#123">
+            <img class="logo_waplay" src="./imgs/common/waplay.svg" alt="waplay">
+            <img class="view_tab" src="./imgs/icons/icon-512x512.png" alt="waplay">
         </a>
     </p>
     <ui class="box_gnav">
         <li class="company">
-            <a href="<?=DIR?>company">
-                <span>HOME</span>
+            <a href="#123">
+                <span><img src="./imgs/common/ic/ic_home.svg" alt="icon"></span>
                 <em>ホーム</em>
             </a>
         </li>
-        <li class="business"><a href="<?=DIR?>business">
-            <span>COMMUNITY</span>
+        <li class="business"><a href="#123">
+            <span><img src="./imgs/common/ic/ic_comm.svg" alt="icon"></span>
             <em>コミュニティー</em>
         </a></li>
-        <li class="story"><a href="<?=DIR?>story">
-            <span>MESSAGE</span>
+        <li class="btn_play view_sp"><a href="#123">
+            <img src="./imgs/common/ic/ic_compass.svg" alt="icon">
+        </a></li>
+        <li class="story"><a href="#123">
+            <span><img src="./imgs/common/ic/ic_msg.svg" alt="icon"></span>
             <em>メッセージ</em>
         </a></li>
-        <li class="contact"><a href="<?=DIR?>contact">
-            <span>MY PAGE</span>
+        <li class="contact"><a href="#123">
+            <span><img src="./imgs/common/ic/ic_user.svg" alt="icon"></span>
             <em>マイページ</em>
         </a></li>
     </ui>
@@ -43,9 +47,9 @@
                 <span>会社概要</span>
             </p>
             <ul class="list view_sp">
-                <li><a href="<?=DIR?>company/index.php"><i class="fa-regular fa-comment-dots"></i>CEOメッセージ</a></li>
-                <li><a href="<?=DIR?>company/index.php"><i class="fa-regular fa-building"></i>会社概要</a></li>
-                <li><a href="<?=DIR?>company/index.php"><i class="fa-regular fa-hourglass-half"></i>会社沿革</a></li>
+                <li><a href="#123"><i class="fa-regular fa-comment-dots"></i>CEOメッセージ</a></li>
+                <li><a href="#123"><i class="fa-regular fa-building"></i>会社概要</a></li>
+                <li><a href="#123"><i class="fa-regular fa-hourglass-half"></i>会社沿革</a></li>
             </ul>
         </li>
         <li class="nav">
@@ -54,14 +58,14 @@
                 <span>活動内容</span>
             </p>
             <ul class="list view_sp">
-                <li><a href="<?=DIR?>story/management.php"><i class="fa-solid fa-check"></i>品質経営</a></li>
-                <li><a href="<?=DIR?>story/partner.php"><i class="fa-regular fa-handshake"></i>パートナー</a></li>
-                <li><a href="<?=DIR?>story/social.php"><i class="fa-regular fa-heart"></i>社会貢献</a></li>
+                <li><a href="#123"><i class="fa-solid fa-check"></i>品質経営</a></li>
+                <li><a href="#123"><i class="fa-regular fa-handshake"></i>パートナー</a></li>
+                <li><a href="#123"><i class="fa-regular fa-heart"></i>社会貢献</a></li>
             </ul>
         </li>
         <li class="nav">
             <p class="tit">
-                <a href="<?=DIR?>contact">
+                <a href="#123">
                     <strong>CONTACT</strong>
                     <span>お問い合わせ</span>
                 </a>

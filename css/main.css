@@ -18,6 +18,10 @@
   }
 }
 
+#header .box_gnav li:nth-child(1) a {
+  opacity: 1;
+}
+
 #con_page {
   display: block;
 }
@@ -26,7 +30,7 @@
 }
 #con_page .con_bn .slider-count {
   position: absolute;
-  left: 8%;
+  left: 4%;
   bottom: 8%;
   border: 1px solid #c1c1c1;
   border-radius: 100px;

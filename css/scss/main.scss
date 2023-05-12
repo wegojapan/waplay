@@ -1,6 +1,13 @@
 @charset "utf-8";
 @import "settings";
 
+#header {
+  .box_gnav li:nth-child(1) a {
+    opacity: 1;
+  }
+
+}
+
 #con_page {
   display: block;
   .con_bn {
@@ -8,7 +15,7 @@
     @extend %bw_l;
     .slider-count {
       position: absolute;
-      left: 8%;
+      left: 4%;
       bottom: 8%;
       border: 1px solid $gray;
       border-radius: 100px;
@@ -21,8 +28,4 @@
   
     }
   }
-
-
-
-
 }

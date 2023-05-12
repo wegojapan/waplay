@@ -13,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="manifest" href="./manifest.json">
-
-
   </head>
 
     
@@ -30,38 +28,38 @@
       </div>
       
       <section class="wrp_slide_list recent">
-        <h2>
-          <span>최근 진행한 플레이</span>
-          <small><a href="#123">더보기</a></small>
+        <h2 class="box_tit">
+          <span class="tit">最近進行したプレー</span>
+          <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸"></p>
               <p class="box_txt">
-                <span>야끼니꾸 전문점</span>
-                <small>아르바이트</small>
+                <span class="p_name">焼肉店</span>
+                <small class="p_wrd">バイト</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="원룸/소형이사"></p>
               <p class="box_txt">
-                <span>원룸/소형이사</span>
-                <small>홈/리빙</small>
+                <span class="p_name">簡便引越し</span>
+                <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
               <p class="box_txt">
-                <span>자동차 검사</span>
-                <small>자동차</small>
+                <span class="p_name">車検</span>
+                <small class="p_wrd">くるま</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_hc_01.jpg" alt="영어 공부"></p>
               <p class="box_txt">
-                <span>영어 과외</span>
-                <small>가정교사</small>
+                <span class="p_name">英語勉強</span>
+                <small class="p_wrd">家庭教師</small>
               </p>
             </a></li>
           </ul>
@@ -69,7 +67,7 @@
       </section>
 
       <section class="con_wrd_list">
-        <h2>인기 플레이 카테고리</h2>
+        <h2 class="box_tit">人気プレイワールド</h2>
         <ul class="box_wrd_list">
           <li>
               <p class="icon">
@@ -123,38 +121,38 @@
       </section>
 
       <section class="wrp_slide_list rec">
-        <h2>
-          <span>이달의 추천 플레이</span>
-          <small><a href="#123">더보기</a></small>
+        <h2 class="box_tit">
+          <span class="tit">今月のおすすめプレー</span>
+          <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="웜룸/소형이사"></p>
               <p class="box_txt">
-                <span>원룸/소형이사</span>
-                <small><em class="p-num">452,152</em>명 플레이</small>
+                <span class="p_name">簡便引越し</span>
+                <small class="p_count"><em class="p-num">452,152</em>人プレー</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_05.jpg" alt="에어콘 청소"></p>
               <p class="box_txt">
-                <span>에어콘 청소</span>
-                <small><em class="p-num">52,152</em>명 플레이</small>
+                <span class="p_name">エアコンクリニック</span>
+                <small class="p_count"><em class="p-num">52,152</em>名プレー</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_03.jpg" alt="해충 방역"></p>
               <p class="box_txt">
-                <span>해충 방역</span>
-                <small><em class="p-num">2,152</em>명 플레이</small>
+                <span class="p_name">害虫駆除・害獣駆除</span>
+                <small class="p_count"><em class="p-num">2,152</em>人プレー</small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
               <p class="box_txt">
-                <span>자동차 검사</span>
-                <small><em class="p-num">52,152</em>명 플레이</small>
+                <span class="p_name">車検</span>
+                <small class="p_count"><em class="p-num">52,152</em>人プレー</small>
               </p>
             </a></li>
           </ul>
@@ -162,31 +160,31 @@
       </section>
 
       <section class="wrp_slide_list open">
-        <h2>
-          <span>모집중인 오픈 플레이</span>
-          <small><a href="#123">더보기</a></small>
+        <h2 class="box_tit">
+          <span class="tit">募集中のオープンプレイ</span>
+          <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
-                <span class="tit">이자카야 오프카이</span>
-                <small>모집인원<em class="c-num"><strong>6</strong>8</em></small>
+                <span class="p_name">居酒屋オフ会</span>
+                <small class="p_member">募集人員<em class="c-num"><strong>6</strong>8</em></small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이"></p>
               <p class="box_txt">
-                <span class="tit">수다 오프카이</span>
-                <small>모집인원<em class="c-num"><strong>3</strong>4</em></small>
+                <span class="p_name">おしゃべりオフ会</span>
+                <small class="p_member">募集人員<em class="c-num"><strong>3</strong>4</em></small>
               </p>
             </a></li>
             <li><a href="">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
-                <span class="tit">야키토리 오프카이</span>
-                <small>모집인원<em class="c-num"><strong>3</strong>5</em></small>
+                <span class="p_name">焼き鳥オフ会</span>
+                <small class="p_member">募集人員<em class="c-num"><strong>3</strong>5</em></small>
               </p>
             </a></li>
           </ul>
@@ -194,160 +192,160 @@
       </section>
 
       <section class="con_slide_hot">
-        <h2>
-          <span>최근 인기 플레이어</span>
-          <small><a href="#123">더보기</a></small>
+        <h2 class="box_tit">
+          <span class="tit">最近の人気プレーヤー</span>
+          <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="box_list">
           <ul>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">인스타슬레이어</span>
+                  <span class="p_name">寺西渉</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">인플루언서</small>
-                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                  <small class="cate">くるま</small>
+                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">이의있습니다</span>
+                  <span class="p_name">スダりさ</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">법률</small>
-                  <small class="time">평균 <em>30분</em> 이내 응답</small>
+                  <small class="cate">インフルエンサー</small>
+                  <small class="time">平均 <em>30分</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">편의점마스터</span>
+                  <span class="p_name">コンビニマスタ</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">아르바이트</small>
-                  <small class="time">평균 <em>10분</em> 이내 응답</small>
+                  <small class="cate">バイト</small>
+                  <small class="time">平均 <em>10分</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">이사는나의힘</span>
+                  <span class="p_name">移動しなさいマン</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">홈/리빙</small>
-                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                  <small class="cate">ホーム/リビング</small>
+                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
           </ul>
           <ul>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">인스타슬레이어</span>
+                  <span class="p_name">インスタスレイヤー</span>
                   <small class="ic_star"><img src="./imgs/common/ic/ic_star.svg" alt="star">5.0</small>
                 </dt>
                 <dd>
-                  <small class="cate">인플루언서</small>
-                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                  <small class="cate">インフルエンサー</small>
+                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">이의있습니다</span>
+                  <span class="p_name">異議ありのなるほど</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">법률</small>
-                  <small class="time">평균 <em>30분</em> 이내 응답</small>
+                  <small class="cate">インテリア/撤去</small>
+                  <small class="time">平均 <em>30分</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">편의점마스터</span>
+                  <span class="p_name">緋村剣心</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">아르바이트</small>
-                  <small class="time">평균 <em>10분</em> 이내 응답</small>
+                  <small class="cate">バイト</small>
+                  <small class="time">平均 <em>10분</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
             <li>
-              <div class="box_profile">
+              <div class="box_profile"><a href="#123">
                 <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
                 <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
-              </div>
+              </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">이사는나의힘</span>
+                  <span class="p_name">サイトはじめ</span>
                   <small class="ic_star">
                     <img src="./imgs/common/ic/ic_star.svg" alt="star">
                     <em class="score">5.0</em>
                   </small>
                 </dt>
                 <dd>
-                  <small class="cate">홈/리빙</small>
-                  <small class="time">평균 <em>1시간</em> 이내 응답</small>
+                  <small class="cate">ホーム/リビング</small>
+                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
                 </dd>
               </dl>
             </li>
@@ -355,10 +353,69 @@
         </div>
       </section>
 
-
+      <section class="wrp_slide_list comm">
+        <h2 class="box_tit">
+          <span class="tit">プレイコミュニティー</span>
+          <small class="more"><a href="#123">すべて見る</a></small>
+        </h2>
+        <div class="con_slide_list">
+          <ul class="box_slide_list">
+          <li><a href="#123">
+              <h3 class="cate">お知らせ</h3>
+              <p class="txt">ワプレーコミュニティ利用ガイド</p>
+              <div class="box_util">
+                <p class="logo"><img src="./imgs/common/waplay_wh.svg" alt="waplay"></p>
+              </div>
+            </a></li>
+            <li><a href="#123">
+              <h3 class="cate">アニメ</h3>
+              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ</p>
+              <div class="box_util">
+                <p class="like">
+                  <i class="fa-solid fa-heart"></i>  
+                  <span>29</span>
+                </p>
+                <p class="comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                  <span>6</span>
+                </p>
+              </div>
+            </a></li>
+            <li><a href="#123">
+              <h3 class="cate">ゲーム</h3>
+              <p class="txt">おすすめのゲームないのかな</p>
+              <div class="box_util">
+                <p class="like">
+                  <i class="fa-solid fa-heart"></i>  
+                  <span>29</span>
+                </p>
+                <p class="comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                  <span>6</span>
+                </p>
+              </div>
+            </a></li>
+            <li><a href="#123">
+              <h3 class="cate">ゲーム</h3>
+              <p class="txt">おすすめのゲームないのかな</p>
+              <div class="box_util">
+                <p class="like">
+                  <i class="fa-solid fa-heart"></i>  
+                  <span>29</span>
+                </p>
+                <p class="comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                  <span>6</span>
+                </p>
+              </div>
+            </a></li>
+          </ul>
+        </div>
+      </section>
 
       <?php include_once('./inc/footer.php'); ?>
     </div>
+
     <script src="./serviceWorker.js"></script>
     <script src="./js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

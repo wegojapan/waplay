@@ -181,7 +181,6 @@ $bgGray: #f2f4f6;
 
 
 
-
 @mixin cV($pro, $v1: 0, $v2: 0, $v3: null) {
 	#{$pro}: $v1;
 	@if $v3 == null {
@@ -198,5 +197,28 @@ $bgGray: #f2f4f6;
 	}
 }
 
+@mixin tit_l {
+	@include fsz-cha(20,18,15);
+	font-weight: 500;
+}
 
+@mixin txt_l {
+	@include fsz-cha(18,18,13);
+	font-weight: normal;
+}
+
+@mixin txt_m {
+	@include fsz-cha(16,16,11);
+	font-weight: normal;
+}
+
+@mixin txt_s {
+	@include fsz-cha(13,13,11);
+	font-weight: normal;
+}
+
+@mixin txt_mini {
+	@include fsz-cha(11,12,9);
+	font-weight: normal;
+}
 

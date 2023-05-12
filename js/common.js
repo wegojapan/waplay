@@ -1,20 +1,9 @@
-﻿const fixNav = document.querySelector(".box_gnav")
-const btnMenu = document.querySelector(".btn_menu");
+﻿const btnMenu = document.querySelector(".btn_menu");
 const openMenu = document.querySelector(".open_menu");
 const btnOpenMenu = document.querySelector(".open_menu ul li");
 let lastScroll = 0
 
 
-
-function scrollEvent() {
-	let st = $(this).scrollTop();
-	if(st > lastScroll) {
-		fixNav.classList.remove("active");
-	} else {
-		fixNav.classList.add("active");
-	}
-	lastScroll = st;
-}
 
 function clickOpenMenu() {
 	openMenu.classList.remove("active");
@@ -26,7 +15,6 @@ function btnToggle() {
 }
 
 
-window.addEventListener("scroll",scrollEvent);
 btnOpenMenu.addEventListener("click",clickOpenMenu);
 btnMenu.addEventListener("click", btnToggle);
 

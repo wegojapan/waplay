@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         infinite: true,
         slidesToShow: 1,
         arrows: false,
+        variableWidth: true,
         slidesToScroll: 1
     });
 	

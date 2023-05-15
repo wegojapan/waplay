@@ -197,8 +197,36 @@ $bgGray: #f2f4f6;
 	}
 }
 
+@mixin main_tit {
+	@include cV(margin-bottom, 3%, 5%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@include cV(padding-right, 0, 5%, 3%);
+	@include tit_l;
+	.tit {
+		display: inline-block;
+		font-weight: 700;
+	}
+	.more {
+		font-weight: normal;
+		@include cV(font-size, 60%, 70%, 70%);
+		display: inline-flex;
+		align-items: center;
+		&:after {
+			content: "";
+			display: inline-block;
+			width: 7px;
+			height: 10px;
+			background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
+			@include cV(margin-left, 0.5em, 0.3em);
+		}
+	}
+
+}
+
 @mixin tit_l {
-	@include fsz-cha(20,18,15);
+	@include fsz-cha(24,20,15);
 	font-weight: 500;
 }
 

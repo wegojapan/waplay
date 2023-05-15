@@ -31,10 +31,11 @@
 #con_page .con_bn .slider-count {
   position: absolute;
   left: 4%;
-  bottom: 8%;
+  line-height: 1.2;
+  bottom: 10%;
   border: 1px solid #c1c1c1;
   border-radius: 100px;
-  padding: 0 3%;
+  padding: 0 2%;
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   display: inline-block;
@@ -48,6 +49,6 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_bn .slider-count {
-    font-size: 69%;
+    font-size: 57%;
   }
 }

@@ -16,7 +16,6 @@ html {
 }
 body {
 	color: $baseColor;
-	background: #fff;
     font-family: 'Noto Sans JP', sans-serif;
 	-webkit-text-size-adjust: none;
 	@include fsz($baseSize, 16);
@@ -68,6 +67,7 @@ html.ie8 {
 // .view_xxx
 body {
 	position: relative;
+	background-color: white;
 	@include mq(pc) {
 		.view_tab-sp,
 		.view_tab {
@@ -229,7 +229,7 @@ li {list-style-type: none;}
 						@include cV(height, 56px, 45px);
 						background-color: $pointColor;
 						border-radius: 50%;
-						border: 6px solid white;
+						border: 8px solid white;
 						display: inline-flex;
 						justify-content: center;
 						align-items: center;
@@ -368,46 +368,21 @@ li {list-style-type: none;}
 	@include cV(width, calc(100% - 245px),calc(100% - 75px), 100%);
 	@include cV(margin-top, 0, 60px);
     box-sizing: border-box;
-	@include cV(padding-bottom, 0, 30%);
+	@include cV(padding-bottom, 0, 16%);
 
 	// slide_list_form
 	.wrp_slide_list {
-		@include cV(padding, 0 0 0 5%, 0 0 0 3%);
-		@include cV(margin, 10% 0, 10% 0);
+		@include cV(padding, 0 5%, 0 0 0 4%, 0 0 0 4%);
+		@include cV(margin, 8% 0, 11% 0);
 		.box_tit {
-			@include cV(margin-bottom, 3%, 5%);
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding-right: 3%;
-			@include tit_l;
-			.tit {
-				display: inline-block;
-				font-weight: 500;
-			}
-			.more {
-				font-weight: normal;
-				@include cV(font-size, 60%, 70%);
-				&:after {
-					content: "";
-					display: inline-block;
-					width: 7px;
-					height: 10px;
-					background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
-					margin-left: 0.5em;
-				}
-			}
+			@include main_tit;
 		}
 		.con_slide_list {
 			.box_slide_list {
 				width: 100%;
-				overflow-x: auto;
-				-webkit-overflow-scrolling: touch;
-				white-space: nowrap;
 				li {
-					@include cV(margin-right, 8px, 8px);
-					@include cV(width, 176px, 42%);
-					min-width: 160px;
+					@include cV(margin-right, 0, 8px, 4px);
+					@include cV(width, 24%, 176px, 42%);
 					white-space: normal;
 					display: inline-block;
 					a {
@@ -461,18 +436,27 @@ li {list-style-type: none;}
 						}
 					}
 					&:last-child {
-						margin-right: 5%;
+						@include cV(margin-right, 0, 5%, 5%);
 					}
+				}
+				@include mq(pc) {
+					display: flex;
+					justify-content: space-between;
+				}
+				@include mq(tab_sp) {
+					overflow-x: auto;
+					-webkit-overflow-scrolling: touch;
+					white-space: nowrap;
 				}
 			}
 		}
 		&.comm {
 			.con_slide_list {
 				.box_slide_list {
-					display: flex;
 					li {
 						border-radius: 16px;
 						background-color: $bgGray;
+						@include cV(margin-right, 8px, 4px);
 						a {
 							box-sizing: border-box;
 							@include cV(padding, 10%, 10%);
@@ -480,8 +464,6 @@ li {list-style-type: none;}
 							height: 100%;
 							flex-direction: column;
 							justify-content: space-between;
-							.cate, .txt, .box_utill {
-							}
 							.cate {
 								@include txt_s;
 								@include cV(margin-bottom, 20px, 5%);
@@ -495,10 +477,11 @@ li {list-style-type: none;}
 								overflow: hidden;
 								text-overflow: ellipsis;
 								word-break: break-all;
+								@include cV(height, 82px, 70px);
 							}
 							.box_util {
 								display: flex;
-								@include cV(margin-top, 50px, 25%);
+								@include cV(margin-top, 30px, 15%);
 								@include txt_s;
 								p {
 									margin-right: 5%;
@@ -516,7 +499,9 @@ li {list-style-type: none;}
 								color: white;
 								.cate {color: white}
 							}
-							
+						}
+						&:last-child {
+							margin-right: 5%;
 						}
 					}
 				}
@@ -526,23 +511,17 @@ li {list-style-type: none;}
 
 	// world_icon_list_form
 	.con_wrd_list {
-		@include cV(padding, 0 5%, 0 3%);
-		@include cV(margin, 10% 0, 10% 0);
+		@include cV(padding, 0 5%, 0 4%);
+		@include cV(margin, 8% 0, 11% 0);
 		.box_tit {
-			@include tit_l;
-			@include cV(margin-bottom, 3%, 5%);
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding-right: 3%;
-			font-weight: 500;
+			@include main_tit;
 		}
 		.box_wrd_list {
 			display: flex;
 			flex-wrap: wrap;
 			li {
 				text-align: center;
-				@include cV(width, 19.2%, 24.25%, 23.5%);
+				@include cV(width, 19.2%, 23.5%);
 				@include cV(margin-left, 1%, 2%);
 				margin-bottom: 5%;
 				.icon {
@@ -563,12 +542,12 @@ li {list-style-type: none;}
 					display: block;
 					line-height: 1.7;
 				}
-				@include mq(pc) {
+				@include mq(pc_tab) {
 					&:nth-child(5n+1) {
 						margin-left: 0;
 					}
 				}
-				@include mq(tab_sp) {
+				@include mq(sp) {
 					&:nth-child(4n+1) {
 						margin-left: 0;
 					}
@@ -579,43 +558,24 @@ li {list-style-type: none;}
 
 	// slide_hot
 	.con_slide_hot {
-		@include cV(padding, 0 0 0 5%, 0 0 0 3%);
-		@include cV(margin, 10% 0, 10% 0);
+		@include cV(padding, 0 5%, 0 0 0 4%, 0 0 0 4%);
+		@include cV(margin, 8% 0, 11% 0);
 		.box_tit {
-			@include tit_l;
-			@include cV(margin-bottom, 3%, 5%);
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding-right: 3%;
-			.tit {
-				font-weight: 500;
-			}
-			.more {
-				@include txt_s;
-				&:after {
-					content: "";
-					display: inline-block;
-					width: 7px;
-					height: 10px;
-					background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
-					margin-left: 0.5em;
-				}
-			}
+			@include main_tit;
 		}
 		.box_list {
 			ul {
 				display: block;
 				padding-right: 1.5em;
-				min-width: 320px;
+				max-width: 320px;
 				li {
 					@include cV(width, 350px, 100%);
 					display: flex;
 					box-sizing: border-box;
 					align-items: center;
 					border-bottom: 1px solid $lightGray;
-					padding-bottom: 3%;
-					margin-bottom: 3%;
+					padding-bottom: 5%;
+					margin-bottom: 5%;
 					.box_profile {
 						position: relative;
 						margin-right: 0.5em;
@@ -670,7 +630,80 @@ li {list-style-type: none;}
 		}
 	}
 
-	
+	// con_story
+	.con_story {
+		@include cV(padding, 0 5%, 0 4%);
+		.box_tit {
+			@include main_tit;
+		}
+		.box_story {
+			.story_list {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				li {
+					@include cV(width, 49%, 48%);
+					@include cV(height, 240px, 55vw);
+					@include cV(margin-bottom, 2%, 4%);
+					background-color: $bgGray;
+					border-radius: 16px;
+					overflow: hidden;
+					a {
+						display: block;
+						box-sizing: border-box;
+						position: relative;
+						height: 100%;
+						.tit {
+							@include tit_l;
+							z-index: 5;
+							position: absolute;
+							width: 100%;
+							box-sizing: border-box;
+							top: 0;
+							left: 0;
+							color: white;
+							@include cV(padding, 8%, 10%);
+							.stxt, .txt {display: block;}
+							.stxt {
+								font-weight: 400;
+								@include txt_s;
+								
+								
+							}
+							.txt {font-weight: bold;}
+						}
+						.img {
+							width: 100%;
+							height: 100%;
+							img {
+								width: 100%;
+								height: 100%;
+								object-fit: cover;
+							}
+						}
+						&:after {
+							content: "";
+							display: block;
+							width: 100%;
+							height: 100%;
+							background-color: rgba(0,0,0,0.15);
+							position: absolute;
+							top: 0;
+							left: 0;
+							z-index: 3;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.con_bn + section {
+		@include cV(margin-top, 8%, 8%);
+	}
+
+
+
 
 	// btn style
 	.btn_more {

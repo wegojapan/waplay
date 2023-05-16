@@ -1,10 +1,12 @@
 <header id="header">
     <p class="logo">
-        <a href="#123">
+        <a href="index.php">
             <img class="logo_waplay" src="./imgs/common/waplay.svg" alt="waplay">
             <img class="view_tab" src="./imgs/icons/icon-512x512.png" alt="waplay">
         </a>
     </p>
+    <h1 class="p_tit">コミュニティー</h1>
+
     <ui class="box_gnav">
         <li class="company">
             <a href="index.php">

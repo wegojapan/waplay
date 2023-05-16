@@ -26,6 +26,22 @@
         </div>
         <div class="slider-count"></div>
       </div>
+
+      <div class="con_fix_top view_pc-tab">
+        <div class="box_search">
+          <input type="search" list="suggestions" placeholder="search">
+          <datalist id="suggestions">
+            <option value="エアコンクリーニング">
+            <option value="飲み会">
+            <option value="個人広告">
+          </datalist>
+        </div>
+        <div class="box_util">
+          <ul class="icons">
+              <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+          </ul>
+        </div>
+      </div>
       
       <section class="wrp_slide_list recent">
         <h2 class="box_tit">
@@ -62,7 +78,7 @@
                 <small class="p_wrd">レッスン</small>
               </p>
             </a></li>
-            <li class="view_tab-sp"><a href="#123">
+            <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_04.jpg" alt="피트니스"></p>
               <p class="box_txt">
                 <span class="p_name">フィットネス</span>
@@ -80,7 +96,7 @@
               <p class="icon">
                 <a href="#123"><img src="./imgs/common/ic/ic_wrd_influ.svg" alt="인플루언서"></a>
               </p>
-              <small class="txt">インフルエンサー</small>
+              <small class="txt">個人広告</small>
           </li>
           <li>
               <p class="icon">
@@ -184,35 +200,35 @@
               <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">居酒屋オフ会</span>
-                <small class="p_member">募集人員<em class="c-num"><strong>6</strong>8</em></small>
+                <small class="p_member"><em class="c-num">8,826</em>件プレイ</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">おしゃべりオフ会</span>
-                <small class="p_member">募集人員<em class="c-num"><strong>3</strong>4</em></small>
+                <small class="p_member"><em class="c-num">11,826</em>件プレイ</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">焼き鳥オフ会</span>
-                <small class="p_member">募集人員<em class="c-num"><strong>3</strong>5</em></small>
+                <small class="p_member"><em class="c-num">31,226</em>件プレイ</small>
               </p>
             </a></li>
             <li><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_05.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
-                <span class="p_name">居酒屋オフ会</span>
-                <small class="p_member">募集人員<em class="c-num"><strong>2</strong>4</em></small>
+                <span class="p_name">コスプレオフ会</span>
+                <small class="p_member"><em class="c-num">8326</em>件プレイ</small>
               </p>
             </a></li>
-            <li class="view_tab-sp"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
+            <li><a href="#123">
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_06.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
-                <span class="p_name">焼き鳥オフ会</span>
-                <small class="p_member">募集人員<em class="c-num"><strong>3</strong>5</em></small>
+                <span class="p_name">ミュージカルオフ会</span>
+                <small class="p_member"><em class="c-num">2,826</em>件プレイ</small>
               </p>
             </a></li>
           </ul>
@@ -588,14 +604,6 @@
     <script src="./js/main.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script> 
-    	AOS.init({
-        duration: 800,
-        delay: 100,
-        easing: 'ease',
-      });
-    </script>
 
   </body>
 </html>

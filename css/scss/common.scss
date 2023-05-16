@@ -10,7 +10,6 @@
 html {
 	line-height: 1.5;
     overflow-x: hidden;
-	max-width: 1100px;
     em {font-style: normal;}
     
 }
@@ -111,6 +110,9 @@ li {list-style-type: none;}
 			display: block;
 		}
 	}
+	.p_tit {
+		@include tit_l;
+	}
 	.box_gnav {
 		position: relative;
 		li {
@@ -174,6 +176,10 @@ li {list-style-type: none;}
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		.box_gnav {
+			height: 80vh;
+		}
+		.p_tit {display: none;}
 	}
 	@include mq(tab) {
 		.logo {
@@ -254,6 +260,7 @@ li {list-style-type: none;}
 		}
 	}
 }
+
 .open_menu {
 	width: 100%;
 	height: 100%;
@@ -368,21 +375,22 @@ li {list-style-type: none;}
 	@include cV(width, calc(100% - 245px),calc(100% - 75px), 100%);
 	@include cV(margin-top, 0, 60px);
     box-sizing: border-box;
-	@include cV(padding-bottom, 0, 16%);
+	@include cV(padding-bottom, 100px, 16%);
 
 	// slide_list_form
 	.wrp_slide_list {
 		@include cV(padding, 0 5%, 0 0 0 4%, 0 0 0 4%);
-		@include cV(margin, 8% 0, 11% 0);
+		@include cV(margin, 5% 0, 11% 0);
 		.box_tit {
 			@include main_tit;
 		}
 		.con_slide_list {
 			.box_slide_list {
 				width: 100%;
+				position: relative;
 				li {
-					@include cV(margin-right, 0, 8px, 4px);
-					@include cV(width, 24%, 176px, 42%);
+					@include cV(margin-right, 8px, 4px);
+					@include cV(width, 176px, 42%);
 					white-space: normal;
 					display: inline-block;
 					a {
@@ -420,7 +428,6 @@ li {list-style-type: none;}
 								@include txt_mini;
 								color: $dkGray;
 								.c-num {
-									margin-left: 0.5em;
 									strong {
 										color: $pointColor;
 										font-weight: 600;
@@ -439,9 +446,22 @@ li {list-style-type: none;}
 						@include cV(margin-right, 0, 5%, 5%);
 					}
 				}
+				.slick-arrow {
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					text-indent: -9999px;
+					line-height: 1;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+					z-index: 2;
+					&.slick-prev {left: 0;}
+					&.slick-next {right: 0;}
+				}
 				@include mq(pc) {
-					display: flex;
-					justify-content: space-between;
+					white-space: nowrap;
 				}
 				@include mq(tab_sp) {
 					overflow-x: auto;
@@ -509,10 +529,38 @@ li {list-style-type: none;}
 		}
 	}
 
+	.con_slide_nav {
+		@include cV(padding, 0 5%, 0 0 0 4%, 0 0 0 4%);
+		@include cV(margin, 0 0 5%, 11% 0);
+		background-color: white;
+		position: sticky;
+		@include cV(top, 0, 60px);
+		
+
+		.box_slide_nav {
+			.slide_list {
+				width: 100%;
+				overflow-x: auto;
+				-webkit-overflow-scrolling: touch;
+				white-space: nowrap;
+				li {
+					display: inline-block;
+					a {
+						@include txt_l;
+					}
+					&:last-child {
+						@include cV(margin-right, 0, 5%, 5%);
+					}
+
+				}
+			}
+		}
+	}
+
 	// world_icon_list_form
 	.con_wrd_list {
 		@include cV(padding, 0 5%, 0 4%);
-		@include cV(margin, 8% 0, 11% 0);
+		@include cV(margin, 5% 0, 11% 0);
 		.box_tit {
 			@include main_tit;
 		}
@@ -521,7 +569,7 @@ li {list-style-type: none;}
 			flex-wrap: wrap;
 			li {
 				text-align: center;
-				@include cV(width, 19.2%, 23.5%);
+				@include cV(width, 15.83%, 19.2%, 23.5%);
 				@include cV(margin-left, 1%, 2%);
 				margin-bottom: 5%;
 				.icon {
@@ -542,7 +590,12 @@ li {list-style-type: none;}
 					display: block;
 					line-height: 1.7;
 				}
-				@include mq(pc_tab) {
+				@include mq(pc) {
+					&:nth-child(6n+1) {
+						margin-left: 0;
+					}
+				}
+				@include mq(tab) {
 					&:nth-child(5n+1) {
 						margin-left: 0;
 					}
@@ -559,7 +612,7 @@ li {list-style-type: none;}
 	// slide_hot
 	.con_slide_hot {
 		@include cV(padding, 0 5%, 0 0 0 4%, 0 0 0 4%);
-		@include cV(margin, 8% 0, 11% 0);
+		@include cV(margin, 5% 0, 11% 0);
 		.box_tit {
 			@include main_tit;
 		}
@@ -662,7 +715,7 @@ li {list-style-type: none;}
 							top: 0;
 							left: 0;
 							color: white;
-							@include cV(padding, 8%, 10%);
+							@include cV(padding, 5%, 8%, 10%);
 							.stxt, .txt {display: block;}
 							.stxt {
 								font-weight: 400;
@@ -698,8 +751,52 @@ li {list-style-type: none;}
 		}
 	}
 
-	.con_bn + section {
-		@include cV(margin-top, 8%, 8%);
+	.con_bn + section, .con_fix_top + section {
+		@include cV(margin-top, 5%, 8%);
+	}
+
+	// con_fix_top
+	.con_fix_top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: white;
+		box-sizing: border-box;
+		padding: 20px;
+		border-bottom: 1px solid $lightGray;
+		@include cV(padding, 1% 5%, 2% 5%, 2% 5%);
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		.box_search {
+			display: flex;
+			align-items: center;
+			input[type="search"] {
+				background-color: $bgGray;
+				box-sizing: border-box;
+				width: 300px;
+				padding: 10px 10px 10px 50px;
+				border-radius: 8px;
+				position: relative;
+			}
+			&:before {
+				position: absolute;
+				content: "";
+				width: 16px;
+				height: 16px;
+				background: url(../imgs/common/ic/ic_search.svg) no-repeat center;
+				z-index: 2;
+				background-size: cover;
+				margin-left: 20px;
+			}
+		}
+		.box_util {
+			.icons {
+				display: flex;
+				align-items: center;
+			}
+			
+		}
 	}
 
 
@@ -740,7 +837,10 @@ li {list-style-type: none;}
 	}
 }
 
-
+h1.p_tit {
+	@include tit_l;
+	font-weight: bold;
+}
 
 /* Footer Style */
 #footer {

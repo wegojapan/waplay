@@ -1,0 +1,16 @@
+#header .box_gnav li:nth-child(2) a {
+  opacity: 1;
+}
+@media only screen and (max-width: 767px) {
+  #header .logo {
+    display: none;
+  }
+}
+
+#con_page {
+  display: block;
+  background-color: #f2f4f6;
+}
+#con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
+  background-color: white;
+}

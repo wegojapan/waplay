@@ -25,6 +25,13 @@ document.addEventListener("DOMContentLoaded", function(e) {
         variableWidth: true,
         slidesToScroll: 1
     });
-	
-	
+
+    $('.pc_slide_btn').slick({
+        infinite: true,
+        slidesToShow: 1,
+        arrows: false,
+        variableWidth: true,
+        slidesToScroll: 1
+    });
+
 });

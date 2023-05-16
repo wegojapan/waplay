@@ -4,7 +4,6 @@ const btnOpenMenu = document.querySelector(".open_menu ul li");
 let lastScroll = 0
 
 
-
 function clickOpenMenu() {
 	openMenu.classList.remove("active");
 	btnMenu.classList.remove("active");
@@ -68,3 +67,4 @@ function matchHeightS($o, m) {
 		}
 	}
 }
+

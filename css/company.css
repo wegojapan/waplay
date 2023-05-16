@@ -1,0 +1,342 @@
+#header .box_gnav .company a {
+  opacity: 1;
+}
+
+#con_page .con_visual {
+  background: url(../imgs/img_company.jpg) no-repeat center;
+  background-size: cover;
+}
+#con_page .con_sub .pnav .box_route {
+  width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .pnav .box_route {
+    width: 100%;
+  }
+}
+#con_page .con_sub .pnav .box_cate {
+  width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .pnav .box_cate {
+    width: 100%;
+  }
+}
+#con_page .con_sub .box_sub {
+  padding: 0 10%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub {
+    padding: 0 5%;
+  }
+}
+#con_page .con_sub .box_sub h3.st {
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub h3.st {
+    padding-top: 15%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub h3.st {
+    padding-top: 35%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub h3.st {
+    margin-bottom: 8%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub h3.st {
+    margin-bottom: 10%;
+  }
+}
+#con_page .con_sub .box_sub h3.st strong {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 88%;
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub h3.st strong {
+    font-size: 88%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub h3.st strong {
+    font-size: 82%;
+  }
+}
+#con_page .con_sub .box_sub h3.st span {
+  display: block;
+  font-size: 150%;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub h3.st span {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub h3.st span {
+    font-size: 125%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub h3.st span {
+    padding-bottom: 3%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub h3.st span {
+    padding-bottom: 3%;
+  }
+}
+#con_page .con_sub .box_sub .tit_en {
+  margin-bottom: 60px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tit_en {
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tit_en {
+    margin-bottom: 10%;
+  }
+}
+#con_page .con_sub .box_sub .tit_en strong {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  line-height: 1.2;
+  font-size: 282%;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tit_en strong {
+    font-size: 282%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tit_en strong {
+    font-size: 188%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tit_en strong {
+    margin-bottom: 3%;
+  }
+}
+#con_page .con_sub .box_sub .tit_en strong span {
+  color: #D9D9D9;
+}
+#con_page .con_sub .box_sub .tit_en em {
+  display: block;
+  font-size: 125%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tit_en em {
+    font-size: 125%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tit_en em {
+    font-size: 94%;
+  }
+}
+#con_page .con_sub .box_sub .txt {
+  line-height: 2;
+  font-size: 100%;
+  color: #333;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .txt {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .txt {
+    font-size: 88%;
+  }
+}
+#con_page .con_sub .box_sub .box_sign {
+  text-align: right;
+  margin-top: 60px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .box_sign {
+    margin-top: 8%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_sign {
+    margin-top: 8%;
+  }
+}
+#con_page .con_sub .box_sub .box_sign .sign {
+  display: block;
+  font-size: 188%;
+  font-family: "Mr Dafoe", cursive;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .box_sign .sign {
+    font-size: 188%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_sign .sign {
+    font-size: 138%;
+  }
+}
+#con_page .con_sub .box_sub dl {
+  font-size: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub dl {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub dl {
+    font-size: 88%;
+  }
+}
+#con_page .con_sub .box_sub dl dt {
+  margin-bottom: 0.8em;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub dl dt {
+    margin-bottom: 0.3em;
+  }
+}
+#con_page .con_sub .box_sub dl dd {
+  margin-bottom: 0.8em;
+  color: #333;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub dl dd {
+    margin-bottom: 1.5em;
+  }
+}
+#con_page .con_sub .box_sub dl dd ul li {
+  margin-bottom: 0.8em;
+}
+#con_page .con_sub .box_sub .box_info dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#con_page .con_sub .box_sub .box_info dl dt {
+  width: 20%;
+  font-weight: 400;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .box_info dl dt {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_info dl dt {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_info dl dt {
+    font-weight: 700;
+  }
+}
+#con_page .con_sub .box_sub .box_info dl dd {
+  box-sizing: border-box;
+  width: 80%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .box_info dl dd {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_info dl dd {
+    width: 100%;
+  }
+}
+#con_page .con_sub .box_sub .box_info dl dd span {
+  padding-right: 0.5em;
+}
+#con_page .con_sub .box_sub .box_history {
+  margin-bottom: 100px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .box_history {
+    margin-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .box_history {
+    margin-bottom: 15%;
+  }
+}
+#con_page .con_sub .box_sub .box_history dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#con_page .con_sub .box_sub .box_history dl dt {
+  width: 50px;
+  font-weight: bold;
+}
+#con_page .con_sub .box_sub .box_history dl dd {
+  width: calc(100% - 50px);
+}
+#con_page .con_sub .box_sub .tab {
+  margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tab {
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tab {
+    margin-bottom: 10%;
+  }
+}
+#con_page .con_sub .box_sub .tab button {
+  font-size: 150%;
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  opacity: 0.3;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tab button {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tab button {
+    font-size: 125%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_sub .box_sub .tab button {
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_sub .box_sub .tab button {
+    margin-left: 5%;
+  }
+}
+#con_page .con_sub .box_sub .tab button.active {
+  opacity: 1;
+}
+#con_page .con_sub .box_sub .tab button:first-child {
+  margin-left: 0;
+}

@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>コミュニティー｜同じ臭味を持ってるプレイヤーと話そう</title>
+    <title>ワプレー｜勉強も仕事も遊ぶのもすべてプレイだ！。人と人をつなぐ、われらのプレー</title>
 
     <!-- gtag 삽입 예정 -->
     <?php include_once('./config/config.php'); ?>
@@ -11,45 +11,55 @@
     <link rel="stylesheet" href="./css/common.min.css"/>
     <link rel="stylesheet" href="./css/comm.min.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="manifest" href="./manifest.json">
   </head>
 
     
   <body>
-    <?php include_once('./inc/header_sub.php'); ?>
+    <?php include_once('./inc/header.php'); ?>
     <div id="con_page">
-      <section class="top_nav">
-        <input type="search">
-      </section>
-      
-      <section class="con_slide_nav">
-        <h1 class="p_tit view_pc-tab">コミュニティー</h1>
-        <div class="box_slide_nav">
-          <ul class="slide_list">
-              <li><a href="#123">すべて</a></li>
-              <li><a href="#123">アニメ/マンガ</a></li>
-              <li><a href="#123">ゲーム</a></li>
-              <li><a href="#123">料理/飲食</a></li>
-              <li><a href="#123">旅行/観光</a></li>
-              <li><a href="#123">ビューティー/美容</a></li>
-              <li><a href="#123">原稿/スポーツ</a></li>
-              <li><a href="#123">恋愛/結婚</a></li>
-              <li><a href="#123">会社生活</a></li>
-              <li><a href="#123">本音発散</a></li>
-              <li><a href="#123">ビューティー/美容</a></li>
-              <li><a href="#123">原稿/スポーツ</a></li>
-              <li><a href="#123">恋愛/結婚</a></li>
-              <li><a href="#123">会社生活</a></li>
-              <li><a href="#123">本音発散</a></li>
+
+      <div class="con_fix_top view_pc-tab">
+        <div class="box_search">
+          <input type="search" list="suggestions" placeholder="search">
+          <datalist id="suggestions">
+            <option value="エアコンクリーニング">
+            <option value="飲み会">
+            <option value="個人広告">
+          </datalist>
+        </div>
+        <div class="box_util">
+          <ul class="icons">
+            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="wrp_slide_list cate_nav">
+        <h2 class="box_tit view_pc-tab">
+          <span class="tit">コミュニティー</span>
+        </h2>
+        <div class="con_slide_list">
+          <ul class="box_slide_list">
+            <li class="active"><a href="#123">すべて</a></li>
+            <li><a href="#123">アニメ/マンガ</a></li>
+            <li><a href="#123">ゲーム</a></li>
+            <li><a href="#123">料理/飲食</a></li>
+            <li><a href="#123">旅行/観光</a></li>
+            <li><a href="#123">ビューティー</a></li>
+            <li><a href="#123">健康/スポーツ</a></li>
+            <li><a href="#123">恋愛/結婚</a></li>
+            <li><a href="#123">会社生活</a></li>
+            <li><a href="#123">教えて</a></li>
+            <li><a href="#123">悩み</a></li>
           </ul>
         </div>
       </section>
       
       <section class="wrp_slide_list comm">
         <h2 class="box_tit">
-          <span class="tit">コミュニティで話そう</span>
-          <small class="more"><a href="#123">すべて見る</a></small>
+          <span class="tit">今人気の掲示物</span>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
@@ -102,7 +112,7 @@
                 </p>
               </div>
             </a></li>
-            <li class="view_tab-sp"><a href="#123">
+            <li><a href="#123">
               <h3 class="cate">料理/飲食</h3>
               <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
               <div class="box_util">
@@ -120,50 +130,109 @@
         </div>
       </section>
 
-      <section class="con_story">
-        <h2 class="box_tit">
-          <span class="tit">プレイストーリー</span>
-        </h2>
-        <div class="box_story">
-          <ul class="story_list">
-            <li>
-              <a href="#123">
-                <div class="tit">
-                  <small class="stxt">2024年新しいスタート</small>
-                  <span class="txt">引っ越しを計画中ですか？</span>
-                </div>
-                <p class="img"><img src="./imgs/story/img_story_01.jpg" alt=""></p>
-              </a>
-            </li>
-            <li>
-              <a href="#123">
-                <div class="tit">
-                  <small class="stxt">勉強も楽しく！</small>
-                  <span class="txt">プレイヤーと成績を上げてみてください。</span>
-                </div>
-                <p class="img"><img src="./imgs/story/img_story_02.jpg" alt=""></p>
-              </a>
-            </li>
-            <li>
-              <a href="#123">
-                <div class="tit">
-                  <small class="stxt">心配な車検</small>
-                  <span class="txt">見積もりを比較して安く！</span>
-                </div>
-                <p class="img"><img src="./imgs/story/img_story_03.jpg" alt=""></p>
-              </a>
-            </li>
-            <li>
-              <a href="#123">
-                <div class="tit">
-                  <small class="stxt">ワプレーに望む</small>
-                  <span class="txt">送っていただいたご意見でワプレーは進化中！</span>
-                </div>
-                <p class="img"><img src="./imgs/story/img_story_04.jpg" alt=""></p>
-              </a>
-            </li>
-          </ul>
+      <div class="con_bn">
+        <div class="slider">
+        <li>
+            <div class="box_bn">
+              <div class="box_txt">
+                <strong>WAPLAYで遊ぼう!</strong>
+                <span>すべてがプレイだ！われらのプレー</span>
+              </div>
+              <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
+              </div>
+            </p>
+          </li>
+          <li>
+            <div class="box_bn">
+              <div class="box_txt">
+                <span>インフルエンサーに広告したいけど高い...</span>
+                <strong>でも、直接プレイすれば安い!</strong>
+              </div>
+              <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
+              </div>
+            </p>
+          </li>
         </div>
+        <div class="slider-count"></div>
+      </div>
+
+
+      <section class="con_post">
+        <article class="box_post">
+          <div class="box_profile">
+            <div class="user_info">
+              <div class="box_pic"><a href="#123">
+                <p class="pic"><img src="./imgs/user/user_02.jpg" alt=""></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+              </a></div>
+              <dl class="txt_info">
+                <dt class="info">
+                  <span class="name">緋村剣心</span>
+                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
+                  <span class="score">5.0</span>
+                </dt>
+                <dd class="world">個人広告</dd>
+              </dl>
+            </div>
+            <p class="cate"><small>アニメ/マンガ</small></p>
+          </div>
+          <dl class="box_txt"><a href="#123">
+            <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
+            <dd class="txt">
+            見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
+            </dd>
+          </a></dl>
+        </article>
+        <article class="box_post">
+          <div class="box_profile">
+            <div class="user_info">
+              <div class="box_pic"><a href="#123"> 
+                <p class="pic"><img src="./imgs/user/user_05.jpg" alt=""></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+              </a></div>
+              <dl class="txt_info">
+                <dt class="info">
+                  <span class="name">オオサカナオミ</span>
+                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
+                  <span class="score">5.0</span>
+                </dt>
+                <dd class="world">個人広告</dd>
+              </dl>
+            </div>
+            <p class="cate"><small>ゲーム</small></p>
+          </div>
+          <dl class="box_txt"><a href="#123">
+            <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
+            <dd class="txt">
+            見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
+            </dd>
+          </a></dl>
+        </article>
+        <article class="box_post">
+          <div class="box_profile">
+            <div class="user_info">
+              <div class="box_pic"><a href="#123"> 
+                <p class="pic"><img src="./imgs/user/user_08.jpg" alt=""></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="bronze"></p>
+              </a></div>
+              <dl class="txt_info">
+                <dt class="info">
+                  <span class="name">スダりさ</span>
+                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
+                  <span class="score">5.0</span>
+                </dt>
+                <dd class="world">個人広告</dd>
+              </dl>
+            </div>
+            <p class="cate"><small>旅行/観光</small></p>
+          </div>
+          <dl class="box_txt"><a href="#123">
+            <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
+            <dd class="txt">
+            見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
+            </dd>
+          </a></dl>
+        </article>
       </section>
     </div>
 
@@ -175,14 +244,6 @@
     <script src="./js/main.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script> 
-    	AOS.init({
-        duration: 800,
-        delay: 100,
-        easing: 'ease',
-      });
-    </script>
 
   </body>
 </html>

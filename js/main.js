@@ -26,12 +26,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
         slidesToScroll: 1
     });
 
-    $('.pc_slide_btn').slick({
+    $('.box_slide_list_sample').slick({
         infinite: true,
         slidesToShow: 1,
-        arrows: false,
+        arrows: true,
         variableWidth: true,
-        slidesToScroll: 1
+        slidesToScroll: 5,
+        prevArrow: '<button type="button" class="slick-prev" aria-label="Previous"></button>',
+        nextArrow: '<button type="button" class="slick-next" aria-label="Next"></button>'
     });
 
 });

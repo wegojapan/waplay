@@ -227,7 +227,7 @@ $bgGray: #f2f4f6;
 
 @mixin tit_l {
 	@include fsz-cha(24,20,15);
-	font-weight: 500;
+	font-weight: 600;
 }
 
 @mixin txt_l {
@@ -241,6 +241,11 @@ $bgGray: #f2f4f6;
 }
 
 @mixin txt_s {
+	@include fsz-cha(14,14,12);
+	font-weight: normal;
+}
+
+@mixin txt_xs {
 	@include fsz-cha(13,13,11);
 	font-weight: normal;
 }

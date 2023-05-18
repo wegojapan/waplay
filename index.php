@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>ワプレー｜必要なすべてのサービスの見積を簡単にもらおう。全国民交流プラットフォーム、われらのプレー</title>
+    <title>ワプレー｜必要なすべてのサービスの見積を簡単にもらおう。人と人をつなぐ、われらのプレー</title>
 
     <!-- gtag 삽입 예정 -->
     <?php include_once('./config/config.php'); ?>
@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/common.min.css"/>
     <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="manifest" href="./manifest.json">
   </head>
 
@@ -19,13 +18,6 @@
   <body>
     <?php include_once('./inc/header.php'); ?>
     <div id="con_page">
-      <div class="con_bn view_sp">
-        <div class="slider">
-          <li><p class="img"><img src="./imgs/bn/bn_main_01.jpg" alt=""></p></li>
-          <li><p class="img"><img src="./imgs/bn/bn_main_02.jpg" alt=""></p></li>
-        </div>
-        <div class="slider-count"></div>
-      </div>
 
       <div class="con_fix_top view_pc-tab">
         <div class="box_search">
@@ -38,10 +30,38 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-              <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
+
+      <div class="con_bn">
+        <div class="slider">
+        <li>
+            <div class="box_bn">
+              <div class="box_txt">
+                <strong>WAPLAYで遊ぼう!</strong>
+                <span>すべてがプレイだ！われらのプレー</span>
+              </div>
+              <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
+              </div>
+            </p>
+          </li>
+          <li>
+            <div class="box_bn">
+              <div class="box_txt">
+                <span>インフルエンサーに広告したいけど高い...</span>
+                <strong>でも、直接プレイすれば安い!</strong>
+              </div>
+              <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
+              </div>
+            </p>
+          </li>
+        </div>
+        <div class="slider-count"></div>
+      </div>
+
       
       <section class="wrp_slide_list recent">
         <h2 class="box_tit">
@@ -50,7 +70,7 @@
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li><a href="#123">
+          <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店</span>
@@ -138,7 +158,7 @@
               <p class="icon">
                 <a href="#123"><img src="./imgs/common/ic/ic_wrd_etc.svg" alt="모두보기"></a>
               </p>
-              <small class="txt">アルバイト</small>
+              <small class="txt">すべて見る</small>
           </li>
         </ul>
       </section>
@@ -178,7 +198,7 @@
                 <small class="p_wrd">くるま</small>
               </p>
             </a></li>
-            <li class="view_tab-sp"><a href="#123">
+            <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_inte_01.jpg" alt="홈인테리어"></p>
               <p class="box_txt">
                 <span class="p_name">ホームインテリア</span>
@@ -531,7 +551,7 @@
                 </p>
               </div>
             </a></li>
-            <li class="view_tab-sp"><a href="#123">
+            <li><a href="#123">
               <h3 class="cate">料理/飲食</h3>
               <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
               <div class="box_util">
@@ -568,7 +588,7 @@
               <a href="#123">
                 <div class="tit">
                   <small class="stxt">勉強も楽しく！</small>
-                  <span class="txt">プレイヤーと成績を上げてみてください。</span>
+                  <span class="txt">プレイヤーと一緒に勉強して成績を上がりましょう。</span>
                 </div>
                 <p class="img"><img src="./imgs/story/img_story_02.jpg" alt=""></p>
               </a>
@@ -602,8 +622,6 @@
     
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   </body>
 </html>

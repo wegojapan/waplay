@@ -208,8 +208,9 @@
 				}
 			}
 			&.point {
-				.cp {
+				.cp a {
 					@include fsz-cha(24,24,20);
+					@include tit_xl;
 					font-weight: bold;
 				}
 			}

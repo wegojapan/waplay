@@ -238,6 +238,10 @@ $bgPoint: #F9F3FF;
 
 }
 
+@mixin tit_xl {
+	@include fsz-cha(28,24,20);
+	font-weight: 700;
+}
 @mixin tit_l {
 	@include fsz-cha(24,20,15);
 	font-weight: 700;

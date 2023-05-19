@@ -668,7 +668,7 @@ li {
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-    width: 42%;
+    width: 45%;
   }
 }
 #con_page .wrp_slide_list .con_slide_list .box_slide_list li a {
@@ -1533,11 +1533,14 @@ li {
     padding: 3% 5% 8%;
   }
 }
+#con_page .con_bn .box_bn .box_txt {
+  max-width: 65%;
+}
 #con_page .con_bn .box_bn .box_txt strong, #con_page .con_bn .box_bn .box_txt span {
   display: block;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
@@ -1546,7 +1549,6 @@ li {
   font-size: 150%;
   font-weight: 700;
   font-weight: bold;
-  height: 36px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_bn .box_bn .box_txt strong {
@@ -1558,15 +1560,9 @@ li {
     font-size: 94%;
   }
 }
-@media only screen and (max-width: 767px) {
-  #con_page .con_bn .box_bn .box_txt strong {
-    height: 26px;
-  }
-}
 #con_page .con_bn .box_bn .box_txt span {
   font-size: 100%;
   font-weight: normal;
-  height: 26px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_bn .box_bn .box_txt span {
@@ -1578,14 +1574,9 @@ li {
     font-size: 75%;
   }
 }
-@media only screen and (max-width: 767px) {
-  #con_page .con_bn .box_bn .box_txt span {
-    height: 20px;
-  }
-}
 #con_page .con_bn .box_bn .box_img {
   width: auto;
-  max-width: 40%;
+  max-width: 35%;
   height: auto;
   position: absolute;
   top: 0;
@@ -1595,6 +1586,8 @@ li {
 }
 #con_page .con_bn .box_bn .box_img img {
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #con_page .con_bn .slider-count {
   position: absolute;

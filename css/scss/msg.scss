@@ -16,7 +16,6 @@
 }
 
 #con_page {
-	@include cV(background-color, white, $bgGray);
 	@include cV(padding-bottom, 200px, 30%);
 	.wrp_slide_list.comm {
 		.con_slide_list {
@@ -34,7 +33,6 @@
 			background-color: white;
 			@include cV(background-color, #f9f9f9, white);
 			box-sizing: border-box;
-			border:1px solid $lightGray;
 		}
 	}
 
@@ -65,22 +63,16 @@
 								border-radius: 50%;
 								overflow: hidden;
 							}
-							.ic_md {
-								position: absolute;
-								right: 0;
-								bottom: 0;
-								line-height: 1;
-							}
 						}
 						.txt_info {
 							@include cV(margin-left, 10px, 4%);
 							width: calc(100% - 48px);
 							margin-bottom: 0.3em;
+							@include txt_m;
 							.info {
 								display: inline-flex;
 								align-items: center;
 								width: 100%;
-								@include txt_m;
 								span {
 									display: inline-block;
 								}
@@ -92,7 +84,8 @@
 								.score {@include txt_mini;} 
 							}
 							.world {
-								@include txt_mini;
+								font-size: 0.8em;
+								color: $dkGray;
 							}
 						}
 					}

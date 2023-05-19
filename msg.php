@@ -62,7 +62,6 @@
             </p>
           </a></li>
         </div>
-        <div class="slider-count"></div>
       </div>
 
 
@@ -73,7 +72,6 @@
               <div class="user_info">
                 <div class="box_pic">
                   <p class="pic"><img src="./imgs/user/user_03.jpg" alt=""></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -97,7 +95,6 @@
               <div class="user_info">
                 <div class="box_pic"> 
                   <p class="pic"><img src="./imgs/user/user_04.jpg" alt=""></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="plat"></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -121,7 +118,6 @@
               <div class="user_info">
                 <div class="box_pic">
                   <p class="pic"><img src="./imgs/user/user_02.jpg" alt=""></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="dia"></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -145,7 +141,6 @@
               <div class="user_info">
                 <div class="box_pic">
                   <p class="pic"><img src="./imgs/user/user_10.jpg" alt=""></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="dia"></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -169,20 +164,19 @@
               <div class="user_info">
                 <div class="box_pic">
                   <p class="pic"><img src="./imgs/user/user_08.jpg" alt=""></p>
-                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="dia"></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
                     <span class="name">相馬明人</span>
                   </dt>
-                  <dd class="world">くるま</dd>
+                  <dd class="world">レッスン</dd>
                 </dl>
               </div>
-              <p class="cate"><small>2日前</small></p>
+              <p class="cate"><small>1ヶ月前</small></p>
             </div>
             <div class="box_txt">
               <p class="txt">
-              よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。よろしくお願いします。
+              よろしくお願いします。
               </p>
             </div>
           </a>

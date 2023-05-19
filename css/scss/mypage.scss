@@ -16,12 +16,11 @@
 }
 
 #con_page {
-	@include cV(background-color, white, $bgGray);
 	@include cV(padding-bottom, 200px, 30%);
 
 	.wrp_my_profile {
-		@include cV(margin, 0 5% 0 5%, 0 4% 0 4%, 0 4% 0 4%);
 		@include cV(background-color, white, $bgGray);
+		@extend %bw_l;
 		max-width: 970px;
 		.con_my_profile {
 			display: flex;
@@ -58,17 +57,17 @@
 					@include txt_m;
 					display: flex;
 					dt {
-						@include cV(margin-right, 4px, 0.5em);
+						@include cV(margin-right, 4px, 0.3em);
 					}
 					dd {
 						font-weight: bold;
-						@include cV(margin-right, 16px, 0.5em);
+						@include cV(margin-right, 16px, 0.8em);
 					}
 				}
 			}
 			.box_pic {
-				@include cV(width, 80px, 80px);
-				@include cV(height, 80px, 80px);
+				@include cV(width, 80px, 72px);
+				@include cV(height, 80px, 72px);
 				position: relative;
 				.img {
 					width: 100%;
@@ -164,14 +163,65 @@
 	}
 
 	.con_bn {
-		@include cV(margin, 50px 5% 0 5%, 4% 4% 0 4%, 5% 4% 0 4%);
+		@extend %bw_l;
+		max-width: 970px;
 		.box_bn {
-			background-color: white;
-			@include cV(background-color, #f9f9f9, white);
+			background-color: $bgGray;
 			box-sizing: border-box;
-			border:1px solid $lightGray;
 		}
 	}
 
-  
+	.con_menu {
+		@extend %bw_l;
+		max-width: 970px;
+		.box_menu {
+			@include cV(margin, 50px 0, 10% 0);
+			dt {
+				@include tit_l;
+				@include cV(margin-bottom, 8px, 5%);
+				@include cV(padding-bottom, 16px, 3%);
+				border-bottom: 1px solid $dkGray;
+			}
+			dd {
+				box-sizing: border-box;
+				border-radius: 16px;
+				a {
+					@include cV(padding, 16px, 3% 0, 3% 0);
+					@include txt_l;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					.box_st {
+						display: inline-flex;
+						align-items: center;
+						i {
+							height: 21px;
+							@include cV(margin-right, 4px, 0.8em);
+						}
+					}
+					&:after {
+						content: "";
+						display: inline-block;
+						width: 7px;
+						height: 12px;
+						background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
+						background-size: cover;
+						opacity: 0.3;
+					}
+				}
+			}
+			&.point {
+				.cp {
+					@include fsz-cha(24,24,20);
+					font-weight: bold;
+				}
+			}
+		}
+		@include mq(pc) {
+			dd a:hover {
+				background-color: $bgGray;
+				border-radius: 8px;
+			}
+		}
+	}
 }

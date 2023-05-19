@@ -396,7 +396,7 @@ li {list-style-type: none;}
 				position: relative;
 				li {
 					@include cV(margin-right, 16px, 8px, 4px);
-					@include cV(width, 181.1px, 176px, 42%);
+					@include cV(width, 181.1px, 176px, 45%);
 					white-space: normal;
 					display: inline-block;
 					a {
@@ -771,11 +771,12 @@ li {list-style-type: none;}
 			display: flex;
 			justify-content: space-between;
 			.box_txt {
+				max-width: 65%;
 				strong, span {
 					display: block;
 					display: -webkit-box;
 					-webkit-box-orient: vertical;
-					-webkit-line-clamp: 1;
+					-webkit-line-clamp: 2;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					word-break: break-all;
@@ -784,17 +785,14 @@ li {list-style-type: none;}
 				strong {
 					@include tit_l;
 					font-weight: bold;
-					@include cV(height, 36px, 26px);
 				}
 				span {
 					@include txt_m;
-					@include cV(height, 26px, 20px);
-	
 				}
 			}
 			.box_img {
 				width: auto;
-				max-width: 40%;
+				max-width: 35%;
 				height: auto;
 				position: absolute;
 				top: 0;
@@ -803,6 +801,7 @@ li {list-style-type: none;}
 				margin: auto;
 				img {
 					height: 100%;
+					object-fit: cover;
 				}
 			}
 		}

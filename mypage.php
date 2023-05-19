@@ -74,21 +74,106 @@
         </div>
       </section>
 
-      <div class="con_bn">
+      <section class="con_bn">
         <div class="slider">
           <li>
             <a href="#123">
               <div class="box_bn">
                 <div class="box_txt">
-                  <strong>VIVUS GOLF</strong>
-                  <span>ゴルフ専門トータルスキンケアブランド</span>
+                  <strong>簡単プレイヤー登録</strong>
+                  <span>簡単な入力でプレイヤー活動を開始できます。</span>
                 </div>
-                <div class="box_img"><img src="./imgs/bn/bn_object_03.png" alt=""></div>
+                <div class="box_img"><img src="./imgs/bn/bn_object_player.png" alt=""></div>
               </div>
             </a>
           </li>
         </div>
-      </div>
+      </section>
+
+      <section class="con_menu">
+        <dl class="box_menu point">
+          <dt class="tit">Point</dt>
+          <dd class="cp"><a href="#123"><strong>1,550</strong></a></dd>
+        </dl>
+        <dl class="box_menu play">
+          <dt class="tit">플레이</dt>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_checklist.svg" alt=""></i>
+                <span class="st">플레이 내역</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_heart.svg" alt=""></i>
+                <span class="st">관심있는 플레이</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_talk.svg" alt=""></i>
+                <span class="st">작성글 / 댓글</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_ban.svg" alt=""></i>
+                <span class="st">차단된 필레이어</span>
+              </div>
+            </a>
+          </dd>
+        </dl>
+        <dl class="box_menu profile">
+          <dt class="tit">프로필</dt>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_user_lt.svg" alt=""></i>
+                <span class="st">개인정보</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <i><img src="./imgs/common/ic/ic_settings.svg" alt=""></i>
+                <span class="st">설정</span>
+              </div>
+            </a>
+          </dd>
+        </dl>
+        <dl class="box_menu info">
+          <dt class="tit">와플레이 정보</dt>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <span class="st">와플레이 안내</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+              <div class="box_st">
+                <span class="st">공지사항</span>
+              </div>
+            </a>
+          </dd>
+          <dd>
+            <a href="#123">
+            <div class="box_st">
+              <span class="st">고객센터</span>
+            </div>
+            </a>
+          </dd>
+        </dl>
+      </section>
 
 
     </div>

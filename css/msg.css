@@ -12,13 +12,7 @@
 }
 
 #con_page {
-  background-color: white;
   padding-bottom: 200px;
-}
-@media only screen and (max-width: 767px) {
-  #con_page {
-    background-color: #f2f4f6;
-  }
 }
 @media only screen and (max-width: 767px) {
   #con_page {
@@ -50,7 +44,6 @@
   background-color: white;
   background-color: #f9f9f9;
   box-sizing: border-box;
-  border: 1px solid #e6e6e6;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_bn .box_bn {
@@ -110,38 +103,32 @@
   border-radius: 50%;
   overflow: hidden;
 }
-#con_page .con_post .box_post a .box_profile .user_info .box_pic .ic_md {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  line-height: 1;
-}
 #con_page .con_post .box_post a .box_profile .user_info .txt_info {
   margin-left: 10px;
   width: calc(100% - 48px);
   margin-bottom: 0.3em;
+  font-size: 100%;
+  font-weight: normal;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post .box_post a .box_profile .user_info .txt_info {
     margin-left: 4%;
   }
 }
-#con_page .con_post .box_post a .box_profile .user_info .txt_info .info {
-  display: inline-flex;
-  align-items: center;
-  width: 100%;
-  font-size: 100%;
-  font-weight: normal;
-}
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_post .box_post a .box_profile .user_info .txt_info .info {
+  #con_page .con_post .box_post a .box_profile .user_info .txt_info {
     font-size: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  #con_page .con_post .box_post a .box_profile .user_info .txt_info .info {
+  #con_page .con_post .box_post a .box_profile .user_info .txt_info {
     font-size: 75%;
   }
+}
+#con_page .con_post .box_post a .box_profile .user_info .txt_info .info {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
 }
 #con_page .con_post .box_post a .box_profile .user_info .txt_info .info span {
   display: inline-block;
@@ -173,18 +160,8 @@
   }
 }
 #con_page .con_post .box_post a .box_profile .user_info .txt_info .world {
-  font-size: 69%;
-  font-weight: normal;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_post .box_post a .box_profile .user_info .txt_info .world {
-    font-size: 69%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_post .box_post a .box_profile .user_info .txt_info .world {
-    font-size: 57%;
-  }
+  font-size: 0.8em;
+  color: #a4a4a4;
 }
 #con_page .con_post .box_post a .box_profile .cate {
   width: 35%;

@@ -1,3 +1,23 @@
+#con_page .con_menu, #con_page .con_bn, #con_page .wrp_my_profile {
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (min-width: 1200px) {
+  #con_page .con_menu, #con_page .con_bn, #con_page .wrp_my_profile {
+    padding: 0 5%;
+  }
+}
+@media print {
+  #con_page .con_menu, #con_page .con_bn, #con_page .wrp_my_profile {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #con_page .con_menu, #con_page .con_bn, #con_page .wrp_my_profile {
+    width: 91.6666666667%;
+  }
+}
+
 #header .box_gnav li:nth-child(4) a {
   opacity: 1;
 }
@@ -12,13 +32,7 @@
 }
 
 #con_page {
-  background-color: white;
   padding-bottom: 200px;
-}
-@media only screen and (max-width: 767px) {
-  #con_page {
-    background-color: #f2f4f6;
-  }
 }
 @media only screen and (max-width: 767px) {
   #con_page {
@@ -26,19 +40,8 @@
   }
 }
 #con_page .wrp_my_profile {
-  margin: 0 5% 0 5%;
   background-color: white;
   max-width: 970px;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .wrp_my_profile {
-    margin: 0 4% 0 4%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .wrp_my_profile {
-    margin: 0 4% 0 4%;
-  }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile {
@@ -140,7 +143,7 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .box_user_info .box_info dt {
-    margin-right: 0.5em;
+    margin-right: 0.3em;
   }
 }
 #con_page .wrp_my_profile .con_my_profile .box_user_info .box_info dd {
@@ -149,7 +152,7 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .box_user_info .box_info dd {
-    margin-right: 0.5em;
+    margin-right: 0.8em;
   }
 }
 #con_page .wrp_my_profile .con_my_profile .box_pic {
@@ -159,12 +162,12 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .box_pic {
-    width: 80px;
+    width: 72px;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .box_pic {
-    height: 80px;
+    height: 72px;
   }
 }
 #con_page .wrp_my_profile .con_my_profile .box_pic .img {
@@ -324,26 +327,127 @@
   }
 }
 #con_page .con_bn {
-  margin: 50px 5% 0 5%;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_bn {
-    margin: 4% 4% 0 4%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_bn {
-    margin: 5% 4% 0 4%;
-  }
+  max-width: 970px;
 }
 #con_page .con_bn .box_bn {
-  background-color: white;
-  background-color: #f9f9f9;
+  background-color: #f2f4f6;
   box-sizing: border-box;
-  border: 1px solid #e6e6e6;
+}
+#con_page .con_menu {
+  max-width: 970px;
+}
+#con_page .con_menu .box_menu {
+  margin: 50px 0;
 }
 @media only screen and (max-width: 767px) {
-  #con_page .con_bn .box_bn {
-    background-color: white;
+  #con_page .con_menu .box_menu {
+    margin: 10% 0;
+  }
+}
+#con_page .con_menu .box_menu dt {
+  font-size: 150%;
+  font-weight: 700;
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #a4a4a4;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu dt {
+    font-size: 125%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dt {
+    font-size: 94%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dt {
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dt {
+    padding-bottom: 3%;
+  }
+}
+#con_page .con_menu .box_menu dd {
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+#con_page .con_menu .box_menu dd a {
+  padding: 16px;
+  font-size: 113%;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu dd a {
+    padding: 3% 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dd a {
+    padding: 3% 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu dd a {
+    font-size: 113%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dd a {
+    font-size: 88%;
+  }
+}
+#con_page .con_menu .box_menu dd a .box_st {
+  display: inline-flex;
+  align-items: center;
+}
+#con_page .con_menu .box_menu dd a .box_st i {
+  height: 21px;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu dd a .box_st i {
+    margin-right: 0.8em;
+  }
+}
+#con_page .con_menu .box_menu dd a:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
+  background-size: cover;
+  opacity: 0.3;
+}
+#con_page .con_menu .box_menu.point .cp {
+  font-size: 150%;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu.point .cp {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu.point .cp {
+    font-size: 125%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #con_page .con_menu dd a:hover {
+    background-color: #f2f4f6;
+    border-radius: 8px;
+  }
+}
+@media print {
+  #con_page .con_menu dd a:hover {
+    background-color: #f2f4f6;
+    border-radius: 8px;
   }
 }

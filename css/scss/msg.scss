@@ -17,6 +17,8 @@
 
 #con_page {
 	@include cV(padding-bottom, 200px, 30%);
+	@include cV(background-color, white, $bgGray);
+
 	.wrp_slide_list.comm {
 		.con_slide_list {
 			.box_slide_list {
@@ -28,20 +30,19 @@
 	}
 
 	.con_bn {
-		@include cV(margin, 50px 5% 0 5%, 4% 4% 0 4%, 5% 4% 0 4%);
+		@include layout_normal;
+		@include cV(margin-top, 30px, 30px, 5%);
 		.box_bn {
-			background-color: white;
-			@include cV(background-color, #f9f9f9, white);
+			@include cV(background-color, $whiteGray, white);
 			box-sizing: border-box;
 		}
 	}
 
 	.con_post {
-		@include cV(margin, 0 5% 0 5%, 0 4% 0 4%, 0 4% 0 4%);
-		max-width: 970px;
+		@include layout_normal;
+		@include cV(margin-top, 30px, 30px, 5%);
 		.box_post {
 			background-color: white;
-			border: 1px solid $lightGray;
 			border-radius: 16px;
 			@include cV(margin-bottom, 16px, 2%);
 			a {
@@ -102,11 +103,10 @@
 						color: $dkGray;
 						display: -webkit-box;
 						-webkit-box-orient: vertical;
-						-webkit-line-clamp: 2;
+						-webkit-line-clamp: 1;
 						overflow: hidden;
 						text-overflow: ellipsis;
 						word-break: break-all;
-						@include cV(max-height, 82px, 60px);
 						
 					}
 				}
@@ -119,6 +119,12 @@
 					border-color: $dkGray;
 				}
 			}
+		}
+	}
+
+	@include mq(pc) {
+		.con_post {
+			max-width: 970px;
 		}
 	}
 

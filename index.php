@@ -36,14 +36,14 @@
         </div>
       </div>
 
-      <div class="con_bn">
+      <section class="con_bn">
         <div class="slider">
         <li>
             <a href="#123">
               <div class="box_bn">
                 <div class="box_txt">
-                  <span>すべてがプレイだ！われらのプレイ!</span>
-                  <strong>WAPLAYで遊ぼう!!</strong>
+                  <span>仕事も遊びもすべてがプレイ</span>
+                  <strong>ワプレーで遊ぼう!!</strong>
                 </div>
                 <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
               </div>
@@ -62,9 +62,8 @@
           </li>
         </div>
         <div class="slider-count"></div>
-      </div>
+      </section>
 
-      
       <section class="wrp_slide_list recent">
         <h2 class="box_tit">
           <span class="tit">最近進行したプレー</span>

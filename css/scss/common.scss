@@ -386,8 +386,10 @@ li {list-style-type: none;}
 
 	// slide_list_form
 	.wrp_slide_list {
-		@include cV(padding, 70px 5% 0 5%, 8% 0 0 4%, 11% 0 0 4%);
+		@include layout_flow;
+		
 		.box_tit {
+
 			@include main_tit;
 		}
 		.con_slide_list {
@@ -395,8 +397,8 @@ li {list-style-type: none;}
 				width: 100%;
 				position: relative;
 				li {
-					@include cV(margin-right, 16px, 8px, 4px);
-					@include cV(width, 181.1px, 176px, 45%);
+					@include cV(margin-right, 2%, 1%, 1%);
+					@include cV(width, 18.4%, 30%, 45%);
 					white-space: normal;
 					display: inline-block;
 					a {
@@ -406,7 +408,7 @@ li {list-style-type: none;}
 							overflow: hidden;
 							background-color: gray;
 							width: 100%;
-							height: 120px;
+							@include cV(height, 120px, 25vw);
 							img {
 								display: block;
 								width: 100%;
@@ -508,7 +510,8 @@ li {list-style-type: none;}
 					li {
 						border-radius: 16px;
 						background-color: $bgGray;
-						@include cV(margin-right, 16px, 8px, 4px);
+						@include cV(margin-right, 2%, 1%, 1%);
+						@include cV(width, 18.4%, 30%, 45%);
 						a {
 							box-sizing: border-box;
 							@include cV(padding, 10%, 10%);
@@ -560,9 +563,9 @@ li {list-style-type: none;}
 			}
 		}
 		&.cate_nav {
-			@include cV(padding-top, 50px, 4%, 0);
 			top: 60px;
 			z-index: 10;
+			
 			.box_tit {
 				@include cV(margin-bottom, 20px, 3%);
 			}
@@ -620,7 +623,7 @@ li {list-style-type: none;}
 
 	// world_icon_list_form
 	.con_wrd_list {
-		@include cV(padding, 70px 5% 0 5%, 8% 4% 0 4%, 11% 4% 0 4%);
+		@include layout_normal;
 		.box_tit {
 			@include main_tit;
 		}
@@ -671,7 +674,7 @@ li {list-style-type: none;}
 
 	// slide_hot
 	.con_slide_hot {
-		@include cV(padding, 70px 5% 0 5%, 8% 0 0 4%, 11% 0 0 4%);
+		@include layout_flow;
 		.box_tit {
 			@include main_tit;
 		}
@@ -693,7 +696,7 @@ li {list-style-type: none;}
 
 	// con_story
 	.con_story {
-		@include cV(padding, 70px 5% 0 5%, 8% 4% 0 4%, 11% 4% 0 4%);
+		@include layout_normal;
 		.box_tit {
 			@include main_tit;
 		}
@@ -762,7 +765,7 @@ li {list-style-type: none;}
 	//Banner Content
 	.con_bn {
 		position: relative;
-		@include cV(margin, 50px 5% 0 5%, 4% 4% 0 4%, 11% 4% 0 4%);
+		@include layout_normal;
 		.box_bn {
 			box-sizing: border-box;
 			background-color: $bgPoint;
@@ -776,7 +779,7 @@ li {list-style-type: none;}
 					display: block;
 					display: -webkit-box;
 					-webkit-box-orient: vertical;
-					-webkit-line-clamp: 2;
+					-webkit-line-clamp: 1;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					word-break: break-all;
@@ -819,16 +822,9 @@ li {list-style-type: none;}
 			@include fsz-cha(13,13,9);
 			letter-spacing: 0.2em;
 		}
-		@include mq(pc) {
-			max-width: 970px;
-		}
 	}
 
 
-
-	.con_bn + section, .con_fix_top + section, .con_wrd_list + section {
-		@include cV(padding-top, 50px, 5%, 5%);
-	}
 
 	// con_fix_top
 	.con_fix_top {
@@ -904,8 +900,8 @@ li {list-style-type: none;}
 			position: relative;
 			margin-right: 0.5em;
 			.pic {
-				width: 48px;
-				height: 48px;
+				width: 45px;
+				height: 45px;
 				overflow: hidden;
 				border-radius: 50%;
 			}
@@ -950,6 +946,7 @@ li {list-style-type: none;}
 		}
 	}
 
+	// alram red dot
 	i.red_dot {
 		display: inline-block;
 		@include cV(width, 8px, 0.5rem);
@@ -980,8 +977,23 @@ li {list-style-type: none;}
 		  }
 		}
 	}
+
+	.con_fix_top + .con_bn {
+		@include cV(margin-top, 50px, 5%);
+	}
+	.con_fix_top + .con_my_profile, .con_fix_top + .wrp_slide_list {
+		@include cV(padding-top, 50px, 5%);
+	}
+
+	.con_fix_top + .wrp_slide_list.cate_nav {
+		padding-top: 0;
+		@include cV(padding-top, 50px, 0, 0);
+	}
+
+
+
 	@include mq(pc) {
-		.wrp_slide_list, .con_wrd_list, .con_slide_hot, .con_story {
+		.wrp_slide_list, .con_wrd_list, .con_slide_hot, .con_story, .con_bn {
 			max-width: 970px;
 		}
 	}

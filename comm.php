@@ -129,22 +129,21 @@
         </div>
       </section>
 
-      <div class="con_bn">
+      <section class="con_bn">
         <div class="slider">
           <li>
             <a href="#123">
               <div class="box_bn">
                 <div class="box_txt">
+                  <span>ゴルフ専門スキンケアブランド</span>
                   <strong>VIVUS GOLF</strong>
-                  <span>ゴルフ専門トータルスキンケアブランド</span>
                 </div>
                 <div class="box_img"><img src="./imgs/bn/bn_object_03.png" alt=""></div>
               </div>
             </a>
           </li>
         </div>
-        <div class="slider-count"></div>
-      </div>
+      </section>
 
 
       <section class="con_post">
@@ -233,10 +232,10 @@
               </a></div>
               <dl class="box_txt">
                 <dt>
-                  <span class="p_name">移動しなさいマン</span>
+                  <span class="p_name">匿名のプレーヤー</span>
                 </dt>
                 <dd>
-                  <small class="cate">ホーム/リビング</small>
+                  <small class="cate">非公開</small>
                 </dd>
               </dl>
             </div>
@@ -246,6 +245,82 @@
             <dt class="tit">誕生日サンドイッチ望んでいるのが欲ですか?</dt>
             <dd class="txt">
             この前誕生日でした。誕生日当日の朝、誕生日祝いそんなこと望んでいるのありません。普段してくれなくても誕生日に飢えて行く新郎朝に簡単に食べられるサンドイッチやおにぎり程度は期待しました。妻にその話をしたらあなたは私の誕生日の朝、作ってくれた返します。誕生日朝サンドイッチやおにぎり程度が欲ですか?
+            </dd>
+          </a></dl>
+          <div class="box_util">
+            <div class="icons">
+              <p class="ic_like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>29</span>
+              </p>
+              <p class="ic_comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>6</span>
+              </p>
+            </div>
+            <p class="date">3分前</p>
+          </div>
+
+        </article>
+        <article class="box_post">
+          <div class="wrp_profile">
+            <div class="profile_set unknown">
+              <div class="box_profile"><a href="#123">
+                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+              </a></div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">匿名のプレーヤー</span>
+                </dt>
+                <dd>
+                  <small class="cate">非公開</small>
+                </dd>
+              </dl>
+            </div>
+            <p class="cate"><small>恋愛/結婚</small></p>
+          </div>
+          <dl class="box_txt"><a href="#123">
+            <dt class="tit">まじでむかつく。ベッドで前の彼女、名前呼べた彼氏とても不快です</dt>
+            <dd class="txt">
+            付き合ってからはもう3ヶ月ぐらいなりましたが。(´;ω;｀)彼氏がベッドで思わず私に会う前に付き合った女友達の名前で私を呼んだのです前の彼女が誰か私が知っている状況だから...
+            </dd>
+          </a></dl>
+          <div class="box_util">
+            <div class="icons">
+              <p class="ic_like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>29</span>
+              </p>
+              <p class="ic_comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>6</span>
+              </p>
+            </div>
+            <p class="date">3分前</p>
+          </div>
+
+        </article>
+        <article class="box_post">
+          <div class="wrp_profile">
+            <div class="profile_set unknown">
+              <div class="box_profile"><a href="#123">
+                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+              </a></div>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">匿名のプレーヤー</span>
+                </dt>
+                <dd>
+                  <small class="cate">非公開</small>
+                </dd>
+              </dl>
+            </div>
+            <p class="cate"><small>恋愛/結婚</small></p>
+          </div>
+          <dl class="box_txt"><a href="#123">
+            <dt class="tit">彼女の借金...</dt>
+            <dd class="txt">
+            夜明けに弟の電話を受けてもどかしい気持ちに私と同じ考えをする人たちの助言を見せてあげたい、書き込みをあげたが…ランキング上位圏まで行くと知りませんでしたねそれだけ普通の事がないというのでしょう
             </dd>
           </a></dl>
           <div class="box_util">

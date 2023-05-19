@@ -646,24 +646,24 @@ li {
   position: relative;
 }
 #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-  margin-right: 16px;
-  width: 181.1px;
+  margin-right: 2%;
+  width: 18.4%;
   white-space: normal;
   display: inline-block;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-    margin-right: 8px;
+    margin-right: 1%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-    margin-right: 4px;
+    margin-right: 1%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_slide_list .con_slide_list .box_slide_list li {
-    width: 176px;
+    width: 30%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -680,6 +680,11 @@ li {
   background-color: gray;
   width: 100%;
   height: 120px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_slide_list .con_slide_list .box_slide_list li a .box_img {
+    height: 25vw;
+  }
 }
 #con_page .wrp_slide_list .con_slide_list .box_slide_list li a .box_img img {
   display: block;
@@ -823,16 +828,27 @@ li {
 #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
   border-radius: 16px;
   background-color: #f2f4f6;
-  margin-right: 16px;
+  margin-right: 2%;
+  width: 18.4%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
-    margin-right: 8px;
+    margin-right: 1%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
-    margin-right: 4px;
+    margin-right: 1%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li {
+    width: 45%;
   }
 }
 #con_page .wrp_slide_list.comm .con_slide_list .box_slide_list li a {
@@ -951,19 +967,8 @@ li {
   }
 }
 #con_page .wrp_slide_list.cate_nav {
-  padding-top: 50px;
   top: 60px;
   z-index: 10;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .wrp_slide_list.cate_nav {
-    padding-top: 4%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .wrp_slide_list.cate_nav {
-    padding-top: 0;
-  }
 }
 #con_page .wrp_slide_list.cate_nav .box_tit {
   margin-bottom: 20px;
@@ -1071,16 +1076,16 @@ li {
   }
 }
 #con_page .con_wrd_list {
-  padding: 70px 5% 0 5%;
+  margin: 70px 5% 0 5%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_wrd_list {
-    padding: 8% 4% 0 4%;
+    margin: 8% 4% 0 4%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_wrd_list {
-    padding: 11% 4% 0 4%;
+    margin: 11% 4% 0 4%;
   }
 }
 #con_page .con_wrd_list .box_tit {
@@ -1319,16 +1324,16 @@ li {
   margin-bottom: 4%;
 }
 #con_page .con_story {
-  padding: 70px 5% 0 5%;
+  margin: 70px 5% 0 5%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_story {
-    padding: 8% 4% 0 4%;
+    margin: 8% 4% 0 4%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_story {
-    padding: 11% 4% 0 4%;
+    margin: 11% 4% 0 4%;
   }
 }
 #con_page .con_story .box_tit {
@@ -1508,11 +1513,11 @@ li {
 }
 #con_page .con_bn {
   position: relative;
-  margin: 50px 5% 0 5%;
+  margin: 70px 5% 0 5%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_bn {
-    margin: 4% 4% 0 4%;
+    margin: 8% 4% 0 4%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1540,7 +1545,7 @@ li {
   display: block;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
@@ -1616,29 +1621,6 @@ li {
 @media only screen and (max-width: 767px) {
   #con_page .con_bn .slider-count {
     font-size: 57%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  #con_page .con_bn {
-    max-width: 970px;
-  }
-}
-@media print {
-  #con_page .con_bn {
-    max-width: 970px;
-  }
-}
-#con_page .con_bn + section, #con_page .con_fix_top + section, #con_page .con_wrd_list + section {
-  padding-top: 50px;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_bn + section, #con_page .con_fix_top + section, #con_page .con_wrd_list + section {
-    padding-top: 5%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_bn + section, #con_page .con_fix_top + section, #con_page .con_wrd_list + section {
-    padding-top: 5%;
   }
 }
 #con_page .con_fix_top {
@@ -1721,8 +1703,8 @@ li {
   margin-right: 0.5em;
 }
 #con_page .profile_set .box_profile .pic {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -1825,13 +1807,43 @@ li {
   font-size: 90%;
   margin-left: 8px;
 }
+#con_page .con_fix_top + .con_bn {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_fix_top + .con_bn {
+    margin-top: 5%;
+  }
+}
+#con_page .con_fix_top + .con_my_profile, #con_page .con_fix_top + .wrp_slide_list {
+  padding-top: 50px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_fix_top + .con_my_profile, #con_page .con_fix_top + .wrp_slide_list {
+    padding-top: 5%;
+  }
+}
+#con_page .con_fix_top + .wrp_slide_list.cate_nav {
+  padding-top: 0;
+  padding-top: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_fix_top + .wrp_slide_list.cate_nav {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_fix_top + .wrp_slide_list.cate_nav {
+    padding-top: 0;
+  }
+}
 @media only screen and (min-width: 1200px) {
-  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story {
+  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
     max-width: 970px;
   }
 }
 @media print {
-  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story {
+  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
     max-width: 970px;
   }
 }

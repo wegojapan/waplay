@@ -34,48 +34,74 @@
   }
 }
 #con_page .con_bn {
-  margin: 50px 5% 0 5%;
+  margin: 70px 5% 0 5%;
+  margin-top: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_bn {
-    margin: 5% 4% 0 4%;
+    margin: 8% 4% 0 4%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_bn {
-    margin: 5% 4% 0 4%;
+    margin: 11% 4% 0 4%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_bn {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_bn {
+    margin-top: 5%;
   }
 }
 #con_page .con_bn .box_bn {
-  background-color: #f9f9f9;
+  background-color: #f2f4f6;
   box-sizing: border-box;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_bn .box_bn {
-    background-color: white;
+    background-color: #f2f4f6;
   }
 }
 #con_page .con_post {
-  margin: 0 5% 0 5%;
-  max-width: 970px;
+  margin: 70px 5% 0 5%;
+  margin-top: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_post {
-    margin: 0 4% 0 4%;
+    margin: 8% 4% 0 4%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post {
-    margin: 0 4% 0 4%;
+    margin: 11% 4% 0 4%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_post {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_post {
+    margin-top: 5%;
   }
 }
 #con_page .con_post .box_post {
   background-color: white;
-  border: 1px solid #e6e6e6;
-  border-radius: 16px;
   box-sizing: border-box;
+  border-radius: 0;
   padding: 20px;
   margin-bottom: 16px;
+  border-bottom: 1px solid #e6e6e6;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_post .box_post {
+    border-radius: 16px;
+  }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post .box_post {
@@ -84,7 +110,7 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post .box_post {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
 }
 #con_page .con_post .box_post .wrp_profile {
@@ -203,5 +229,15 @@
 @media print {
   #con_page .con_post .box_post .box_txt a:hover .tit {
     text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #con_page .con_post {
+    max-width: 970px;
+  }
+}
+@media print {
+  #con_page .con_post {
+    max-width: 970px;
   }
 }

@@ -198,6 +198,18 @@ $bgPoint: #F9F3FF;
 	}
 }
 
+
+@mixin layout_flow {
+	@include cV(padding, 70px 5% 0 5%, 8% 0 0 4%, 11% 0 0 4%);
+}
+
+@mixin layout_normal {
+	@include cV(margin, 70px 5% 0 5%, 8% 4% 0 4%, 11% 4% 0 4%);
+}
+
+
+
+
 @mixin main_tit {
 	@include cV(margin-bottom, 3%, 5%);
 	display: flex;

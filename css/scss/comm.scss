@@ -29,23 +29,25 @@
 	}
 
 	.con_bn {
-		@include cV(margin, 50px 5% 0 5%, 5% 4% 0 4%, 5% 4% 0 4%);
+		@include layout_normal;
+		@include cV(margin-top, 50px, 50px, 5%);
+
 		.box_bn {
-			@include cV(background-color, $whiteGray, white);
+			@include cV(background-color, $bgGray, $bgGray);
 			box-sizing: border-box;
 		}
 	}
 
 	.con_post {
-		@include cV(margin, 0 5% 0 5%, 0 4% 0 4%, 0 4% 0 4%);
-		max-width: 970px;
+		@include layout_normal;
+		@include cV(margin-top, 50px, 50px, 5%);
 		.box_post {
 			background-color: white;
-			border: 1px solid $lightGray;
-			border-radius: 16px;
 			box-sizing: border-box;
+			@include cV(border-radius, 0, 16px);
 			@include cV(padding, 20px, 4%);
-			@include cV(margin-bottom, 16px, 2%);
+			@include cV(margin-bottom, 16px, 3%);
+			border-bottom: 1px solid $lightGray;
 			.wrp_profile {
 				display: flex;
 				justify-content: space-between;
@@ -109,6 +111,13 @@
 					.tit {text-decoration: underline;}
 				}
 			}
+		}
+	}
+
+
+	@include mq(pc) {
+		.con_post {
+			max-width: 970px;
 		}
 	}
 

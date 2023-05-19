@@ -49,7 +49,7 @@
         </div>
       </section>
       
-      <div class="con_bn">
+      <section class="con_bn">
         <div class="slider">
           <li><a href="#123">
             <div class="box_bn">
@@ -62,7 +62,7 @@
             </p>
           </a></li>
         </div>
-      </div>
+      </section>
 
 
       <section class="con_post">

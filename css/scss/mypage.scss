@@ -17,17 +17,16 @@
 
 #con_page {
 	@include cV(padding-bottom, 200px, 30%);
-
 	.wrp_my_profile {
 		@include cV(background-color, white, $bgGray);
-		@extend %bw_l;
-		max-width: 970px;
 		.con_my_profile {
+			@include layout_normal;
+			@include cV(margin-top, 50px, 5%, 5%);
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
 			align-items: flex-end;
-			@include cV(padding-bottom, 30px, 5%);
+			@include cV(padding, 0, 8% 0 5%);
 			.box_stat {
 				@include txt_m;
 				display: flex;
@@ -115,7 +114,7 @@
 					border-radius: 100px;
 					overflow: hidden;
 					.exp {
-						width: 30%;
+						width: 0;
 						height: 8px;
 						background-color: $pointColor;
 						transition: width 1s ease;
@@ -148,7 +147,7 @@
 					color: white;
 					display: block;
 					box-sizing: border-box;
-					@include cV(padding, 15px, 3%);
+					@include cV(padding, 15px, 4%);
 					border-radius: 8px;
 					@include txt_l;
 					
@@ -163,8 +162,7 @@
 	}
 
 	.con_bn {
-		@extend %bw_l;
-		max-width: 970px;
+		@include cV(margin-top, 50px, 50px, 5%);
 		.box_bn {
 			background-color: $bgGray;
 			box-sizing: border-box;
@@ -172,8 +170,7 @@
 	}
 
 	.con_menu {
-		@extend %bw_l;
-		max-width: 970px;
+		@include layout_normal;
 		.box_menu {
 			@include cV(margin, 50px 0, 10% 0);
 			dt {
@@ -186,7 +183,7 @@
 				box-sizing: border-box;
 				border-radius: 16px;
 				a {
-					@include cV(padding, 16px, 3% 0, 3% 0);
+					@include cV(padding, 16px, 3% 0, 5% 0);
 					@include txt_l;
 					display: flex;
 					justify-content: space-between;
@@ -196,7 +193,7 @@
 						align-items: center;
 						i {
 							height: 21px;
-							@include cV(margin-right, 4px, 0.8em);
+							@include cV(margin-right, 8px, 0.8em);
 						}
 					}
 					&:after {
@@ -222,6 +219,12 @@
 				background-color: $bgGray;
 				border-radius: 8px;
 			}
+		}
+	}
+
+	@include mq(pc) {
+		.con_my_profile, .con_menu {
+			max-width: 970px;
 		}
 	}
 }

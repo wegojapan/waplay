@@ -46,11 +46,11 @@
             </div>
             <h2 class="tit">WEGO JAPAN</h2>
             <dl class="box_info">
-              <dt class="play">플레이</dt>
+              <dt class="play">プレイ</dt>
               <dd class="play_sc">0</dd>
-              <dt class="review">평가</dt>
+              <dt class="review">レビュー</dt>
               <dd class="review_sc">0</dd>
-              <dt class="honor">업적</dt>
+              <dt class="honor">業績</dt>
               <dd class="honor_sc">0</dd>
             </dl>
           </div>
@@ -65,12 +65,12 @@
             <div class="txt">
               <span class="lv_current">Level<strong class="lv_now">1</strong></span>
               <span class="lv_next">
-                <strong clas="prog">30</strong>
+                <strong class="prog">0</strong>
                 <em class="goal">100</em>
               </span>
             </div>
           </div>
-          <p class="btn_point"><a href="#123">出席EXPを受ける</a></p>
+          <p class="btn_exp btn_point"><a href="#123">出席EXPを受ける</a></p>
         </div>
       </section>
 
@@ -96,12 +96,12 @@
           <dd class="cp"><a href="#123"><strong>1,550</strong></a></dd>
         </dl>
         <dl class="box_menu play">
-          <dt class="tit">플레이</dt>
+          <dt class="tit">プレイ</dt>
           <dd>
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_checklist.svg" alt=""></i>
-                <span class="st">플레이 내역</span>
+                <span class="st">プレイ一覧</span>
               </div>
             </a>
           </dd>
@@ -109,7 +109,7 @@
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_heart.svg" alt=""></i>
-                <span class="st">관심있는 플레이</span>
+                <span class="st">好きなプレー</span>
               </div>
             </a>
           </dd>
@@ -117,7 +117,7 @@
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_talk.svg" alt=""></i>
-                <span class="st">작성글 / 댓글</span>
+                <span class="st">作成文 / コメント</span>
               </div>
             </a>
           </dd>
@@ -125,18 +125,18 @@
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_ban.svg" alt=""></i>
-                <span class="st">차단된 필레이어</span>
+                <span class="st">遮断されたプレイヤー</span>
               </div>
             </a>
           </dd>
         </dl>
         <dl class="box_menu profile">
-          <dt class="tit">프로필</dt>
+          <dt class="tit">プロフィール</dt>
           <dd>
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_user_lt.svg" alt=""></i>
-                <span class="st">개인정보</span>
+                <span class="st">個人情報</span>
               </div>
             </a>
           </dd>
@@ -144,31 +144,31 @@
             <a href="#123">
               <div class="box_st">
                 <i><img src="./imgs/common/ic/ic_settings.svg" alt=""></i>
-                <span class="st">설정</span>
+                <span class="st">設定</span>
               </div>
             </a>
           </dd>
         </dl>
         <dl class="box_menu info">
-          <dt class="tit">와플레이 정보</dt>
+          <dt class="tit">ワプレー情報</dt>
           <dd>
             <a href="#123">
               <div class="box_st">
-                <span class="st">와플레이 안내</span>
+                <span class="st">サービス案内</span>
               </div>
             </a>
           </dd>
           <dd>
             <a href="#123">
               <div class="box_st">
-                <span class="st">공지사항</span>
+                <span class="st">お知らせ</span>
               </div>
             </a>
           </dd>
           <dd>
             <a href="#123">
             <div class="box_st">
-              <span class="st">고객센터</span>
+              <span class="st">カスタマーセンター</span>
             </div>
             </a>
           </dd>
@@ -183,7 +183,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/mypage.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

@@ -125,32 +125,12 @@
 }
 #con_page .con_post .box_post .wrp_profile .cate {
   width: 35%;
-  font-size: 88%;
-  font-weight: normal;
   text-align: right;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_post .box_post .wrp_profile .cate {
-    font-size: 94%;
-  }
+  font-size: 0.8em;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post .box_post .wrp_profile .cate {
-    font-size: 69%;
-  }
-}
-#con_page .con_post .box_post .box_txt {
-  font-size: 113%;
-  font-weight: normal;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_post .box_post .box_txt {
-    font-size: 113%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_post .box_post .box_txt {
-    font-size: 88%;
+    font-size: 0.9em;
   }
 }
 #con_page .con_post .box_post .box_txt .tit {

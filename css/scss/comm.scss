@@ -54,12 +54,11 @@
 				@include cV(margin-bottom, 10px, 3%);
 				.cate {
 					width: 35%;
-					@include txt_s;
 					text-align: right;
+					@include cV(font-size, 0.8em, 0.9em);
 				}
 			}
 			.box_txt {
-				@include txt_l;
 				.tit {
 					font-weight: bold;
 					font-weight: 600;

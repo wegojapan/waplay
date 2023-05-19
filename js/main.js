@@ -19,11 +19,34 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
     
     $('.con_slide_hot .box_list').slick({
-        infinite: true,
-        slidesToShow: 1,
+        infinite: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         arrows: false,
         variableWidth: true,
-        slidesToScroll: 1
+        responsive: [
+            {
+                breakpoint: 1204,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
     $('.box_slide_list_sample').slick({

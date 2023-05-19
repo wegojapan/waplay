@@ -7,7 +7,7 @@
 <meta name="description" content="ワプレー｜必要なすべてのサービスの見積を簡単にもらおう。全国民交流プラットフォーム、われらのプレー"/>
 <meta name="keywords" content="インフルエンサー 広告、家庭教師の求人、リフォーム、車の修理、車検、レッスン、インテリア、アルバイト、バイト"/>
 <meta name="theme-color" content="#ffffff">
-<link rel="shortcut icon" href="https://wegojp.com/imgs/favicon.ico">
+<link rel="shortcut icon" href="https://dev.waplay.jp/favicon.ico">
 <link rel="apple-touch-icon" href="https://wegojp.com/apple-touch-icon.png">
 <!-- Font Awsome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">    

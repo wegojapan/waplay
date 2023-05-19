@@ -51,7 +51,6 @@
             <li><a href="#123">健康/スポーツ</a></li>
             <li><a href="#123">恋愛/結婚</a></li>
             <li><a href="#123">会社生活</a></li>
-            <li><a href="#123">教えて</a></li>
             <li><a href="#123">悩み</a></li>
           </ul>
         </div>
@@ -99,8 +98,8 @@
               </div>
             </a></li>
             <li><a href="#123">
-              <h3 class="cate">料理/飲食</h3>
-              <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
+              <h3 class="cate">恋愛/結婚</h3>
+              <p class="txt">共働き嫁に食材送るお母さん</p>
               <div class="box_util">
                 <p class="like">
                   <i class="fa-solid fa-heart"></i>  
@@ -132,25 +131,16 @@
 
       <div class="con_bn">
         <div class="slider">
-        <li>
-            <div class="box_bn">
-              <div class="box_txt">
-                <strong>WAPLAYで遊ぼう!</strong>
-                <span>すべてがプレイだ！われらのプレー</span>
-              </div>
-              <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
-              </div>
-            </p>
-          </li>
           <li>
-            <div class="box_bn">
-              <div class="box_txt">
-                <span>インフルエンサーに広告したいけど高い...</span>
-                <strong>でも、直接プレイすれば安い!</strong>
+            <a href="#123">
+              <div class="box_bn">
+                <div class="box_txt">
+                  <strong>VIVUS GOLF</strong>
+                  <span>ゴルフ専門トータルスキンケアブランド</span>
+                </div>
+                <div class="box_img"><img src="./imgs/bn/bn_object_03.png" alt=""></div>
               </div>
-              <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
-              </div>
-            </p>
+            </a>
           </li>
         </div>
         <div class="slider-count"></div>
@@ -159,47 +149,60 @@
 
       <section class="con_post">
         <article class="box_post">
-          <div class="box_profile">
-            <div class="user_info">
-              <div class="box_pic"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_02.jpg" alt=""></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+          <div class="wrp_profile">
+            <div class="profile_set">
+              <div class="box_profile"><a href="#123">
+                <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
-              <dl class="txt_info">
-                <dt class="info">
-                  <span class="name">緋村剣心</span>
-                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
-                  <span class="score">5.0</span>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">移動しなさいマン</span>
                 </dt>
-                <dd class="world">個人広告</dd>
+                <dd>
+                  <small class="cate">ホーム/リビング</small>
+                </dd>
               </dl>
             </div>
-            <p class="cate"><small>アニメ/マンガ</small></p>
+            <p class="cate"><small>恋愛/結婚</small></p>
           </div>
           <dl class="box_txt"><a href="#123">
-            <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
+            <dt class="tit">共働き嫁に食材送るお母さん</dt>
             <dd class="txt">
-            見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
+            家で料理しないとしたが食べない食材いっぱい送って包んでくれたお母さん仕事に疲れて何もできないのに私たちに生活費も受けながらこんなの買わないでそのまま惜しまないけれん的にお礼の電話もしたくないです一生懸命顔を立てるてずっと送るようて送らないでほしいと一言を発すれば、悪い人作るみたいで何もしたくないですね
             </dd>
           </a></dl>
+          <div class="box_util">
+            <div class="icons">
+              <p class="ic_like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>29</span>
+              </p>
+              <p class="ic_comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>6</span>
+              </p>
+            </div>
+            <p class="date">3分前</p>
+          </div>
         </article>
         <article class="box_post">
-          <div class="box_profile">
-            <div class="user_info">
-              <div class="box_pic"><a href="#123"> 
-                <p class="pic"><img src="./imgs/user/user_05.jpg" alt=""></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+          <div class="wrp_profile">
+            <div class="profile_set">
+              <div class="box_profile"><a href="#123">
+                <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
+                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
-              <dl class="txt_info">
-                <dt class="info">
-                  <span class="name">オオサカナオミ</span>
-                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
-                  <span class="score">5.0</span>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">移動しなさいマン</span>
                 </dt>
-                <dd class="world">個人広告</dd>
+                <dd>
+                  <small class="cate">ホーム/リビング</small>
+                </dd>
               </dl>
             </div>
-            <p class="cate"><small>ゲーム</small></p>
+            <p class="cate"><small>恋愛/結婚</small></p>
           </div>
           <dl class="box_txt"><a href="#123">
             <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
@@ -207,36 +210,63 @@
             見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
             </dd>
           </a></dl>
+          <div class="box_util">
+            <div class="icons">
+              <p class="ic_like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>29</span>
+              </p>
+              <p class="ic_comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>6</span>
+              </p>
+            </div>
+            <p class="date">3分前</p>
+          </div>
+
         </article>
         <article class="box_post">
-          <div class="box_profile">
-            <div class="user_info">
-              <div class="box_pic"><a href="#123"> 
-                <p class="pic"><img src="./imgs/user/user_08.jpg" alt=""></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="bronze"></p>
+          <div class="wrp_profile">
+            <div class="profile_set unknown">
+              <div class="box_profile"><a href="#123">
+                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
-              <dl class="txt_info">
-                <dt class="info">
-                  <span class="name">スダりさ</span>
-                  <span class="star"><img src="./imgs/common/ic/ic_star.svg" alt=""></span>
-                  <span class="score">5.0</span>
+              <dl class="box_txt">
+                <dt>
+                  <span class="p_name">移動しなさいマン</span>
                 </dt>
-                <dd class="world">個人広告</dd>
+                <dd>
+                  <small class="cate">ホーム/リビング</small>
+                </dd>
               </dl>
             </div>
-            <p class="cate"><small>旅行/観光</small></p>
+            <p class="cate"><small>恋愛/結婚</small></p>
           </div>
           <dl class="box_txt"><a href="#123">
-            <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
+            <dt class="tit">誕生日サンドイッチ望んでいるのが欲ですか?</dt>
             <dd class="txt">
-            見放題のラインアップ数は断トツのNo.1。だから観たい作品を、たっぷり、お得に楽しめます。また、最新作のレンタルもぞくぞく配信。もう、観たい気分を我慢する必要はありません。
+            この前誕生日でした。誕生日当日の朝、誕生日祝いそんなこと望んでいるのありません。普段してくれなくても誕生日に飢えて行く新郎朝に簡単に食べられるサンドイッチやおにぎり程度は期待しました。妻にその話をしたらあなたは私の誕生日の朝、作ってくれた返します。誕生日朝サンドイッチやおにぎり程度が欲ですか?
             </dd>
           </a></dl>
+          <div class="box_util">
+            <div class="icons">
+              <p class="ic_like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>29</span>
+              </p>
+              <p class="ic_comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>6</span>
+              </p>
+            </div>
+            <p class="date">3分前</p>
+          </div>
+
         </article>
       </section>
     </div>
 
-    <script src="./serviceWorker.js"></script>
+    <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     

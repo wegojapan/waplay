@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+  .box_gnav li:nth-child(3) a {opacity: 1;}
+  @include mq(sp) {
+    .logo {
+      display: none;
+    }
+	.p_tit.msg {
+		display: block;
+		font-weight: bold;
+	}
+
+  }
+}
+
+#con_page {
+	@include cV(background-color, white, $bgGray);
+	@include cV(padding-bottom, 200px, 30%);
+	.wrp_slide_list.comm {
+		.con_slide_list {
+			.box_slide_list {
+				li {
+					@include cV(background-color, $bgGray, white);
+				}
+			}
+		}
+	}
+
+	.con_bn {
+		@include cV(margin, 50px 5% 0 5%, 4% 4% 0 4%, 5% 4% 0 4%);
+		.box_bn {
+			background-color: white;
+			@include cV(background-color, #f9f9f9, white);
+			box-sizing: border-box;
+			border:1px solid $lightGray;
+		}
+	}
+
+	.con_post {
+		@include cV(margin, 0 5% 0 5%, 0 4% 0 4%, 0 4% 0 4%);
+		max-width: 970px;
+		.box_post {
+			background-color: white;
+			border: 1px solid $lightGray;
+			border-radius: 16px;
+			@include cV(margin-bottom, 16px, 2%);
+			a {
+				display: block;
+				@include cV(padding, 20px, 2% 4%);
+				box-sizing: border-box;
+				.box_profile {
+					display: flex;
+					justify-content: space-between;
+					.user_info {
+						align-items: center;
+						display: flex;
+						width: 65%;
+						.box_pic {
+							position: relative;
+							.pic {
+								width: 40px;
+								height: 40px;
+								border-radius: 50%;
+								overflow: hidden;
+							}
+							.ic_md {
+								position: absolute;
+								right: 0;
+								bottom: 0;
+								line-height: 1;
+							}
+						}
+						.txt_info {
+							@include cV(margin-left, 10px, 4%);
+							width: calc(100% - 48px);
+							margin-bottom: 0.3em;
+							.info {
+								display: inline-flex;
+								align-items: center;
+								width: 100%;
+								@include txt_m;
+								span {
+									display: inline-block;
+								}
+								.star {
+									@include cV(margin, 0 4px 0 8px, 0 2% 0 3%);
+									line-height: 0;
+									img {width: 8px;}
+								}
+								.score {@include txt_mini;} 
+							}
+							.world {
+								@include txt_mini;
+							}
+						}
+					}
+					.cate {
+						width: 35%;
+						@include txt_s;
+						text-align: right;
+					}
+				}
+				.box_txt {
+					padding-left: 50px;
+					.txt {
+						@include txt_s;
+						color: $dkGray;
+						display: -webkit-box;
+						-webkit-box-orient: vertical;
+						-webkit-line-clamp: 2;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						word-break: break-all;
+						@include cV(max-height, 82px, 60px);
+						
+					}
+				}
+			}
+			@include mq(pc) {
+				.box_txt a:hover {
+					.txt {text-decoration: underline;}
+				}
+				&:hover {
+					border-color: $dkGray;
+				}
+			}
+		}
+	}
+
+  
+}

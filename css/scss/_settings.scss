@@ -20,6 +20,7 @@ $gray: #c1c1c1;
 $lightGray: #e6e6e6;
 $whiteGray: #f9f9f9;
 $bgGray: #f2f4f6;
+$bgPoint: #F9F3FF;
 
 @mixin mq($device, $val: null, $val2: null) {
 	@if $device == pc {
@@ -227,31 +228,31 @@ $bgGray: #f2f4f6;
 
 @mixin tit_l {
 	@include fsz-cha(24,20,15);
-	font-weight: 600;
+	font-weight: 700;
 }
 
 @mixin txt_l {
-	@include fsz-cha(18,18,13);
+	@include fsz-cha(18,18,14);
 	font-weight: normal;
 }
 
 @mixin txt_m {
-	@include fsz-cha(16,16,11);
+	@include fsz-cha(16,16,12);
 	font-weight: normal;
 }
 
 @mixin txt_s {
-	@include fsz-cha(14,14,12);
+	@include fsz-cha(14,15,11);
 	font-weight: normal;
 }
 
 @mixin txt_xs {
-	@include fsz-cha(13,13,11);
+	@include fsz-cha(13,13,10);
 	font-weight: normal;
 }
 
 @mixin txt_mini {
-	@include fsz-cha(11,12,9);
+	@include fsz-cha(11,11,9);
 	font-weight: normal;
 }
 

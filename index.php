@@ -39,24 +39,26 @@
       <div class="con_bn">
         <div class="slider">
         <li>
-            <div class="box_bn">
-              <div class="box_txt">
-                <strong>WAPLAYで遊ぼう!</strong>
-                <span>すべてがプレイだ！われらのプレー</span>
+            <a href="#123">
+              <div class="box_bn">
+                <div class="box_txt">
+                  <span>すべてがプレイだ！われらのプレイ!</span>
+                  <strong>WAPLAYで遊ぼう!!</strong>
+                </div>
+                <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
               </div>
-              <div class="box_img"><img src="./imgs/bn/bn_object_01.png" alt=""></div>
-              </div>
-            </p>
+            </a>
           </li>
           <li>
-            <div class="box_bn">
-              <div class="box_txt">
-                <span>インフルエンサーに広告したいけど高い...</span>
-                <strong>でも、直接プレイすれば安い!</strong>
+            <a href="#123">
+              <div class="box_bn">
+                <div class="box_txt">
+                  <span>インフルエンサー広告高いな...</span>
+                  <strong>でも、プレイすれば安い！</strong>
+                </div>
+                <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
               </div>
-              <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
-              </div>
-            </p>
+            </a>
           </li>
         </div>
         <div class="slider-count"></div>
@@ -261,244 +263,358 @@
           <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="box_list">
-          <ul>
+        <ul>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">寺西渉</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">くるま</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">寺西渉</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">くるま</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">スダりさ</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">インフルエンサー</small>
-                  <small class="time">平均 <em>30分</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">スダりさ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インフルエンサー</small>
+                    <small class="time">平均 <em>30分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">コンビニマスタ</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">バイト</small>
-                  <small class="time">平均 <em>10分</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">コンビニマスタ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">バイト</small>
+                    <small class="time">平均 <em>10分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">移動しなさいマン</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">ホーム/リビング</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="platinum"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">インスタスレイヤー</span>
-                  <small class="ic_star"><img src="./imgs/common/ic/ic_star.svg" alt="star">5.0</small>
-                </dt>
-                <dd>
-                  <small class="cate">インフルエンサー</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
-            </li>
-            <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="diamond"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">異議ありのなるほど</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">インテリア/撤去</small>
-                  <small class="time">平均 <em>30分</em> 以内に応答</small>
-                </dd>
-              </dl>
-            </li>
-            <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">緋村剣心</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">バイト</small>
-                  <small class="time">平均 <em>10분</em> 以内に応答</small>
-                </dd>
-              </dl>
-            </li>
-            <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">サイトはじめ</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">ホーム/リビング</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">移動しなさいマン</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">ホーム/リビング</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
           </ul>
           <ul>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_05.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">寺西渉</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">くるま</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="platinum"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">インスタスレイヤー</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インフルエンサー</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_06.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">スダりさ</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">インフルエンサー</small>
-                  <small class="time">平均 <em>30分</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="diamond"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">異議ありのなるほど</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インテリア/撤去</small>
+                    <small class="time">平均 <em>30分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_07.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">コンビニマスタ</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">バイト</small>
-                  <small class="time">平均 <em>10分</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">緋村剣心</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">バイト</small>
+                    <small class="time">平均 <em>10분</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
             <li>
-              <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
-              </a></div>
-              <dl class="box_txt">
-                <dt>
-                  <span class="p_name">移動しなさいマン</span>
-                  <small class="ic_star">
-                    <img src="./imgs/common/ic/ic_star.svg" alt="star">
-                    <em class="score">5.0</em>
-                  </small>
-                </dt>
-                <dd>
-                  <small class="cate">ホーム/リビング</small>
-                  <small class="time">平均 <em>1時間</em> 以内に応答</small>
-                </dd>
-              </dl>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">サイトはじめ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">ホーム/リビング</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
             </li>
           </ul>
+          <ul>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_05.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">寺西渉</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">くるま</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_06.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">スダりさ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インフルエンサー</small>
+                    <small class="time">平均 <em>30分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_07.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">コンビニマスタ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">バイト</small>
+                    <small class="time">平均 <em>10分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">移動しなさいマン</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">ホーム/リビング</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="platinum"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">インスタスレイヤー</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インフルエンサー</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="diamond"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">異議ありのなるほど</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">インテリア/撤去</small>
+                    <small class="time">平均 <em>30分</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">緋村剣心</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">バイト</small>
+                    <small class="time">平均 <em>10분</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li>
+              <div class="profile_set">
+                <div class="box_profile"><a href="#123">
+                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user"></p>
+                  <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                </a></div>
+                <dl class="box_txt">
+                  <dt>
+                    <span class="p_name">サイトはじめ</span>
+                    <small class="ic_star">
+                      <img src="./imgs/common/ic/ic_star.svg" alt="star">
+                      <em class="score">5.0</em>
+                    </small>
+                  </dt>
+                  <dd>
+                    <small class="cate">ホーム/リビング</small>
+                    <small class="time">平均 <em>1時間</em> 以内に応答</small>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+
         </div>
       </section>
 
       <section class="wrp_slide_list comm">
         <h2 class="box_tit">
           <span class="tit">コミュニティで話そう</span>
-          <small class="more"><a href="#123">すべて見る</a></small>
+          <small class="more"><a href="comm.php">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
@@ -514,7 +630,7 @@
               <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -528,7 +644,21 @@
               <p class="txt">おすすめのゲームないのかな</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <span>29</span>
+                </p>
+                <p class="comment">
+                <i class="fa-solid fa-comment-dots"></i>
+                  <span>6</span>
+                </p>
+              </div>
+            </a></li>
+            <li><a href="#123">
+              <h3 class="cate">恋愛/結婚</h3>
+              <p class="txt">共働き嫁に食材送るお母さん</p>
+              <div class="box_util">
+                <p class="like">
+                  <i class="fa-solid fa-thumbs-up"></i>
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -542,21 +672,7 @@
               <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
-                  <span>29</span>
-                </p>
-                <p class="comment">
-                <i class="fa-solid fa-comment-dots"></i>
-                  <span>6</span>
-                </p>
-              </div>
-            </a></li>
-            <li><a href="#123">
-              <h3 class="cate">料理/飲食</h3>
-              <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
-              <div class="box_util">
-                <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -616,7 +732,7 @@
       </section>
     </div>
 
-    <script src="./serviceWorker.js"></script>
+    <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     

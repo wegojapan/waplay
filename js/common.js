@@ -1,23 +1,4 @@
-﻿const btnMenu = document.querySelector(".btn_menu");
-const openMenu = document.querySelector(".open_menu");
-const btnOpenMenu = document.querySelector(".open_menu ul li");
-let lastScroll = 0
-
-
-function clickOpenMenu() {
-	openMenu.classList.remove("active");
-	btnMenu.classList.remove("active");
-}
-function btnToggle() {
-	openMenu.classList.toggle("active");
-	btnMenu.classList.toggle("active");
-}
-
-
-btnOpenMenu.addEventListener("click",clickOpenMenu);
-btnMenu.addEventListener("click", btnToggle);
-
-
+﻿
 
 // auto height
 function matchHeight($o,m) {

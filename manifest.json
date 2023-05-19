@@ -8,7 +8,7 @@
     "description": "ワプレー｜必要なすべてのサービスの見積を簡単にもらおう。全国民交流プラットフォーム、われらのプレー",
     "icons": [
       {
-        "src": "https://wegojp.com/imgs/icons/icon-512x512.png",
+        "src": "https://dev.waplay.jp/imgs/icons/icon-512x512.png",
         "type": "image/png",
         "sizes": "512x512",
         "purpose": "any maskable"

@@ -112,6 +112,8 @@ li {list-style-type: none;}
 	}
 	.p_tit {
 		@include tit_l;
+		display: none;
+		
 	}
 	.box_gnav {
 		position: relative;
@@ -120,7 +122,7 @@ li {list-style-type: none;}
 			a {
 				display: flex;
 				flex-wrap: wrap;
-				@include cV(opacity, 1, 0.3);
+				@include cV(opacity, 0.5, 0.3);
 				span {
 					@include fsz-cha(20,16,12);
 					font-weight: bold;
@@ -224,7 +226,7 @@ li {list-style-type: none;}
 				width: 20%;
 				a {
 					text-align: center;
-					padding: 10% 0 28%;
+					padding: 10% 0 35%;
 					span, em {
 						width: 100%;
 					}
@@ -253,10 +255,10 @@ li {list-style-type: none;}
 					}
 				}
 				&:nth-child(2) {
-					padding-right: 5%;
+					padding-right: 8%;
 				}
-				&:nth-child(4) {
-					padding-left: 5%;
+				&:nth-child(3) {
+					padding-left: 8%;
 				}
 			}
 			&.active {
@@ -417,7 +419,7 @@ li {list-style-type: none;}
 							border-radius: 0 0 16px 16px;
 							box-sizing: border-box;
 							border: 1px solid $lightGray;
-							padding: 5% 8%;
+							@include cV(padding, 8%, 5% 8%, 5% 8%);
 							span, small, dl {display: block;}
 							.p_name {
 								@include txt_m;
@@ -429,7 +431,7 @@ li {list-style-type: none;}
 								@include cV(margin-bottom, 3px, 0.3em); 
 							}
 							.p_wrd, .p_count, .p_member {
-								@include txt_mini;
+								@include cV(font-size, 0.8em, 0.7em);
 								color: $dkGray;
 								.c-num {
 									strong {
@@ -485,6 +487,12 @@ li {list-style-type: none;}
 				}
 				@include mq(pc) {
 					display: flex;
+					flex-wrap: wrap;
+					li {
+						&:hover a {
+							border-color: black;
+						}
+					}
 					
 				}
 				@include mq(tab_sp) {
@@ -509,7 +517,7 @@ li {list-style-type: none;}
 							flex-direction: column;
 							justify-content: space-between;
 							.cate {
-								@include txt_s;
+								@include txt_mini;
 								@include cV(margin-bottom, 20px, 5%);
 								color: $dkGray;
 							}
@@ -526,7 +534,7 @@ li {list-style-type: none;}
 							.box_util {
 								display: flex;
 								@include cV(margin-top, 30px, 15%);
-								@include txt_s;
+								@include txt_mini;
 								p {
 									margin-right: 5%;
 									color: $dkGray;
@@ -560,7 +568,6 @@ li {list-style-type: none;}
 			}
 			.con_slide_list {
 				.box_slide_list {
-
 					li {
 						width: auto;
 						@include txt_m;
@@ -590,7 +597,6 @@ li {list-style-type: none;}
 		background-color: white;
 		position: sticky;
 		@include cV(top, 0, 60px);
-		
 
 		.box_slide_nav {
 			.slide_list {
@@ -673,64 +679,13 @@ li {list-style-type: none;}
 			ul {
 				display: block;
 				padding-right: 1.5em;
-				max-width: 320px;
+				min-width: 320px;
 				li {
-					@include cV(width, 350px, 100%);
-					display: flex;
 					box-sizing: border-box;
 					align-items: center;
 					border-bottom: 1px solid $lightGray;
-					padding-bottom: 5%;
-					margin-bottom: 5%;
-					.box_profile {
-						position: relative;
-						margin-right: 0.5em;
-						.pic {
-							width: 48px;
-							height: 48px;
-							overflow: hidden;
-							border-radius: 50%;
-						}
-						.ic_md {
-							position: absolute;
-							right: 0;
-							bottom: 0;
-							line-height: 1;
-						}
-					}
-					.box_txt {
-						dt {
-							display: flex;
-							align-items: center;
-							.p_name {
-								@include txt_m;
-								margin-right: 0.5em;
-								line-height: 1;
-							}
-							.ic_star {
-								@include txt_s;
-								display: flex;
-								img {
-									width: 0.7em;
-									margin-right: 0.2em;
-								}
-							}
-						}
-						dd {
-							@include txt_s;
-							color: $dkGray;
-							small {
-								&:before {
-									content: "・";
-								}
-								&:first-child {
-									&:before {
-										display: none;
-									}
-								}
-							}
-						}
-					}
+					padding-bottom: 4%;
+					margin-bottom: 4%;
 				}
 			}
 		}
@@ -810,23 +765,36 @@ li {list-style-type: none;}
 		@include cV(margin, 50px 5% 0 5%, 4% 4% 0 4%, 11% 4% 0 4%);
 		.box_bn {
 			box-sizing: border-box;
-			background-color: $pointColorLight;
+			background-color: $bgPoint;
 			border-radius: 16px;
 			@include cV(padding, 15px 20px 50px, 3% 5% 8%);
 			display: flex;
 			justify-content: space-between;
 			.box_txt {
-				strong, span {display: block;}
+				strong, span {
+					display: block;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 1;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					word-break: break-all;
+
+				}
 				strong {
 					@include tit_l;
 					font-weight: bold;
+					@include cV(height, 36px, 26px);
 				}
 				span {
 					@include txt_m;
+					@include cV(height, 26px, 20px);
+	
 				}
 			}
 			.box_img {
 				width: auto;
+				max-width: 40%;
 				height: auto;
 				position: absolute;
 				top: 0;
@@ -840,7 +808,7 @@ li {list-style-type: none;}
 		}
 		.slider-count {
 			position: absolute;
-			@include cV(left, 2%, 5%);
+			@include cV(left, 20px, 5%);
 			line-height: 1.2;
 			bottom: 10%;
 			border: 1px solid $gray;
@@ -860,7 +828,7 @@ li {list-style-type: none;}
 
 
 	.con_bn + section, .con_fix_top + section, .con_wrd_list + section {
-		@include cV(padding-top, 3%, 8%);
+		@include cV(padding-top, 50px, 5%, 5%);
 	}
 
 	// con_fix_top
@@ -927,6 +895,71 @@ li {list-style-type: none;}
 			
 		}
 	}
+
+
+	// profile set
+	.profile_set {
+		display: flex;
+		align-items: center;
+		.box_profile {
+			position: relative;
+			margin-right: 0.5em;
+			.pic {
+				width: 48px;
+				height: 48px;
+				overflow: hidden;
+				border-radius: 50%;
+			}
+			.ic_md {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				line-height: 1;
+			}
+		}
+		.box_txt {
+			@include txt_m;
+			dt {
+				display: flex;
+				align-items: center;
+				.p_name {
+					margin-right: 0.5em;
+					line-height: 1;
+				}
+				.ic_star {
+					display: flex;
+					img {
+						width: 0.7em;
+						margin-right: 0.2em;
+					}
+				}
+			}
+			dd {
+				color: $dkGray;
+				font-size: 0.9em;
+				small {
+					&:before {
+						content: "・";
+					}
+					&:first-child {
+						&:before {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	i.red_dot {
+		display: inline-block;
+		@include cV(width, 8px, 0.5rem);
+		@include cV(height, 8px, 0.5rem);
+		background-color: $red;
+		border-radius: 50%;
+		@include cV(margin-left, 4px, 0.5em);
+	}
+
 
 
 

@@ -387,9 +387,7 @@ li {list-style-type: none;}
 	// slide_list_form
 	.wrp_slide_list {
 		@include layout_flow;
-		
 		.box_tit {
-
 			@include main_tit;
 		}
 		.con_slide_list {

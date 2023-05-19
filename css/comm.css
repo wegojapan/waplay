@@ -126,11 +126,17 @@
 #con_page .con_post .box_post .wrp_profile .cate {
   width: 35%;
   text-align: right;
-  font-size: 0.8em;
+  font-size: 88%;
+  font-weight: normal;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_post .box_post .wrp_profile .cate {
+    font-size: 94%;
+  }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_post .box_post .wrp_profile .cate {
-    font-size: 0.9em;
+    font-size: 69%;
   }
 }
 #con_page .con_post .box_post .box_txt .tit {

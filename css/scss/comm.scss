@@ -55,7 +55,7 @@
 				.cate {
 					width: 35%;
 					text-align: right;
-					@include cV(font-size, 0.8em, 0.9em);
+					@include txt_s;
 				}
 			}
 			.box_txt {

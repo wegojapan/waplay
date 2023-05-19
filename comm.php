@@ -159,7 +159,7 @@
                   <span class="p_name">移動しなさいマン</span>
                 </dt>
                 <dd>
-                  <small class="cate">ホーム/リビング</small>
+                  <small class="p_wrd">ホーム/リビング</small>
                 </dd>
               </dl>
             </div>

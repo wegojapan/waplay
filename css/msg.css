@@ -233,7 +233,7 @@
     text-decoration: underline;
   }
   #con_page .con_post .box_post:hover {
-    border-color: #a4a4a4;
+    border-color: #c1c1c1;
   }
 }
 @media print {
@@ -241,7 +241,12 @@
     text-decoration: underline;
   }
   #con_page .con_post .box_post:hover {
-    border-color: #a4a4a4;
+    border-color: #c1c1c1;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #con_page .con_post .box_post {
+    border: 1px solid #e6e6e6;
   }
 }
 @media only screen and (min-width: 1200px) {

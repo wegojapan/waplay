@@ -398,7 +398,7 @@
 }
 #con_page .con_menu .box_menu dd a {
   padding: 16px;
-  font-size: 113%;
+  font-size: 100%;
   font-weight: normal;
   display: flex;
   justify-content: space-between;
@@ -416,12 +416,12 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .con_menu .box_menu dd a {
-    font-size: 113%;
+    font-size: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_menu .box_menu dd a {
-    font-size: 88%;
+    font-size: 75%;
   }
 }
 #con_page .con_menu .box_menu dd a .box_st {

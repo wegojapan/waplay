@@ -184,7 +184,7 @@
 				border-radius: 16px;
 				a {
 					@include cV(padding, 16px, 3% 0, 5% 0);
-					@include txt_l;
+					@include txt_m;
 					display: flex;
 					justify-content: space-between;
 					align-items: center;

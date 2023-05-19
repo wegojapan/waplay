@@ -116,8 +116,11 @@
 					.txt {text-decoration: underline;}
 				}
 				&:hover {
-					border-color: $dkGray;
+					border-color: $gray;
 				}
+			}
+			@include mq(pc_tab) {
+				border: 1px solid $lightGray;
 			}
 		}
 	}

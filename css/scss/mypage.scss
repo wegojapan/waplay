@@ -48,7 +48,7 @@
 				}
 			.box_user_info {
 				.tit {
-					@include tit_l;
+					@include tit_xl;
 					@include cV(margin-bottom, 10px, 3%);
 				}
 				.box_info {
@@ -147,9 +147,9 @@
 					color: white;
 					display: block;
 					box-sizing: border-box;
-					@include cV(padding, 15px, 4%);
+					@include cV(padding, 13px, 3%);
 					border-radius: 8px;
-					@include txt_l;
+					@include txt_m;
 					
 				}
 				@include mq(pc) {
@@ -172,18 +172,17 @@
 	.con_menu {
 		@include layout_normal;
 		.box_menu {
-			@include cV(margin, 50px 0, 10% 0);
+			@include cV(padding, 25px 0, 5% 0);
+			border-bottom: 1px solid $lightGray;
 			dt {
-				@include tit_l;
-				@include cV(margin-bottom, 8px, 5%);
-				@include cV(padding-bottom, 16px, 3%);
-				border-bottom: 1px solid $dkGray;
+				@include cV(padding-bottom, 16px, 4%);
+				font-weight: bold;
 			}
 			dd {
 				box-sizing: border-box;
 				border-radius: 16px;
 				a {
-					@include cV(padding, 16px, 3% 0, 5% 0);
+					@include cV(padding, 24px 16px, 3% 0, 5% 0);
 					@include txt_m;
 					display: flex;
 					justify-content: space-between;
@@ -208,9 +207,20 @@
 				}
 			}
 			&.point {
+				@include cV(padding, 25px 0 10px, 5% 0 3%);
 				.cp a {
 					@include fsz-cha(24,24,20);
 					@include tit_xl;
+					padding:  8px 0;
+					font-weight: bold;
+				}
+			}
+			&.info {
+				@include cV(padding, 25px 0, 5% 0);
+				.cp a {
+					@include fsz-cha(24,24,20);
+					@include tit_xl;
+					padding:  8px 0;
 					font-weight: bold;
 				}
 			}

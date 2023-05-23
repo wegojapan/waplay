@@ -60,8 +60,7 @@
 			}
 			.box_txt {
 				.tit {
-					font-weight: bold;
-					font-weight: 600;
+					@include txt_l;
 					@include cV(margin-bottom, 8px, 2%);
 					display: -webkit-box;
 					-webkit-box-orient: vertical;
@@ -69,11 +68,12 @@
 					overflow: hidden;
 					text-overflow: ellipsis;
 					word-break: break-all;
+					font-weight: bold;
 
 				}
 				.txt {
-					font-size: 0.8em;
 					color: $dkGray;
+					@include txt_s;
 					display: -webkit-box;
 					-webkit-box-orient: vertical;
 					-webkit-line-clamp: 2;

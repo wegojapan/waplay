@@ -16,6 +16,7 @@ $brown: #b28160;
 $yellow: #f2a633;
 $skyBlue: #5fb0d8;
 $dkGray: #a4a4a4;
+$dk: #333333;
 $gray: #c1c1c1;
 $lightGray: #e6e6e6;
 $whiteGray: #f9f9f9;
@@ -258,7 +259,7 @@ $bgPoint: #F9F3FF;
 }
 
 @mixin txt_s {
-	@include fsz-cha(14,15,11);
+	@include fsz-cha(15,15,11);
 	font-weight: normal;
 }
 

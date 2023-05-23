@@ -184,6 +184,9 @@
       </section>
     </div>
 
+    <?php include_once('./inc/aside.php'); ?>
+
+
     <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

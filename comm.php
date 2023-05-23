@@ -36,7 +36,8 @@
         </div>
       </div>
 
-      <section class="wrp_slide_list cate_nav">
+
+      <section class="wrp_slide_list cate_nav tab">
         <h2 class="box_tit view_pc-tab">
           <span class="tit">コミュニティー</span>
         </h2>
@@ -71,7 +72,7 @@
             </a></li>
             <li><a href="#123">
               <h3 class="cate">アニメ</h3>
-              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ</p>
+              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ新しいアニメが欲しいです。誰かおしえてくれ</p>
               <div class="box_util">
                 <p class="like">
                   <i class="fa-solid fa-heart"></i>  
@@ -197,11 +198,11 @@
                   <span class="p_name">移動しなさいマン</span>
                 </dt>
                 <dd>
-                  <small class="cate">ホーム/リビング</small>
+                  <small class="p_wrd">ホーム/リビング</small>
                 </dd>
               </dl>
             </div>
-            <p class="cate"><small>恋愛/結婚</small></p>
+            <p class="cate"><small>ゲーム</small></p>
           </div>
           <dl class="box_txt"><a href="#123">
             <dt class="tit">今年の新作アニメのおすすめリスト共有します。とても面白くて絶対に見なければならない名作です。</dt>
@@ -235,7 +236,7 @@
                   <span class="p_name">匿名のプレーヤー</span>
                 </dt>
                 <dd>
-                  <small class="cate">非公開</small>
+                  <small class="p_wrd">非公開</small>
                 </dd>
               </dl>
             </div>
@@ -273,16 +274,16 @@
                   <span class="p_name">匿名のプレーヤー</span>
                 </dt>
                 <dd>
-                  <small class="cate">非公開</small>
+                  <small class="p_wrd">非公開</small>
                 </dd>
               </dl>
             </div>
             <p class="cate"><small>恋愛/結婚</small></p>
           </div>
           <dl class="box_txt"><a href="#123">
-            <dt class="tit">まじでむかつく。ベッドで前の彼女、名前呼べた彼氏とても不快です</dt>
+            <dt class="tit">女友達気がてください。</dt>
             <dd class="txt">
-            付き合ってからはもう3ヶ月ぐらいなりましたが。(´;ω;｀)彼氏がベッドで思わず私に会う前に付き合った女友達の名前で私を呼んだのです前の彼女が誰か私が知っている状況だから...
+              5年恋愛してもう結婚するか思案中ですが他のことはすべていいが、気が強いです。男が負けてくれて当然だと思って生きてきました。うちの父も母に声も苦手ですから。
             </dd>
           </a></dl>
           <div class="box_util">
@@ -311,7 +312,7 @@
                   <span class="p_name">匿名のプレーヤー</span>
                 </dt>
                 <dd>
-                  <small class="cate">非公開</small>
+                  <small class="p_wrd">非公開</small>
                 </dd>
               </dl>
             </div>
@@ -340,6 +341,9 @@
         </article>
       </section>
     </div>
+
+    <?php include_once('./inc/aside.php'); ?>
+
 
     <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>

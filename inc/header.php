@@ -38,7 +38,7 @@
                 <p class="btn_icon view_sp"><img src="./imgs/common/ic/ic_search.svg" alt=""></p>
             </a</li>
             <li><a href="#123">
-                <p class="btn_icon view_sp"><img src="./imgs/common/ic/ic_bell.svg" alt=""></p>
+                <p class="btn_icon btn_bell view_sp"><img src="./imgs/common/ic/ic_bell.svg" alt=""></p>
             </a></li>
             <li class="setting view_pc-tab">
                 <a href="#123">
@@ -49,6 +49,8 @@
         </ul>
     </div>
 </header>
+
+
 
 
 

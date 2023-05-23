@@ -1,51 +1,22 @@
 ﻿
+// aside Alarm settings
+const btnAlarm = document.querySelector(".con_fix_top .btn_bell");
+const btnAlarmM = document.querySelector(".btn_bell");
+const asideAlarm = document.querySelector("aside.con_alarm");
+const asideAlarmTime = document.querySelector(".con_alarm .time") 
+const btnCloseAlarm = document.querySelector(".con_alarm .btn_close");
 
-// auto height
-function matchHeight($o,m) {
-	$o.css('height','auto')
-	var foo_length = $o.length;
-	for(var i = 0 ; i < Math.ceil(foo_length / m) ; i++) {
-		var maxHeight = 0;
-		for(var j = 0; j < m; j++){
-			if ($o.eq(i * m + j).height() > maxHeight) {
-				maxHeight = $o.eq(i * m + j).height();
-			}
-		}
-		for(var k = 0; k < m; k++){
-			$o.eq(i * m + k).height(maxHeight);
-		}
-	}
+function viewAsideAlarm() {
+	asideAlarm.classList.add('active');
 }
 
-function matchHeightS($o, m) {
-	var _w = Math.floor((100 / m) * 10) / 10;
-	var _parent = $o.parent();
-	if (m > 1) {
-		$o.css('height', 'auto');
-		if ($o.css('float') != 'none') {
-			$o.css('width', String(_w) + '%')
-		} else if (_parent.css('display') == 'flex') {
-			$o.css('width', String(_w) + '%');
-		}
-		var foo_length = $o.length;
-		for(var i = 0 ; i < Math.ceil(foo_length / m) ; i++) {
-			var maxHeight = 0;
-			for(var j = 0; j < m; j++){
-				if ($o.eq(i * m + j).height() > maxHeight) {
-					maxHeight = $o.eq(i * m + j).height();
-				}
-			}
-			for(var k = 0; k < m; k++){
-				$o.eq(i * m + k).height(maxHeight);
-			}
-		}
-	} else {
-		$o.css('height', 'auto');
-		if ($o.css('float') != 'none') {
-			$o.css('width', String(_w) + '%')
-		} else if (_parent.css('display') == 'flex') {
-			$o.css('width', String(_w) + '%');
-		}
-	}
+function closeAsideAlarm() {
+	asideAlarm.classList.remove('active');
 }
+
+btnAlarm.addEventListener('click', viewAsideAlarm);
+btnAlarmM.addEventListener('click', viewAsideAlarm);
+btnCloseAlarm.addEventListener('click', closeAsideAlarm);
+
+
 

@@ -221,35 +221,35 @@
               <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">居酒屋オフ会</span>
-                <small class="p_member"><em class="c-num">8,826</em>件プレイ</small>
+                <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">おしゃべりオフ会</span>
-                <small class="p_member"><em class="c-num">11,826</em>件プレイ</small>
+                <small class="p_member"><em class="c-num">110</em>件プレイ中</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">焼き鳥オフ会</span>
-                <small class="p_member"><em class="c-num">31,226</em>件プレイ</small>
+                <small class="p_member"><em class="c-num">526</em>件プレイ中</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_05.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">コスプレオフ会</span>
-                <small class="p_member"><em class="c-num">8326</em>件プレイ</small>
+                <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
             <li><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_06.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">ミュージカルオフ会</span>
-                <small class="p_member"><em class="c-num">2,826</em>件プレイ</small>
+                <small class="p_member"><em class="c-num">82</em>件プレイ中</small>
               </p>
             </a></li>
           </ul>
@@ -626,7 +626,7 @@
             </a></li>
             <li><a href="#123">
               <h3 class="cate">アニメ</h3>
-              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ</p>
+              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ新しいアニメが欲しいです。誰かおしえてくれ</p>
               <div class="box_util">
                 <p class="like">
                   <i class="fa-solid fa-thumbs-up"></i>
@@ -731,13 +731,14 @@
       </section>
     </div>
 
+    <?php include_once('./inc/aside.php'); ?>
+
     <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
-
   </body>
 </html>
 

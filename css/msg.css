@@ -190,7 +190,7 @@
 }
 #con_page .con_post .box_post a .box_profile .cate {
   width: 35%;
-  font-size: 88%;
+  font-size: 94%;
   font-weight: normal;
   text-align: right;
 }
@@ -208,7 +208,7 @@
   padding-left: 50px;
 }
 #con_page .con_post .box_post a .box_txt .txt {
-  font-size: 88%;
+  font-size: 94%;
   font-weight: normal;
   color: #a4a4a4;
   display: -webkit-box;
@@ -233,7 +233,7 @@
     text-decoration: underline;
   }
   #con_page .con_post .box_post:hover {
-    border-color: #c1c1c1;
+    border-color: #333333;
   }
 }
 @media print {
@@ -241,7 +241,7 @@
     text-decoration: underline;
   }
   #con_page .con_post .box_post:hover {
-    border-color: #c1c1c1;
+    border-color: #333333;
   }
 }
 @media only screen and (min-width: 768px) {

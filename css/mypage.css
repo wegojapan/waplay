@@ -104,18 +104,18 @@
   margin-left: 4px;
 }
 #con_page .wrp_my_profile .con_my_profile .box_user_info .tit {
-  font-size: 150%;
+  font-size: 175%;
   font-weight: 700;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_my_profile .con_my_profile .box_user_info .tit {
-    font-size: 125%;
+    font-size: 150%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .box_user_info .tit {
-    font-size: 94%;
+    font-size: 125%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -257,7 +257,7 @@
   display: flex;
   justify-content: space-between;
   margin: 8px 0 16px;
-  font-size: 88%;
+  font-size: 94%;
   font-weight: normal;
 }
 @media only screen and (max-width: 767px) {
@@ -297,24 +297,24 @@
   color: white;
   display: block;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 13px;
   border-radius: 8px;
-  font-size: 113%;
+  font-size: 100%;
   font-weight: normal;
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .btn_point a {
-    padding: 4%;
+    padding: 3%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   #con_page .wrp_my_profile .con_my_profile .btn_point a {
-    font-size: 113%;
+    font-size: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .btn_point a {
-    font-size: 88%;
+    font-size: 75%;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -358,38 +358,21 @@
   }
 }
 #con_page .con_menu .box_menu {
-  margin: 50px 0;
+  padding: 25px 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_menu .box_menu {
-    margin: 10% 0;
+    padding: 5% 0;
   }
 }
 #con_page .con_menu .box_menu dt {
-  font-size: 150%;
-  font-weight: 700;
-  margin-bottom: 8px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #a4a4a4;
-}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_menu .box_menu dt {
-    font-size: 125%;
-  }
+  font-weight: bold;
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_menu .box_menu dt {
-    font-size: 94%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_menu .box_menu dt {
-    margin-bottom: 5%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #con_page .con_menu .box_menu dt {
-    padding-bottom: 3%;
+    padding-bottom: 4%;
   }
 }
 #con_page .con_menu .box_menu dd {
@@ -397,7 +380,7 @@
   border-radius: 16px;
 }
 #con_page .con_menu .box_menu dd a {
-  padding: 16px;
+  padding: 24px 16px;
   font-size: 100%;
   font-weight: normal;
   display: flex;
@@ -446,10 +429,19 @@
   background-size: cover;
   opacity: 0.3;
 }
+#con_page .con_menu .box_menu.point {
+  padding: 25px 0 10px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu.point {
+    padding: 5% 0 3%;
+  }
+}
 #con_page .con_menu .box_menu.point .cp a {
   font-size: 150%;
   font-size: 175%;
   font-weight: 700;
+  padding: 8px 0;
   font-weight: bold;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -469,6 +461,41 @@
 }
 @media only screen and (max-width: 767px) {
   #con_page .con_menu .box_menu.point .cp a {
+    font-size: 125%;
+  }
+}
+#con_page .con_menu .box_menu.info {
+  padding: 25px 0;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu.info {
+    padding: 5% 0;
+  }
+}
+#con_page .con_menu .box_menu.info .cp a {
+  font-size: 150%;
+  font-size: 175%;
+  font-weight: 700;
+  padding: 8px 0;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu.info .cp a {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu.info .cp a {
+    font-size: 125%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .con_menu .box_menu.info .cp a {
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .con_menu .box_menu.info .cp a {
     font-size: 125%;
   }
 }

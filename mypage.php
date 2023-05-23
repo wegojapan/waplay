@@ -92,7 +92,7 @@
 
       <section class="con_menu">
         <dl class="box_menu point">
-          <dt class="tit">Point</dt>
+          <dt class="tit">ポイント</dt>
           <dd class="cp"><a href="#123"><strong>1,550</strong></a></dd>
         </dl>
         <dl class="box_menu play">
@@ -177,6 +177,9 @@
 
 
     </div>
+
+    <?php include_once('./inc/aside.php'); ?>
+
 
     <!-- <script src="./serviceWorker.js"></script> -->
     <script src="./js/common.js"></script>

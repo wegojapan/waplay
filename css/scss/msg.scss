@@ -116,7 +116,7 @@
 					.txt {text-decoration: underline;}
 				}
 				&:hover {
-					border-color: $gray;
+					border-color: $dk;
 				}
 			}
 			@include mq(pc_tab) {

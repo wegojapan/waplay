@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+  @include mq(sp) {
+    .logo {
+      display: none;
+    }
+    .p_tit {
+      display: block;
+    }
+    .box_gnav {
+      display: none;
+    }
+    .btn_back {
+      display: block;
+    }
+    .box_util {
+      .btn_alarm {display: none;}
+    }
+  }
+}
+
+#con_page {
+  display: block;
+}

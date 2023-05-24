@@ -5,7 +5,7 @@
   #header .logo {
     display: none;
   }
-  #header .p_tit.comm {
+  #header .p_tit {
     display: block;
     font-weight: bold;
   }

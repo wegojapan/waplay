@@ -153,6 +153,9 @@ li {
 #header .logo a {
   display: block;
 }
+#header .btn_back {
+  display: none;
+}
 #header .p_tit {
   font-size: 150%;
   font-weight: 700;
@@ -988,6 +991,175 @@ li {
     background-color: white;
   }
 }
+#con_page .wrp_play_list {
+  margin: 70px 5% 0 5%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_play_list {
+    margin: 8% 4% 0 4%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list {
+    margin: 11% 4% 0 4%;
+  }
+}
+#con_page .wrp_play_list .box_tit {
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0;
+  font-size: 150%;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .box_tit {
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_play_list .box_tit {
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .box_tit {
+    padding-right: 3%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_play_list .box_tit {
+    font-size: 125%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .box_tit {
+    font-size: 94%;
+  }
+}
+#con_page .wrp_play_list .box_tit .tit {
+  display: inline-block;
+  font-weight: 700;
+}
+#con_page .wrp_play_list .box_tit .more {
+  font-weight: normal;
+  font-size: 60%;
+  display: inline-flex;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_play_list .box_tit .more {
+    font-size: 70%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .box_tit .more {
+    font-size: 70%;
+  }
+}
+#con_page .wrp_play_list .box_tit .more:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  background: url(../imgs/common/ic/ic_next.svg) no-repeat center;
+  margin-left: 0.5em;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .box_tit .more:after {
+    margin-left: 0.3em;
+  }
+}
+#con_page .wrp_play_list .box_tit .st {
+  font-size: 0.8em;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li {
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li {
+    margin-left: 4%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li {
+    margin-bottom: 4%;
+  }
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a {
+  display: block;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a .cate {
+  font-weight: normal;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a .box_img {
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  background-color: gray;
+  width: 100%;
+  height: 120px;
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li a .box_img {
+    height: 25vw;
+  }
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a .box_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  image-rendering: optimizeSpeed;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt {
+  border-radius: 0 0 16px 16px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt {
+    padding: 5% 8%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt {
+    padding: 5% 8%;
+  }
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt span, #con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt small, #con_page .wrp_play_list .con_play_list .box_play_list li a .box_txt dl {
+  display: block;
+}
+#con_page .wrp_play_list .con_play_list .box_play_list li:first-child {
+  margin-left: 0;
+}
+@media only screen and (min-width: 768px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li:nth-child(3n+1) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #con_page .wrp_play_list .con_play_list .box_play_list li:nth-child(odd) {
+    margin-left: 0;
+  }
+}
 #con_page .con_slide_nav {
   margin: 0 0 5%;
   background-color: white;
@@ -1794,23 +1966,18 @@ li {
   padding-top: 0;
   padding-top: 50px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-  #con_page .con_fix_top + .wrp_slide_list.cate_nav {
-    padding-top: 0;
-  }
-}
 @media only screen and (max-width: 767px) {
   #con_page .con_fix_top + .wrp_slide_list.cate_nav {
     padding-top: 0;
   }
 }
 @media only screen and (min-width: 1200px) {
-  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
+  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .wrp_play_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
     max-width: 970px;
   }
 }
 @media print {
-  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
+  #con_page .wrp_slide_list, #con_page .con_wrd_list, #con_page .wrp_play_list, #con_page .con_slide_hot, #con_page .con_story, #con_page .con_bn {
     max-width: 970px;
   }
 }
@@ -1842,7 +2009,7 @@ li {
   height: 100vh;
   background-color: white;
   z-index: 100;
-  transition: right 0.75s ease;
+  transition: right 0.5s ease;
   box-sizing: border-box;
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {

@@ -1,13 +1,12 @@
 <header id="header">
     <p class="logo">
-        <a href="<?=DIR?>">
+        <a href="style_guide.php">
             <img class="logo_waplay" src="./imgs/common/waplay.svg" alt="waplay">
             <img class="view_tab" src="./imgs/icons/icon-512x512.png" alt="waplay">
         </a>
     </p>
-    <h1 class="p_tit comm">コミュニティー</h1>
-    <h1 class="p_tit msg">メッセージ</h1>
-    <h1 class="p_tit mypage">マイページ</h1>
+    <p class="btn_back"><a href="./"><img src="./imgs/common/ic/ic_back.svg" alt=""></a></p>
+    <h1 class="p_tit">コミュニティー</h1>
     <ui class="box_gnav">
         <li class="home">
             <a href="index.php">
@@ -30,14 +29,13 @@
         <li class="btn_play view_sp"><a href="#123">
             <img src="./imgs/common/ic/ic_compass.svg" alt="icon">
         </a></li>
-
     </ui>
     <div class="box_util">
         <ul class="box_icons">
-            <li><a href="#123">
+            <li class="btn_search"><a href="#123">
                 <p class="btn_icon view_sp"><img src="./imgs/common/ic/ic_search.svg" alt=""></p>
             </a</li>
-            <li><a href="#123">
+            <li class="btn_alarm"><a href="#123">
                 <p class="btn_icon btn_bell view_sp"><img src="./imgs/common/ic/ic_bell.svg" alt=""></p>
             </a></li>
             <li class="setting view_pc-tab">

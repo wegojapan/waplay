@@ -151,7 +151,7 @@
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
+                <a href="wrd_cate_list.php"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
               </p>
               <small class="txt">アルバイト</small>
           </li>

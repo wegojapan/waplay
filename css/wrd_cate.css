@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+  #header .logo {
+    display: none;
+  }
+  #header .p_tit {
+    display: block;
+  }
+  #header .box_gnav {
+    display: none;
+  }
+  #header .btn_back {
+    display: block;
+  }
+  #header .box_util .btn_alarm {
+    display: none;
+  }
+}
+
+#con_page {
+  display: block;
+}

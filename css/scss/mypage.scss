@@ -172,7 +172,7 @@
 	.con_menu {
 		@include layout_normal;
 		.box_menu {
-			@include cV(padding, 25px 0, 5% 0);
+			@include cV(padding, 25px 0, 8% 0, 8% 0);
 			border-bottom: 1px solid $lightGray;
 			dt {
 				@include cV(padding-bottom, 16px, 4%);
@@ -211,12 +211,11 @@
 				.cp a {
 					@include fsz-cha(24,24,20);
 					@include tit_xl;
-					padding:  8px 0;
+					@include cV(padding, 16px, 1% 0, 2% 0);
 					font-weight: bold;
 				}
 			}
 			&.info {
-				@include cV(padding, 25px 0, 5% 0);
 				.cp a {
 					@include fsz-cha(24,24,20);
 					@include tit_xl;

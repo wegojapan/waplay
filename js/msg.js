@@ -2,20 +2,8 @@
 ------------------------------------------------------------------------*/
 document.addEventListener("DOMContentLoaded", function(e) {
 
-  pageTit.innerHTML = 'コミュニティー';
-  pageTitM.innerHTML = 'コミュニティー';
-
-
-    
+    pageTit.innerHTML = 'メッセージ';
+    pageTitM.innerHTML = 'メッセージ';
 
 
 });
-
-
-
-
-
-
-
-
-

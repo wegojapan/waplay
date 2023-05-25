@@ -1,12 +1,12 @@
 <header id="header">
     <p class="logo">
-        <a href="style_guide.php">
-            <img class="logo_waplay" src="./imgs/common/waplay.svg" alt="waplay">
-            <img class="view_tab" src="./imgs/icons/icon-512x512.png" alt="waplay">
+        <a href="/waplay.jp">
+            <img class="logo_waplay" src="/waplay.jp/imgs/common/waplay.svg" alt="waplay">
+            <img class="view_tab" src="/waplay.jp/imgs/icons/icon-512x512.png" alt="waplay">
         </a>
     </p>
-    <p class="btn_back"><a href="./"><img src="./imgs/common/ic/ic_back.svg" alt=""></a></p>
-    <h1 class="p_tit">コミュニティー</h1>
+    <p class="btn_back"><a href="/waplay.jp/"><img src="/waplay.jp/imgs/common/ic/ic_back.svg" alt=""></a></p>
+    <h1 class="p_tit"></h1>
     <ui class="box_gnav">
         <li class="home">
             <a href="index.php">
@@ -15,32 +15,32 @@
             </a>
         </li>
         <li class="comm"><a href="comm.php">
-            <span><img src="./imgs/common/ic/ic_comm.svg" alt="icon"></span>
+            <span><img src="/waplay.jp/imgs/common/ic/ic_comm.svg" alt="icon"></span>
             <em>コミュニティー</em>
         </a></li>
         <li class="msg"><a href="msg.php">
-            <span><img src="./imgs/common/ic/ic_msg.svg" alt="icon"></span>
+            <span><img src="/waplay.jp/imgs/common/ic/ic_msg.svg" alt="icon"></span>
             <em>メッセージ</em>
         </a></li>
         <li class="mypage"><a href="mypage.php">
-            <span><img src="./imgs/common/ic/ic_user.svg" alt="icon"></span>
+            <span><img src="/waplay.jp/imgs/common/ic/ic_user.svg" alt="icon"></span>
             <em>マイページ</em>
         </a></li>
         <li class="btn_play view_sp"><a href="#123">
-            <img src="./imgs/common/ic/ic_compass.svg" alt="icon">
+            <img src="/waplay.jp/imgs/common/ic/ic_compass.svg" alt="icon">
         </a></li>
     </ui>
     <div class="box_util">
         <ul class="box_icons">
             <li class="btn_search"><a href="#123">
-                <p class="btn_icon view_sp"><img src="./imgs/common/ic/ic_search.svg" alt=""></p>
+                <p class="btn_icon view_sp"><img src="/waplay.jp/imgs/common/ic/ic_search.svg" alt=""></p>
             </a</li>
             <li class="btn_alarm"><a href="#123">
-                <p class="btn_icon btn_bell view_sp"><img src="./imgs/common/ic/ic_bell.svg" alt=""></p>
+                <p class="btn_icon btn_bell view_sp"><img src="/waplay.jp/imgs/common/ic/ic_bell.svg" alt=""></p>
             </a></li>
             <li class="setting view_pc-tab">
                 <a href="#123">
-                    <span><img src="./imgs/common/ic/ic_settings.svg" alt="icon"></span>
+                    <span><img src="/waplay.jp/imgs/common/ic/ic_settings.svg" alt="icon"></span>
                     <em class="view_pc">セッティング</em>
                 </a>
             </li>

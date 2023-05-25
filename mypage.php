@@ -42,7 +42,7 @@
             <div class="box_stat">
               <i><img src="./imgs/common/ic/ic_md_bronze.svg" alt=""></i>
               <span class="bronze">Bronze</span>
-              <span class="box_lv">Level <em class="lv_now">13</em></span>
+              <span class="box_lv">Level <em class="lv_now">1</em></span>
             </div>
             <h2 class="tit">WEGO JAPAN</h2>
             <dl class="box_info">

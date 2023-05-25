@@ -23,4 +23,19 @@
 
 #con_page {
   display: block;
+  .wrp_play_list {
+    @include cV(background-color, white, $bgGray);
+    @include mq(sp) {
+      margin: 0;
+      padding: 11% 4% 10% 4%;
+    }
+	}
+  .con_details {
+    .box_tit {
+      @include cV(margin-bottom, 50px, 10%);
+    }
+
+  }
+
+
 }

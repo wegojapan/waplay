@@ -49,57 +49,46 @@
               </div>
             </a>
           </li>
-          <li>
-            <a href="#123">
-              <div class="box_bn">
-                <div class="box_txt">
-                  <span>インフルエンサー広告高いな...</span>
-                  <strong>でも、プレイすれば安い！</strong>
-                </div>
-                <div class="box_img"><img src="./imgs/bn/bn_object_02.png" alt=""></div>
-              </div>
-            </a>
-          </li>
         </div>
-        <div class="slider-count"></div>
+        <!--<div class="slider-count"></div>-->
       </section>
 
       <section class="wrp_slide_list recent">
         <h2 class="box_tit">
-          <span class="tit">最近進行したプレー</span>
+          <span class="st">最近進行したプレー</span>
           <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li><a href="#123">
+            <li class="play_card svc_pt_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店</span>
                 <small class="p_wrd">バイト</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_home_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="원룸/소형이사"></p>
               <p class="box_txt">
                 <span class="p_name">簡便引越し</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_car_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
               <p class="box_txt">
                 <span class="p_name">車検</span>
                 <small class="p_wrd">くるま</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_lesson_03"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_lesson_03.jpg" alt="골프레슨"></p>
               <p class="box_txt">
                 <span class="p_name">ゴルフレッスン</span>
                 <small class="p_wrd">レッスン</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_op_04"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_04.jpg" alt="피트니스"></p>
               <p class="box_txt">
                 <span class="p_name">フィットネス</span>
@@ -111,7 +100,7 @@
       </section>
 
       <section class="con_wrd_list">
-        <h2 class="box_tit"><span class="tit">人気プレイワールド</span></h2>
+        <h2 class="box_tit"><span class="st">人気プレイワールド</span></h2>
         <ul class="box_wrd_list">
           <li>
               <p class="icon">
@@ -151,7 +140,7 @@
           </li>
           <li>
               <p class="icon">
-                <a href="wrd_cate_list.php"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
+                <a href="service/part-time"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
               </p>
               <small class="txt">アルバイト</small>
           </li>
@@ -166,40 +155,40 @@
 
       <section class="wrp_slide_list rec">
         <h2 class="box_tit">
-          <span class="tit">今月のおすすめプレー</span>
+          <span class="st">今月のおすすめプレー</span>
           <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li><a href="#123">
+            <li class="play_card svc_home_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="웜룸/소형이사"></p>
               <p class="box_txt">
                 <span class="p_name">簡便引越し</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_home_05"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_05.jpg" alt="에어콘 청소"></p>
               <p class="box_txt">
                 <span class="p_name">エアコンクリニック</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_home_03"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_home_03.jpg" alt="해충 방역"></p>
               <p class="box_txt">
                 <span class="p_name">害虫駆除・害獣駆除</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_car_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
               <p class="box_txt">
                 <span class="p_name">車検</span>
                 <small class="p_wrd">くるま</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_inte_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_inte_01.jpg" alt="홈인테리어"></p>
               <p class="box_txt">
                 <span class="p_name">ホームインテリア</span>
@@ -212,40 +201,40 @@
 
       <section class="wrp_slide_list open">
         <h2 class="box_tit">
-          <span class="tit">OPEN PLAY 募集中</span>
+          <span class="st">OPEN PLAY 募集中</span>
           <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li><a href="#123">
+            <li class="play_card svc_op_01"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">居酒屋オフ会</span>
                 <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_op_07"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">おしゃべりオフ会</span>
                 <small class="p_member"><em class="c-num">110</em>件プレイ中</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_op_02"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">焼き鳥オフ会</span>
                 <small class="p_member"><em class="c-num">526</em>件プレイ中</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_op_05"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_05.jpg" alt="이자카야 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">コスプレオフ会</span>
                 <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
-            <li><a href="#123">
+            <li class="play_card svc_op_06"><a href="#123">
               <p class="box_img"><img src="./imgs/common/svc/svc_op_06.jpg" alt="야끼토리 오프카이"></p>
               <p class="box_txt">
                 <span class="p_name">ミュージカルオフ会</span>
@@ -258,7 +247,7 @@
 
       <section class="con_slide_hot">
         <h2 class="box_tit">
-          <span class="tit">最近の人気プレイヤー</span>
+          <span class="st">最近の人気プレイヤー</span>
           <small class="more"><a href="#123">すべて見る</a></small>
         </h2>
         <div class="box_list">
@@ -612,7 +601,7 @@
 
       <section class="wrp_slide_list comm">
         <h2 class="box_tit">
-          <span class="tit">コミュニティで話そう</span>
+          <span class="st">コミュニティで話そう</span>
           <small class="more"><a href="comm.php">すべて見る</a></small>
         </h2>
         <div class="con_slide_list">
@@ -686,11 +675,11 @@
 
       <section class="con_story">
         <h2 class="box_tit">
-          <span class="tit">プレイストーリー</span>
+          <span class="st">プレイストーリー</span>
         </h2>
         <div class="box_story">
           <ul class="story_list">
-            <li>
+            <li class="svc_home_00">
               <a href="#123">
                 <div class="tit">
                   <small class="stxt">2024年新しいスタート</small>
@@ -699,7 +688,7 @@
                 <p class="img"><img src="./imgs/story/img_story_01.jpg" alt=""></p>
               </a>
             </li>
-            <li>
+            <li class="svc_lesson_00">
               <a href="#123">
                 <div class="tit">
                   <small class="stxt">勉強も楽しく！</small>
@@ -708,7 +697,7 @@
                 <p class="img"><img src="./imgs/story/img_story_02.jpg" alt=""></p>
               </a>
             </li>
-            <li>
+            <li class="svc_car_01">
               <a href="#123">
                 <div class="tit">
                   <small class="stxt">心配な車検</small>
@@ -717,7 +706,7 @@
                 <p class="img"><img src="./imgs/story/img_story_03.jpg" alt=""></p>
               </a>
             </li>
-            <li>
+            <li class="contact">
               <a href="#123">
                 <div class="tit">
                   <small class="stxt">ワプレーに望む</small>

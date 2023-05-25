@@ -45,7 +45,7 @@
 			background-color: white;
 			box-sizing: border-box;
 			@include cV(border-radius, 0, 16px);
-			@include cV(padding, 20px, 4%);
+			@include cV(padding, 20px 0, 4%);
 			@include cV(margin-bottom, 16px, 3%);
 			border-bottom: 1px solid $lightGray;
 			.wrp_profile {

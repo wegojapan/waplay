@@ -43,8 +43,8 @@
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li class="active"><a href="#123">すべて</a></li>
-            <li><a href="comm_cate_01.php">アニメ/マンガ</a></li>
+            <li><a href="comm.php">すべて</a></li>
+            <li class="active"><a href="#123">アニメ/マンガ</a></li>
             <li><a href="#123">ゲーム</a></li>
             <li><a href="#123">料理/飲食</a></li>
             <li><a href="#123">旅行/観光</a></li>
@@ -56,96 +56,7 @@
           </ul>
         </div>
       </section>
-      
-      <section class="wrp_slide_list comm">
-        <h2 class="box_tit">
-          <span class="st">今人気の掲示物</span>
-        </h2>
-        <div class="con_slide_list">
-          <ul class="box_slide_list">
-          <li><a href="#123">
-              <h3 class="cate">お知らせ</h3>
-              <p class="txt">ワプレーコミュニティ利用ガイド</p>
-              <div class="box_util">
-                <p class="logo"><img src="./imgs/common/waplay_wh.svg" alt="waplay"></p>
-              </div>
-            </a></li>
-            <li><a href="#123">
-              <h3 class="cate">アニメ</h3>
-              <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ新しいアニメが欲しいです。誰かおしえてくれ</p>
-              <div class="box_util">
-                <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
-                  <span>29</span>
-                </p>
-                <p class="comment">
-                <i class="fa-solid fa-comment-dots"></i>
-                  <span>6</span>
-                </p>
-              </div>
-            </a></li>
-            <li><a href="#123">
-              <h3 class="cate">ゲーム</h3>
-              <p class="txt">おすすめのゲームないのかな</p>
-              <div class="box_util">
-                <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
-                  <span>29</span>
-                </p>
-                <p class="comment">
-                <i class="fa-solid fa-comment-dots"></i>
-                  <span>6</span>
-                </p>
-              </div>
-            </a></li>
-            <li><a href="#123">
-              <h3 class="cate">恋愛/結婚</h3>
-              <p class="txt">共働き嫁に食材送るお母さん</p>
-              <div class="box_util">
-                <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
-                  <span>29</span>
-                </p>
-                <p class="comment">
-                <i class="fa-solid fa-comment-dots"></i>
-                  <span>6</span>
-                </p>
-              </div>
-            </a></li>
-            <li><a href="#123">
-              <h3 class="cate">料理/飲食</h3>
-              <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
-              <div class="box_util">
-                <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
-                  <span>29</span>
-                </p>
-                <p class="comment">
-                <i class="fa-solid fa-comment-dots"></i>
-                  <span>6</span>
-                </p>
-              </div>
-            </a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="con_bn">
-        <div class="slider">
-          <li>
-            <a href="#123">
-              <div class="box_bn">
-                <div class="box_txt">
-                  <span>ゴルフ専門スキンケアブランド</span>
-                  <strong>VIVUS GOLF</strong>
-                </div>
-                <div class="box_img"><img src="./imgs/bn/bn_object_03.png" alt=""></div>
-              </div>
-            </a>
-          </li>
-        </div>
-      </section>
-
+    
 
       <section class="con_post">
         <article class="box_post">

@@ -405,6 +405,9 @@ li {list-style-type: none;}
 		@include layout_flow;
 		.box_tit {
 			@include main_tit;
+			.st {
+				@include cV(font-size, 0.9em, 1em, 1em);
+			}
 		}
 		.con_slide_list {
 			.box_slide_list {
@@ -438,7 +441,7 @@ li {list-style-type: none;}
 							border-radius: 0 0 16px 16px;
 							box-sizing: border-box;
 							border: 1px solid $lightGray;
-							@include cV(padding, 8%, 5% 8%, 5% 8%);
+							@include cV(padding, 8px 16px, 5% 8%, 5% 8%);
 							span, small, dl {display: block;}
 						}
 					}
@@ -487,7 +490,6 @@ li {list-style-type: none;}
 							border-color: black;
 						}
 					}
-					
 				}
 				@include mq(tab_sp) {
 					overflow-x: auto;
@@ -559,6 +561,7 @@ li {list-style-type: none;}
 			z-index: 10;
 			.box_tit {
 				@include cV(margin-bottom, 20px, 3%);
+				@include tit_xl;
 			}
 			.con_slide_list {
 				.box_slide_list {
@@ -592,7 +595,7 @@ li {list-style-type: none;}
 		.box_tit {
 			@include main_tit;
 			.st {
-				font-size: 0.8em;
+				@include cV(font-size, 0.8em, 1em, 1em);
 			}
 			
 		}
@@ -631,6 +634,7 @@ li {list-style-type: none;}
 							border-radius: 0 0 16px 16px;
 							box-sizing: border-box;
 							border: 1px solid $lightGray;
+							background-color: white;
 							@include cV(padding, 16px, 5% 8%, 5% 8%);
 							span, small, dl {display: block;}
 						}
@@ -673,7 +677,6 @@ li {list-style-type: none;}
 					&:last-child {
 						@include cV(margin-right, 0, 5%, 5%);
 					}
-
 				}
 			}
 		}
@@ -684,6 +687,9 @@ li {list-style-type: none;}
 		@include layout_normal;
 		.box_tit {
 			@include main_tit;
+			.st {
+				@include cV(font-size, 0.9em, 1em, 1em);
+			}
 		}
 		.box_wrd_list {
 			display: flex;
@@ -735,6 +741,9 @@ li {list-style-type: none;}
 		@include layout_flow;
 		.box_tit {
 			@include main_tit;
+			.st {
+				@include cV(font-size, 0.9em, 1em, 1em);
+			}
 		}
 		.box_list {
 			ul {
@@ -757,6 +766,9 @@ li {list-style-type: none;}
 		@include layout_normal;
 		.box_tit {
 			@include main_tit;
+			.st {
+				@include cV(font-size, 0.9em, 1em, 1em);
+			}
 		}
 		.box_story {
 			.story_list {
@@ -882,8 +894,6 @@ li {list-style-type: none;}
 		}
 	}
 
-
-
 	// con_fix_top
 	.con_fix_top {
 		display: flex;
@@ -950,7 +960,6 @@ li {list-style-type: none;}
 	}
 
 
-
 	// profile set
 	.profile_set {
 		display: flex;
@@ -990,6 +999,7 @@ li {list-style-type: none;}
 			}
 			dd {
 				color: $dkGray;
+				line-height: 1;
 				small {
 					display: inline-block;
 					&:before {
@@ -1014,6 +1024,39 @@ li {list-style-type: none;}
 		border-radius: 50%;
 		@include cV(margin-left, 4px, 0.5em);
 	}
+
+	// con_menu_list
+	.con_menu_list {
+		@include layout_normal;
+		.box_tit {
+			@include main_tit;
+			.st {
+				@include cV(font-size, 0.8em, 1em, 1em);
+			}
+		}
+		.box_menu_list {
+			.box_menu {
+				@include cV(margin, 50px 0, 8% 0, 10% 0);
+				.cate {
+					@include txt_l;
+					font-weight: bold;
+					border-bottom: 1px solid black;
+					@include cV(padding-bottom, 8px, 3%, 3%);
+				}
+				ul {
+					li {
+						a {
+							@include txt_m;
+							border-bottom: 1px solid $lightGray;
+							display: block;
+							@include cV(padding, 16px, 3% 0, 4% 0);
+						}
+					}
+				}
+			}
+		}
+	}
+
 
 
 
@@ -1042,6 +1085,9 @@ li {list-style-type: none;}
 	.con_fix_top + .con_bn {
 		@include cV(margin-top, 50px, 5%);
 	}
+	.con_bn + .wrp_slide_list {
+		@include cV(padding-top, 50px, 8%);
+	}
 	.con_fix_top + .con_my_profile, .con_fix_top + .wrp_slide_list {
 		@include cV(padding-top, 50px, 5%);
 	}
@@ -1054,7 +1100,7 @@ li {list-style-type: none;}
 
 
 	@include mq(pc) {
-		.wrp_slide_list, .con_wrd_list, .wrp_play_list, .con_slide_hot, .con_story, .con_bn {
+		.wrp_slide_list, .con_wrd_list, .wrp_play_list, .con_slide_hot, .con_story, .con_details, .con_bn, .con_menu_list {
 			max-width: 970px;
 		}
 	}
@@ -1077,7 +1123,6 @@ li {list-style-type: none;}
 }
 
 // aside part
-
 .con_alarm {
 	position: fixed;
 	top: 0;
@@ -1191,6 +1236,18 @@ li {list-style-type: none;}
 	@include mq(pc_tab) {
 		border-left: 1px solid $lightGray;
 	}
+}
+
+.wrp_play_step {
+	display: block;
+	width: 40%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	background-color: white;
+	border-left: 1px solid $lightGray;
 }
 
 

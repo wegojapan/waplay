@@ -57,6 +57,9 @@ body ::-webkit-scrollbar {
 
 input, select, textarea {
   font-size: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 html.ie8 .view_tab,
@@ -2154,6 +2157,9 @@ li {
 #con_page .progress {
   position: relative;
   overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 #con_page .progress::-webkit-progress-bar {
   background-color: #e6e6e6;

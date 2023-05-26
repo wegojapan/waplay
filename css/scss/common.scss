@@ -42,6 +42,9 @@ body {
 
 input, select, textarea {
 	font-size: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 select {
 	@include mq(sp) {
@@ -1061,6 +1064,10 @@ li {list-style-type: none;}
 	.progress {
 		position: relative;
 		overflow: hidden;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	
 		&::-webkit-progress-bar {
 			background-color: $lightGray;
 			transition:  width 0.5s ease-in-out;

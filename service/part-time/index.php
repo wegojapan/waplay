@@ -5,6 +5,7 @@
     <title>ワプレー｜勉強も仕事も遊ぶのもすべてプレイだ！。人と人をつなぐ、われらのプレー</title>
 
     <!-- gtag 삽입 예정 -->
+    <?php include_once('../../config/config.php'); ?>
     <?php include_once('../../config/meta.php'); ?>
     <link rel="stylesheet" href="../../css/common.min.css"/>
     <link rel="stylesheet" href="../../css/service.min.css"/>
@@ -126,9 +127,7 @@
 
     <!-- <script src="./serviceWorker.js"></script> -->
     <script src="../../js/common.js"></script>
-    <script src="../../js/wrd_pt.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../../js/service.js"></script>
 
   </body>
 </html>

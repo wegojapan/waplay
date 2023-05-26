@@ -30,6 +30,9 @@
 #con_page {
   display: block;
 }
+#con_page .service_form_main {
+  box-sizing: border-box;
+}
 #con_page .service_form_main .box_img {
   position: relative;
   z-index: 1;
@@ -248,11 +251,12 @@
 }
 #con_page .service_form_main .con_request_form {
   max-width: 970px;
+  box-sizing: border-box;
   padding: 3%;
 }
 @media only screen and (max-width: 767px) {
   #con_page .service_form_main .con_request_form {
-    padding: 5%;
+    padding: 5% 0;
   }
 }
 #con_page .service_form_main .con_request_form .box_progress_bar {

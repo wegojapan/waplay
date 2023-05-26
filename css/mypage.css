@@ -292,9 +292,7 @@
   width: 100%;
 }
 #con_page .wrp_my_profile .con_my_profile .btn_point a {
-  background-color: #5726cb;
   text-align: center;
-  color: white;
   display: block;
   box-sizing: border-box;
   padding: 13px;
@@ -315,16 +313,6 @@
 @media only screen and (max-width: 767px) {
   #con_page .wrp_my_profile .con_my_profile .btn_point a {
     font-size: 75%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  #con_page .wrp_my_profile .con_my_profile .btn_point a:hover {
-    background-color: #4e22b6;
-  }
-}
-@media print {
-  #con_page .wrp_my_profile .con_my_profile .btn_point a:hover {
-    background-color: #4e22b6;
   }
 }
 #con_page .con_bn {

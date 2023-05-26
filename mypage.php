@@ -58,9 +58,9 @@
             <p class="img"><img src="./imgs/user/user_01.jpg" alt=""></p>
             <p class="ic"><i class="fa-solid fa-camera"></i></p>
           </div>
-          <div class="box_exp">
-            <div class="exp_bar">
-              <p class="exp"></p>
+          <div class="box_progress box_exp">
+            <div class="progress_bar exp_bar">
+              <p class="progress_value exp"></p>
             </div>
             <div class="txt">
               <span class="lv_current">Level<strong class="lv_now">1</strong></span>

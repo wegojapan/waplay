@@ -142,20 +142,12 @@
 			.btn_point {
 				width: 100%;
 				a {
-					background-color: $pointColor;
 					text-align: center;
-					color: white;
 					display: block;
 					box-sizing: border-box;
 					@include cV(padding, 13px, 3%);
 					border-radius: 8px;
 					@include txt_m;
-					
-				}
-				@include mq(pc) {
-					a:hover {
-						background-color: darken( $pointColor, 5%);
-					}
 				}
 			}
 		}

@@ -1057,11 +1057,108 @@ li {list-style-type: none;}
 		}
 	}
 
+	// progress custom
+	.progress {
+		position: relative;
+		overflow: hidden;
+		&::-webkit-progress-bar {
+			background-color: $lightGray;
+			transition:  width 0.5s ease-in-out;
+			border-radius: 100px;
+			height: 8px;
+		}
+		&::-webkit-progress-value {
+			background-color: $pointColor;
+			transition:  width 0.5s ease-in-out;
+			border-radius: 100px;
+			height: 8px;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: $pointColor;
+			transition: width 0.5s ease-in-out;
+		}
+	}
 
 
-
-
-
+	// Checkbox Button
+	input[type="checkbox"] {
+		display: none;
+		+ label {
+		  position: relative;
+		  padding-left: 25px;
+		  cursor: pointer;
+		  &::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 18px;
+			height: 18px;
+			border: 2px solid $pointColor;
+			background-color: #fff;
+		  }
+	  
+		  &::after {
+			content: "";
+			position: absolute;
+			left: 7px;
+			top: 7px;
+			width: 8px;
+			height: 8px;
+			background-color: $pointColor;
+			opacity: 0;
+		  }
+		}
+	  
+		&:checked + label::after {
+		  opacity: 1;
+		}
+	}
+	  
+	// Radio Button
+	input[type="radio"] {
+	display: none;
+	
+	+ label {
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	
+		&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		border: 2px solid $pointColor;
+		background-color: #fff;
+		}
+	
+		&::after {
+		content: "";
+		position: absolute;
+		left: 7px;
+		top: 7px;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background-color: $pointColor;
+		opacity: 0;
+		}
+	}
+	
+	&:checked + label::after {
+		opacity: 1;
+	}
+	}
 
 
 	// btn style
@@ -1079,6 +1176,18 @@ li {list-style-type: none;}
 			font-size: 90%;
 			margin-left: 8px;
 		  }
+		}
+	}
+
+	.btn_point {
+		a {
+			background-color: $pointColor;
+			color: white;
+		}
+		@include mq(pc) {
+			a:hover {
+				background-color: darken( $pointColor, 5%);
+			}
 		}
 	}
 
@@ -1100,7 +1209,7 @@ li {list-style-type: none;}
 
 
 	@include mq(pc) {
-		.wrp_slide_list, .con_wrd_list, .wrp_play_list, .con_slide_hot, .con_story, .con_details, .con_bn, .con_menu_list {
+		.wrp_slide_list, .con_wrd_list, .wrp_play_list, .con_slide_hot, .con_story, .con_details, .con_bn, .con_menu_list, .service_form {
 			max-width: 970px;
 		}
 	}
@@ -1292,3 +1401,4 @@ h1.p_tit {
 		}
 	}
 }
+

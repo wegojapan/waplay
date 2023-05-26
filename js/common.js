@@ -27,3 +27,23 @@ const gnavBtnPlay = document.querySelector(".box_gnav .btn_play");
 //Sub page Title target
 const pageTit = document.querySelector("h2.box_tit .tit");
 const pageTitM = document.querySelector("#header h1.p_tit");
+
+
+// Open modal scroll block
+
+function openModal() {
+	const modal = document.getElementById("myModal");
+	modal.style.display = "block";
+	window.addEventListener("scroll", preventScroll);
+}
+  
+  function closeModal(event) {
+	const modal = document.getElementById("myModal");
+	modal.style.display = "none";
+	window.removeEventListener("scroll", preventScroll);
+}
+
+function preventScroll(event) {
+	event.preventDefault(); 
+	window.scroll(0, 0); 
+}

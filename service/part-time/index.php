@@ -8,7 +8,7 @@
     <?php include_once('../../config/config.php'); ?>
     <?php include_once('../../config/meta.php'); ?>
     <link rel="stylesheet" href="../../css/common.min.css"/>
-    <link rel="stylesheet" href="../../css/wrd_cate.min.css"/>
+    <link rel="stylesheet" href="../../css/service.min.css"/>
     <link rel="manifest" href="../../manifest.json">
   </head>
     
@@ -16,7 +16,7 @@
     <?php include_once('../../inc/header.php'); ?>
     <div id="con_page">
       <div class="con_fix_top view_pc-tab">
-        <p class="btn_back"><a href="./"><img src="/waplay.jp/imgs/common/ic/ic_back.svg" alt=""></a></p>
+        <p class="btn_back"><a href="/waplay.jp/"><img src="/waplay.jp/imgs/common/ic/ic_back.svg" alt=""></a></p>
         <div class="box_search">
           <input type="search" list="suggestions" placeholder="search">
           <datalist id="suggestions">
@@ -56,7 +56,7 @@
         </h2>
         <div class="con_play_list">
           <ul class="box_play_list">
-            <li class="play_card svc_pt_01_01"><a href="#123">
+            <li class="play_card svc_pt_01_01"><a href="/waplay.jp/service/part-time/yakiniku">
               <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店バイト</span>
@@ -119,11 +119,10 @@
           </div>
         </div>
       </section>
-
-
     </div>
 
     <?php include_once('../../inc/aside.php'); ?>
+    
 
 
     <!-- <script src="./serviceWorker.js"></script> -->

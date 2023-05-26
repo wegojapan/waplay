@@ -60,7 +60,7 @@
         </h2>
         <div class="con_slide_list">
           <ul class="box_slide_list">
-            <li class="play_card svc_pt_01"><a href="#123">
+            <li class="play_card svc_pt_01"><a href="/waplay.jp/service/part-time/yakiniku">
               <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店</span>

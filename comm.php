@@ -30,8 +30,8 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
@@ -67,7 +67,7 @@
               <h3 class="cate">お知らせ</h3>
               <p class="txt">ワプレーコミュニティ利用ガイド</p>
               <div class="box_util">
-                <p class="logo"><img src="./imgs/common/waplay_wh.svg" alt="waplay"></p>
+                <p class="logo"><img src="<?=DIR?>/imgs/common/waplay_wh.svg" alt="waplay"></p>
               </div>
             </a></li>
             <li><a href="#123">
@@ -139,7 +139,7 @@
                   <span>ゴルフ専門スキンケアブランド</span>
                   <strong>VIVUS GOLF</strong>
                 </div>
-                <div class="box_img"><img src="./imgs/bn/bn_object_03.png" alt=""></div>
+                <div class="box_img"><img src="<?=DIR?>/imgs/bn/bn_object_03.png" alt=""></div>
               </div>
             </a>
           </li>
@@ -152,8 +152,8 @@
           <div class="wrp_profile">
             <div class="profile_set">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/user_08.jpg" alt="user"></p>
+                <p class="ic_md"><img src="<?=DIR?>/imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -190,8 +190,8 @@
           <div class="wrp_profile">
             <div class="profile_set">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/user_09.jpg" alt="user"></p>
+                <p class="ic_md"><img src="<?=DIR?>/imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -229,7 +229,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -267,7 +267,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -305,7 +305,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>

@@ -30,8 +30,8 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
@@ -40,7 +40,7 @@
         <div class="con_my_profile">
           <div class="box_user_info">
             <div class="box_stat">
-              <i><img src="./imgs/common/ic/ic_md_bronze.svg" alt=""></i>
+              <i><img src="<?=DIR?>/imgs/common/ic/ic_md_bronze.svg" alt=""></i>
               <span class="bronze">Bronze</span>
               <span class="box_lv">Level <em class="lv_now">1</em></span>
             </div>
@@ -55,7 +55,7 @@
             </dl>
           </div>
           <div class="box_pic">
-            <p class="img"><img src="./imgs/user/user_01.jpg" alt=""></p>
+            <p class="img"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></p>
             <p class="ic"><i class="fa-solid fa-camera"></i></p>
           </div>
           <div class="box_progress box_exp">
@@ -83,7 +83,7 @@
                   <strong>簡単プレイヤー登録</strong>
                   <span>簡単な入力でプレイヤー活動を開始できます。</span>
                 </div>
-                <div class="box_img"><img src="./imgs/bn/bn_object_player.png" alt=""></div>
+                <div class="box_img"><img src="<?=DIR?>/imgs/bn/bn_object_player.png" alt=""></div>
               </div>
             </a>
           </li>
@@ -100,7 +100,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_checklist.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_checklist.svg" alt=""></i>
                 <span class="st">プレイ一覧</span>
               </div>
             </a>
@@ -108,7 +108,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_heart.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_heart.svg" alt=""></i>
                 <span class="st">好きなプレー</span>
               </div>
             </a>
@@ -116,7 +116,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_talk.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_talk.svg" alt=""></i>
                 <span class="st">作成文 / コメント</span>
               </div>
             </a>
@@ -124,7 +124,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_ban.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_ban.svg" alt=""></i>
                 <span class="st">遮断されたプレイヤー</span>
               </div>
             </a>
@@ -135,7 +135,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_user_lt.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_user_lt.svg" alt=""></i>
                 <span class="st">個人情報</span>
               </div>
             </a>
@@ -143,7 +143,7 @@
           <dd>
             <a href="#123">
               <div class="box_st">
-                <i><img src="./imgs/common/ic/ic_settings.svg" alt=""></i>
+                <i><img src="<?=DIR?>/imgs/common/ic/ic_settings.svg" alt=""></i>
                 <span class="st">設定</span>
               </div>
             </a>

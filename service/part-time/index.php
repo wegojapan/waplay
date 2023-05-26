@@ -5,7 +5,6 @@
     <title>ワプレー｜勉強も仕事も遊ぶのもすべてプレイだ！。人と人をつなぐ、われらのプレー</title>
 
     <!-- gtag 삽입 예정 -->
-    <?php include_once('../../config/config.php'); ?>
     <?php include_once('../../config/meta.php'); ?>
     <link rel="stylesheet" href="../../css/common.min.css"/>
     <link rel="stylesheet" href="../../css/service.min.css"/>
@@ -16,7 +15,7 @@
     <?php include_once('../../inc/header.php'); ?>
     <div id="con_page">
       <div class="con_fix_top view_pc-tab">
-        <p class="btn_back"><a href="/waplay.jp/"><img src="/waplay.jp/imgs/common/ic/ic_back.svg" alt=""></a></p>
+        <p class="btn_back"><a href="<?=DIR?>"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
         <div class="box_search">
           <input type="search" list="suggestions" placeholder="search">
           <datalist id="suggestions">
@@ -27,8 +26,8 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="/waplay.jp/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="/waplay.jp/imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
@@ -56,38 +55,38 @@
         </h2>
         <div class="con_play_list">
           <ul class="box_play_list">
-            <li class="play_card svc_pt_01_01"><a href="/waplay.jp/service/part-time/yakiniku">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト"></p>
+            <li class="play_card svc_pt_01_01"><a href="<?=DIR?>/service/part-time/yakiniku">
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店バイト</span>
               </p>
             </a></li>
             <li class="play_card svc_pt_01_02"><a href="#123">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_02.jpg" alt="居酒屋バイト"></p>
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_02.jpg" alt="居酒屋バイト"></p>
               <p class="box_txt">
                 <span class="p_name">居酒屋バイト</span>
               </p>
             </a></li>
             <li class="play_card svc_pt_01_03"><a href="#123">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_03.jpg" alt="자동차검사"></p>
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_03.jpg" alt="자동차검사"></p>
               <p class="box_txt">
                 <span class="p_name">デパートバイト</span>
               </p>
             </a></li>
             <li class="play_card svc_pt_01_04"><a href="#123">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_04.jpg" alt="골프레슨"></p>
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_04.jpg" alt="골프레슨"></p>
               <p class="box_txt">
                 <span class="p_name">モデルバイト</span>
               </p>
             </a></li>
             <li class="play_card svc_pt_01_05"><a href="#123">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_05.jpg" alt="피트니스"></p>
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_05.jpg" alt="피트니스"></p>
               <p class="box_txt">
                 <span class="p_name">テーマパークバイト</span>
               </p>
             </a></li>
             <li class="play_card svc_pt_01_06"><a href="#123">
-              <p class="box_img"><img src="/waplay.jp/imgs/common/svc/svc_pt_06.jpg" alt="피트니스"></p>
+              <p class="box_img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_06.jpg" alt="피트니스"></p>
               <p class="box_txt">
                 <span class="p_name">ラウンジバイト</span>
               </p>

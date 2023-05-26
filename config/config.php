@@ -1,8 +1,10 @@
 <?php
-// Local 
-define('DIR','/waplay.jp/');
+// Local 일경우
+define('DIR','');
 
-// Server //
+// Server 업로드할때 //
+//define('DIR','');
+
 //define('DIR','../');
 define('PATH',$_SERVER['DOCUMENT_ROOT'].DIR);
 ?>

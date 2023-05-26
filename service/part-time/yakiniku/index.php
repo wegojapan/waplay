@@ -16,7 +16,7 @@
     <?php include_once('../../../inc/header.php'); ?>
     <div id="con_page">
       <div class="con_fix_top view_pc-tab">
-        <p class="btn_back"><a href="../"><img src="/waplay.jp/imgs/common/ic/ic_back.svg" alt=""></a></p>
+        <p class="btn_back"><a href="../"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
         <div class="box_search">
           <input type="search" list="suggestions" placeholder="search">
           <datalist id="suggestions">
@@ -27,21 +27,21 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="/waplay.jp/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="/waplay.jp/imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
       
     <section class="service_form_main yakiniku">
       <div class="box_img">
-        <img src="/waplay.jp/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト">
+        <img src="<?=DIR?>/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト">
       </div>
       <div class="con_info">
         <div class="box_main">
           <h1 class="box_tit">
             <span class="tit">焼肉店バイト</span>
-            <i class="ic_share"><a href="#123"><img src="/waplay.jp/imgs/common/ic/ic_share.svg" alt=""></a></i>
+            <i class="ic_share"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_share.svg" alt=""></a></i>
           </h1>
           <ul class="box_data">
             <li class="num_players">

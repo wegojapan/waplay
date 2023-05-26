@@ -30,8 +30,8 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@
                 <span>もう一人で悩まないでください。</span>
                 <strong>心理カウンセラー待機中</strong>
               </div>
-              <div class="box_img"><img src="./imgs/bn/bn_object_04.png" alt=""></div>
+              <div class="box_img"><img src="<?=DIR?>/imgs/bn/bn_object_04.png" alt=""></div>
               </div>
             </p>
           </a></li>
@@ -71,7 +71,7 @@
             <div class="box_profile">
               <div class="user_info">
                 <div class="box_pic">
-                  <p class="pic"><img src="./imgs/user/user_03.jpg" alt=""></p>
+                  <p class="pic"><img src="<?=DIR?>/imgs/user/user_03.jpg" alt=""></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -94,7 +94,7 @@
             <div class="box_profile">
               <div class="user_info">
                 <div class="box_pic"> 
-                  <p class="pic"><img src="./imgs/user/user_04.jpg" alt=""></p>
+                  <p class="pic"><img src="<?=DIR?>/imgs/user/user_04.jpg" alt=""></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -117,7 +117,7 @@
             <div class="box_profile">
               <div class="user_info">
                 <div class="box_pic">
-                  <p class="pic"><img src="./imgs/user/user_02.jpg" alt=""></p>
+                  <p class="pic"><img src="<?=DIR?>/imgs/user/user_02.jpg" alt=""></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -140,7 +140,7 @@
             <div class="box_profile">
               <div class="user_info">
                 <div class="box_pic">
-                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt=""></p>
+                  <p class="pic"><img src="<?=DIR?>/imgs/user/user_10.jpg" alt=""></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">
@@ -163,7 +163,7 @@
             <div class="box_profile">
               <div class="user_info">
                 <div class="box_pic">
-                  <p class="pic"><img src="./imgs/user/user_08.jpg" alt=""></p>
+                  <p class="pic"><img src="<?=DIR?>/imgs/user/user_08.jpg" alt=""></p>
                 </div>
                 <dl class="txt_info">
                   <dt class="info">

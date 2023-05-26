@@ -30,8 +30,8 @@
         </div>
         <div class="box_util">
           <ul class="icons">
-            <li><p class="btn_bell"><a href="#123"><img src="./imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
-            <li><p class="btn_user"><a href="#123"><img src="./imgs/user/user_01.jpg" alt=""></a></p></li>
+            <li><p class="btn_bell"><a href="#123"><img src="<?=DIR?>/imgs/common/ic/ic_bell.svg" alt=""></a></p></li>
+            <li><p class="btn_user"><a href="#123"><img src="<?=DIR?>/imgs/user/user_01.jpg" alt=""></a></p></li>
           </ul>
         </div>
       </div>
@@ -63,8 +63,8 @@
           <div class="wrp_profile">
             <div class="profile_set">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/user_08.jpg" alt="user"></p>
+                <p class="ic_md"><img src="<?=DIR?>/imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -101,8 +101,8 @@
           <div class="wrp_profile">
             <div class="profile_set">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
-                <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/user_09.jpg" alt="user"></p>
+                <p class="ic_md"><img src="<?=DIR?>/imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -140,7 +140,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -178,7 +178,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>
@@ -216,7 +216,7 @@
           <div class="wrp_profile">
             <div class="profile_set unknown">
               <div class="box_profile"><a href="#123">
-                <p class="pic"><img src="./imgs/user/unknown.jpg" alt="user"></p>
+                <p class="pic"><img src="<?=DIR?>/imgs/user/unknown.jpg" alt="user"></p>
               </a></div>
               <dl class="box_txt">
                 <dt>

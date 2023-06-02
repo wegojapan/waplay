@@ -155,12 +155,14 @@
                 .count_util {
                   display: flex;
                   align-items: center;
+                  @include cV(margin-right, 0, 3%);
                   button {
                     width: 24px;
                     height: 24px;
                     border-radius: 50%;
                     border: 1px solid $dkGray;
                     background-color: white;
+                    color: black;
                   }
                   .count_num {
                     @include cV(padding, 0 1em, 0 0.5em);

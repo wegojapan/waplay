@@ -47,3 +47,8 @@ function preventScroll(event) {
 	event.preventDefault(); 
 	window.scroll(0, 0); 
 }
+
+// back step
+function goBack() {
+	window.history.back();
+  }

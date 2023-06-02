@@ -61,35 +61,35 @@
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li class="play_card svc_pt_01"><a href="<?=DIR?>/service/part-time/yakiniku">
-              <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_pt_01.jpg" alt="야끼니꾸" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">焼肉店</span>
                 <small class="p_wrd">バイト</small>
               </p>
             </a></li>
             <li class="play_card svc_home_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="원룸/소형이사"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="원룸/소형이사" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">簡便引越し</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
             <li class="play_card svc_car_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">車検</span>
                 <small class="p_wrd">くるま</small>
               </p>
             </a></li>
             <li class="play_card svc_lesson_03"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_lesson_03.jpg" alt="골프레슨"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_lesson_03.jpg" alt="골프레슨" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">ゴルフレッスン</span>
                 <small class="p_wrd">レッスン</small>
               </p>
             </a></li>
             <li class="play_card svc_op_04"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_04.jpg" alt="피트니스"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_04.jpg" alt="피트니스" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">フィットネス</span>
                 <small class="p_wrd">レッスン</small>
@@ -104,49 +104,49 @@
         <ul class="box_wrd_list">
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_influ.svg" alt="인플루언서"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_influ.svg" alt="인플루언서" loading="lazy"></a>
               </p>
               <small class="txt">個人広告</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_hc.svg" alt="가정교사"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_hc.svg" alt="가정교사" loading="lazy"></a>
               </p>
               <small class="txt">家庭教師</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_lesson.svg" alt="레슨"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_lesson.svg" alt="레슨" loading="lazy"></a>
               </p>
               <small class="txt">レッスン</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_home.svg" alt="홈/리빙"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_home.svg" alt="홈/리빙" loading="lazy"></a>
               </p>
               <small class="txt">ホーム/リビング</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_car.svg" alt="자동차"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_car.svg" alt="자동차" loading="lazy"></a>
               </p>
               <small class="txt">自動車</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_inte.svg" alt="인테리어/철거"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_inte.svg" alt="인테리어/철거" loading="lazy"></a>
               </p>
               <small class="txt">インテリア/撤去</small>
           </li>
           <li>
               <p class="icon">
-                <a href="service/part-time"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트"></a>
+                <a href="service/part-time"><img src="./imgs/common/ic/ic_wrd_pt.svg" alt="아르바이트" loading="lazy"></a>
               </p>
               <small class="txt">アルバイト</small>
           </li>
           <li>
               <p class="icon">
-                <a href="#123"><img src="./imgs/common/ic/ic_wrd_etc.svg" alt="모두보기"></a>
+                <a href="#123"><img src="./imgs/common/ic/ic_wrd_etc.svg" alt="모두보기" loading="lazy"></a>
               </p>
               <small class="txt">すべて見る</small>
           </li>
@@ -161,35 +161,35 @@
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li class="play_card svc_home_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="웜룸/소형이사"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_home_01.jpg" alt="웜룸/소형이사" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">簡便引越し</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
             <li class="play_card svc_home_05"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_home_05.jpg" alt="에어콘 청소"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_home_05.jpg" alt="에어콘 청소" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">エアコンクリニック</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
             <li class="play_card svc_home_03"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_home_03.jpg" alt="해충 방역"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_home_03.jpg" alt="해충 방역" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">害虫駆除・害獣駆除</span>
                 <small class="p_wrd">ホーム/リビング</small>
               </p>
             </a></li>
             <li class="play_card svc_car_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_car_01.jpg" alt="자동차검사" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">車検</span>
                 <small class="p_wrd">くるま</small>
               </p>
             </a></li>
             <li class="play_card svc_inte_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_inte_01.jpg" alt="홈인테리어"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_inte_01.jpg" alt="홈인테리어" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">ホームインテリア</span>
                 <small class="p_wrd">ホーム/リビング</small>
@@ -207,35 +207,35 @@
         <div class="con_slide_list">
           <ul class="box_slide_list">
             <li class="play_card svc_op_01"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_01.jpg" alt="이자카야 오프카이" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">居酒屋オフ会</span>
                 <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
             <li class="play_card svc_op_07"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_07.jpg" alt="수다 오프카이" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">おしゃべりオフ会</span>
                 <small class="p_member"><em class="c-num">110</em>件プレイ中</small>
               </p>
             </a></li>
             <li class="play_card svc_op_02"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_02.jpg" alt="야끼토리 오프카이" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">焼き鳥オフ会</span>
                 <small class="p_member"><em class="c-num">526</em>件プレイ中</small>
               </p>
             </a></li>
             <li class="play_card svc_op_05"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_05.jpg" alt="이자카야 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_05.jpg" alt="이자카야 오프카이" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">コスプレオフ会</span>
                 <small class="p_member"><em class="c-num">26</em>件プレイ中</small>
               </p>
             </a></li>
             <li class="play_card svc_op_06"><a href="#123">
-              <p class="box_img"><img src="./imgs/common/svc/svc_op_06.jpg" alt="야끼토리 오프카이"></p>
+              <p class="box_img"><img src="./imgs/common/svc/svc_op_06.jpg" alt="야끼토리 오프카이" loading="lazy"></p>
               <p class="box_txt">
                 <span class="p_name">ミュージカルオフ会</span>
                 <small class="p_member"><em class="c-num">82</em>件プレイ中</small>
@@ -255,7 +255,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_01.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -276,7 +276,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_02.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -297,7 +297,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_03.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -318,7 +318,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_04.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -341,7 +341,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="platinum"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -362,7 +362,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="diamond"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -383,7 +383,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -404,7 +404,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -427,7 +427,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_05.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_05.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_bronze.svg" alt="bronze"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -448,7 +448,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_06.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_06.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_master.svg" alt="master"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -469,7 +469,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_07.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_07.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -490,7 +490,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_08.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -513,7 +513,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_09.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_plat.svg" alt="platinum"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -534,7 +534,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_10.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_dia.svg" alt="diamond"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -555,7 +555,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_11.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_silver.svg" alt="silver"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -576,7 +576,7 @@
             <li>
               <div class="profile_set">
                 <div class="box_profile"><a href="#123">
-                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user"></p>
+                  <p class="pic"><img src="./imgs/user/user_12.jpg" alt="user" loading="lazy"></p>
                   <p class="ic_md"><img src="./imgs/common/ic/ic_md_s_gold.svg" alt="gold"></p>
                 </a></div>
                 <dl class="box_txt">
@@ -685,7 +685,7 @@
                   <small class="stxt">2024年新しいスタート</small>
                   <span class="txt">引っ越しを計画中ですか？</span>
                 </div>
-                <p class="img"><img src="./imgs/story/img_story_01.jpg" alt=""></p>
+                <p class="img"><img src="./imgs/story/img_story_01.jpg" alt="" loading="lazy"></p>
               </a>
             </li>
             <li class="svc_lesson_00">
@@ -694,7 +694,7 @@
                   <small class="stxt">勉強も楽しく！</small>
                   <span class="txt">プレイヤーと一緒に勉強して成績を上がりましょう。</span>
                 </div>
-                <p class="img"><img src="./imgs/story/img_story_02.jpg" alt=""></p>
+                <p class="img"><img src="./imgs/story/img_story_02.jpg" alt="" loading="lazy"></p>
               </a>
             </li>
             <li class="svc_car_01">
@@ -703,7 +703,7 @@
                   <small class="stxt">心配な車検</small>
                   <span class="txt">見積もりを比較して安く！</span>
                 </div>
-                <p class="img"><img src="./imgs/story/img_story_03.jpg" alt=""></p>
+                <p class="img"><img src="./imgs/story/img_story_03.jpg" alt="" loading="lazy"></p>
               </a>
             </li>
             <li class="contact">
@@ -712,7 +712,7 @@
                   <small class="stxt">ワプレーに望む</small>
                   <span class="txt">送っていただいたご意見でワプレーは進化中！</span>
                 </div>
-                <p class="img"><img src="./imgs/story/img_story_04.jpg" alt=""></p>
+                <p class="img"><img src="./imgs/story/img_story_04.jpg" alt="" loading="lazy"></p>
               </a>
             </li>
           </ul>

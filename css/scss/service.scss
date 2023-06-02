@@ -8,6 +8,9 @@
     }
     .p_tit {
       display: block;
+      max-width: 70%;
+      max-height: 30px;
+      overflow-x: hidden;
     }
     .box_gnav {
       display: none;
@@ -23,134 +26,32 @@
 
 #con_page {
   display: block;
+  @include cV(padding-bottom, 100px, 150px, 35%);
   .service_form_main {
     box-sizing: border-box;
-    .box_img {
-      position: relative;
-      z-index: 1;
-      width: 100%;
-      overflow: hidden;
-      @include cV(height, 250px, 35%);
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: blur(3px);
-      }
-      &:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-      
-    }
-    .con_info {
-      @extend %bw;
-      max-width: 970px;
-      box-sizing: border-box;
-      @include cV(padding, 3%, 5%);
-      position: relative;
-      background-color: white;
-      z-index: 2;
-      border-radius: 16px 16px 0 0;
-      @include cV(margin-top, -50px, -15%);
-      .box_main {
-        .box_tit {
-          @include tit_xl;
-          @include cV(margin-bottom, 30px, 5%);
-          display: flex;
-          justify-content: space-between;
-        }
-        .box_data {
-          display: flex;
-          li {
-            @include cV(padding, 0 30px, 0 5%);
-            border-left: 1px solid $lightGray;
-            @include txt_l;
-            &:first-child {
-              border-left: none;
-              padding-left: 0;
-            }
-            strong, small {display: block;}
-          }
-        }
-        .box_intro {
-          @include cV(margin, 50px 0, 8% 0);
-          .tit {
-            @include txt_l;
-            font-weight: bold;
-            @include cV(margin-bottom, 16px, 3%);
-          }
-          .txt {
-            @include txt_m;
-            line-height: 1.7;
-          }
-        }
-        .box_btns {
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          justify-content: space-between;
-          .btn_like, .btn_point a {
-            border-radius: 8px;
-          }
-          .btn_like {
-            border: 1px solid $pointColor;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            @include cV(width, 50px, 60px);
-            @include cV(height, 50px, 60px);
-            &.active {
-              svg path {
-                fill: $pointColor;
-              }
-            }
-          }
-          .btn_point {
-            @include cV(width, calc(100% - 60px), calc(100% - 70px));
-            a {
-              display: flex;
-              @include cV(height, 50px, 60px);
-              align-items: center;
-              justify-content: center;
-            }
-          }
-        }
-      }
-      @include mq(pc) {
-        .box_btns {
-          .btn_like:hover {
-            cursor: pointer;
-          }
-        }
-      }
-      @include mq(sp) {
-        width: 100%;
-        .box_btns {
-          margin-bottom: 30px;
-          position: fixed;
-          width: 90%;
-          bottom: 0;
-        }
-      }
-    }
     .con_request_form {
-      @extend %bw;
-      max-width: 970px;
       box-sizing: border-box;
-      @include cV(padding, 3%, 5% 0);
+      max-width: 970px;
+      @extend %bw;
       .box_progress_bar {
+        @include cV(background-color, white, $bgGray, $bgGray);
         width: 100%;
         display: flex;
         justify-content: space-between;
+        position:sticky;
+        z-index: 90;
+        @include cV(top, 70px, 60px);
+        @include cV(padding, 4% 0 3%, 4% 4% 3%, 4% 4% 3%);
+        box-sizing: border-box;
         .progress {
-          @include cV(width, 95%, 90%);
+          @include cV(width, 95%, 93%, 90%);
+          &::-webkit-progress-bar {
+            @include cV(background-color, $bgGray, white, white);
+            transition:  width 0.5s ease-in-out;
+            border-radius: 100px;
+            height: 8px;
+          }
+      
         }
         .box_step {
           line-height: 0.5;
@@ -162,26 +63,161 @@
           }
         }
       }
-      .tit_request {
-        @include tit_l;
-      }
-      .answer_list {
-        .box_answer {
-          .answer {
-            border:1px solid $lightGray;
+      .con_answer {
+        display: none;
+        .tit_request {
+          @include tit_l;
+          @include cV(margin, 30px 0 50px, 8% 0, 8% 0);
+          text-align: center;
+          small {
+            font-weight: normal;
+            @include cV(font-size, 0.7em, 0.8em);
+            color: $dkGray;
+          }
+        }
+        .answer_list {
+          @include cV(margin-top, 0, 5%, 5%);
+          @include cV(padding-bottom, 100px, 10%, 10%);
+          .box_answer {
+            border-bottom: 1px solid $lightGray;
+            input {
+              &::placeholder {
+                @include cV(font-size, 0.9em, 0.9em);
+                color: $dkGray;
+              }
+            }
             label {
-              box-sizing: border-box;
-              @include cV(padding, 10px, 3%);
+              @include cV(padding, 16px 0, 3% 0);
+              @include txt_l;
+              &.active {
+                font-weight: 600;
+                color: $pointColor;
+              }
+            }
+            &.etcBox {
+              label {
+                display: flex;
+                align-items: flex-end;
+                small {
+                  @include cV(margin-left, 4px, 0.3em);
+                }
+              }
+              .box_input_etc {
+                display: none;
+              }
+              label.active {
+                & ~ .box_input_etc {
+                  display: block;
+                  .input_etc {
+                    background-color: $bgGray;
+                    width: 100%;
+                    padding: 0.7em;
+                    box-sizing: border-box;
+                    @include cV(font-size, 1em, 0.8em);
+                    @include cV(margin-bottom, 15px, 3%);
+                    &.type_number {
+                      text-align: right;
+                    }
+                  }
+                }
+              }
+            }
+            &.dateBox {
+              position: relative;
               display: flex;
-              justify-content: space-between;
+              align-items: center;
+              border-bottom: none;
+              input {
+                border: 1px solid $lightGray;
+                border-radius: 8px;
+                @include cV(padding, 16px, 0.6em);
+                width: 100%;
+                background-color: white;
+                box-sizing: border-box;
+                color: black;
+              }
+              i {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 16px;
+                @include cV(right, 16px, 3%);
+                @include cV(height, 19px, 1.5em);
+                margin: auto;
+              }
+            }
+            &.countBox {
+              dl {
+                display: flex;
+                justify-content: space-between;
+                box-sizing: border-box;
+                @include cV(padding, 18px 0, 3% 0);
+                .count_util {
+                  display: flex;
+                  align-items: center;
+                  button {
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    border: 1px solid $dkGray;
+                    background-color: white;
+                  }
+                  .count_num {
+                    @include cV(padding, 0 1em, 0 0.5em);
+                    box-sizing: border-box;
+                    width: 50px;
+                    text-align: center;
+                  }
+                }
+              }
+              @include mq(pc) {
+                dl {
+                  button:hover {
+                    cursor: pointer;
+                    background-color: $whiteGray;
+                    border-color: $dkGray;
+                  }
+                }
+              }
             }
           }
+        }
+        &.active {
+          display: block;
+        }
+      }
+      .btns_fixed_bottom {
+        @include cV(width, calc(100% - 245px), calc(100% - 75px), 100%);
+        @include cV(padding-bottom, 70px, 5%, 8%);
+        position: fixed;
+        background-color: white;
+        right: 0;
+        bottom: 0;
+        .btn_point {
+          @include cV(width, 970px, 92%, 92%);
+          margin: auto;
+          a {
+            display: block;
+            border-radius: 8px;
+            @include cV(padding, 1em, 0.7em);
+            box-sizing: border-box;
+          }
+        }
+      }
+
+      @include mq(pc_s) {
+        .btns_fixed_bottom {
+          width: calc(100% - 220px);
+        }
+      }
+
+
+      @include mq(tab_sp) {
+        width: 100%;
+        .tit_request, .answer_list, .box_bottom_btns {
+          padding: 0 4%;
         }
       }
     }
   }
-  @include mq(tab) {
-    padding-bottom: 0;
-  }
-
 }

@@ -45,6 +45,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+
 }
 select {
 	@include mq(sp) {
@@ -384,7 +385,7 @@ li {list-style-type: none;}
 #con_page {
 	@include cV(width, calc(100% - 245px),calc(100% - 75px), 100%);
 	@include cV(margin-top, 0, 60px);
-	@include cV(padding-bottom, 100px, 17%);
+	@include cV(padding-bottom, 100px, 150px, 17%);
     box-sizing: border-box;
 
 	// common Style
@@ -1094,35 +1095,33 @@ li {list-style-type: none;}
 
 
 	// Checkbox Button
-	input[type="checkbox"] {
+	input[type="checkbox"]  {
 		display: none;
 		+ label {
-		  position: relative;
-		  padding-left: 25px;
-		  cursor: pointer;
-		  &::before {
+			box-sizing: border-box;
+			position: relative;
+			padding-left: 25px;
+			display: flex;
+			cursor: pointer;
+			&::before {
 			content: "";
 			position: absolute;
-			left: 0;
+			right: 0;
 			top: 0;
-			width: 18px;
-			height: 18px;
-			border: 2px solid $pointColor;
-			background-color: #fff;
-		  }
-	  
-		  &::after {
-			content: "";
-			position: absolute;
-			left: 7px;
-			top: 7px;
-			width: 8px;
-			height: 8px;
-			background-color: $pointColor;
-			opacity: 0;
-		  }
+			bottom: 0;
+			margin: auto;
+			width: 22px;
+			height: 22px;
+			background:url(../imgs/common/ic/ic_check_off.svg) no-repeat center;
+			background-size: cover;
+			}
+			&.active {
+				&::before {
+					background:url(../imgs/common/ic/ic_check_on.svg) no-repeat center;
+					background-size: cover;
+				}
+			}
 		}
-	  
 		&:checked + label::after {
 		  opacity: 1;
 		}
@@ -1136,29 +1135,38 @@ li {list-style-type: none;}
 		position: relative;
 		padding-left: 25px;
 		cursor: pointer;
-	
+		display: flex;
 		&::before {
 		content: "";
 		position: absolute;
-		left: 0;
+		right: 0;
 		top: 0;
+		bottom: 0;
+		margin: auto;
 		width: 18px;
 		height: 18px;
 		border-radius: 50%;
-		border: 2px solid $pointColor;
+		border: 2px solid $gray;
 		background-color: #fff;
 		}
-	
+
 		&::after {
 		content: "";
 		position: absolute;
-		left: 7px;
-		top: 7px;
-		width: 8px;
-		height: 8px;
+		right: 5px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 12px;
+		height: 12px;
 		border-radius: 50%;
 		background-color: $pointColor;
 		opacity: 0;
+		}
+		&.active {
+			&::before {
+				border-color: $pointColor;
+			}
 		}
 	}
 	
@@ -1190,6 +1198,7 @@ li {list-style-type: none;}
 		a {
 			background-color: $pointColor;
 			color: white;
+			text-align: center;
 		}
 		@include mq(pc) {
 			a:hover {

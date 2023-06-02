@@ -75,7 +75,7 @@
               <p class="txt">新しいアニメが欲しいです。誰かおしえてくれ新しいアニメが欲しいです。誰かおしえてくれ</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>  
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -89,7 +89,7 @@
               <p class="txt">おすすめのゲームないのかな</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>  
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -103,7 +103,7 @@
               <p class="txt">共働き嫁に食材送るお母さん</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>  
                   <span>29</span>
                 </p>
                 <p class="comment">
@@ -117,7 +117,7 @@
               <p class="txt">レシピ共有 #01. 鶏ささみサラダ</p>
               <div class="box_util">
                 <p class="like">
-                  <i class="fa-solid fa-heart"></i>  
+                  <i class="fa-solid fa-thumbs-up"></i>  
                   <span>29</span>
                 </p>
                 <p class="comment">

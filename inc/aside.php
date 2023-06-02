@@ -1,7 +1,7 @@
 <aside class="con_alarm">
     <div class="box_tit">
         <h3 class="tit">アラーム</h3>
-        <p class="btn_close"><img src="/waplay.jp/imgs/common/ic/ic_close.svg" alt=""></p>
+        <p class="btn_close"><img src="<?=DIR?>/imgs/common/ic/ic_close.svg" alt=""></p>
     </div>
     <ul class="box_list">
         <li class="list notice"><a href="#123">

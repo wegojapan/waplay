@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import "settings";
+
+#header {
+  @include mq(sp) {
+    display: none;
+    .logo {
+      display: none;
+    }
+    .p_tit {
+      display: block;
+    }
+    .box_gnav {
+      display: none;
+    }
+    .btn_back {
+      display: block;
+    }
+    .box_util {
+      .btn_alarm {display: none;}
+    }
+  }
+}
+
+#con_page {
+  display: block;
+  margin-top: 0;
+  .service_form_main {
+    box-sizing: border-box;
+    .box_img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      overflow: hidden;
+      .img {
+        @include cV(height, 250px, 35%);
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          filter: blur(3px);
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0,0,0,0.5);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+      .btn_close {
+        position: absolute;
+        top: 4%;
+        right: 4%;
+        svg path {
+          fill : white;
+        }
+      }
+      
+    }
+    .con_info {
+      @extend %bw;
+      max-width: 970px;
+      box-sizing: border-box;
+      @include cV(padding, 3%, 5%);
+      position: relative;
+      background-color: white;
+      z-index: 2;
+      border-radius: 16px 16px 0 0;
+      @include cV(margin-top, -50px, -15%);
+      .box_main {
+        .box_tit {
+          @include tit_xl;
+          @include cV(margin-bottom, 30px, 5%);
+          display: flex;
+          justify-content: space-between;
+        }
+        .box_data {
+          display: flex;
+          li {
+            @include cV(padding, 0 30px, 0 5%);
+            border-left: 1px solid $lightGray;
+            @include txt_l;
+            &:first-child {
+              border-left: none;
+              padding-left: 0;
+            }
+            strong, small {display: block;}
+          }
+        }
+        .box_intro {
+          @include cV(margin, 50px 0, 8% 0);
+          .tit {
+            @include txt_l;
+            font-weight: bold;
+            @include cV(margin-bottom, 16px, 3%);
+          }
+          .txt {
+            @include txt_m;
+            line-height: 1.7;
+          }
+        }
+        .box_btns {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          .btn_like, .btn_point a {
+            border-radius: 8px;
+          }
+          .btn_like {
+            border: 1px solid $pointColor;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            @include cV(width, 50px, 55px);
+            @include cV(height, 50px, 55px);
+            background-color: white;
+            &.active {
+              svg path {
+                fill: $pointColor;
+              }
+            }
+          }
+          .btn_point {
+            @include cV(width, calc(100% - 60px), calc(100% - 65px));
+            a {
+              display: flex;
+              @include cV(height, 50px, 55px);
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+      @include mq(pc) {
+        .box_btns {
+          .btn_like:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      @include mq(sp) {
+        width: 100%;
+        .box_btns {
+          margin-bottom: 30px;
+          position: fixed;
+          width: 90%;
+          bottom: 0;
+        }
+      }
+    }
+  }
+  @include mq(tab) {
+    padding-bottom: 0;
+  }
+}

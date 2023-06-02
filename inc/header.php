@@ -5,7 +5,7 @@
             <img class="view_tab" src="<?=DIR?>/imgs/icons/icon-512x512.png" alt="waplay">
         </a>
     </p>
-    <p class="btn_back"><a href="<?=DIR?>/"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
+    <p class="btn_back" onclick="goBack()"><a href="javascript:void(0);"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
     <h1 class="p_tit"></h1>
     <ui class="box_gnav">
         <li class="home">

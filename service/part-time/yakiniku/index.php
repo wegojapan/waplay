@@ -8,7 +8,7 @@
     <?php include_once('../../../config/config.php'); ?>
     <?php include_once('../../../config/meta.php'); ?>
     <link rel="stylesheet" href="../../../css/common.min.css"/>
-    <link rel="stylesheet" href="../../../css/service.min.css"/>
+    <link rel="stylesheet" href="../../../css/service_main.min.css"/>
     <link rel="manifest" href="../../../manifest.json">
   </head>
     
@@ -16,7 +16,7 @@
     <?php include_once('../../../inc/header.php'); ?>
     <div id="con_page">
       <div class="con_fix_top view_pc-tab">
-        <p class="btn_back"><a href="../"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
+      <p class="btn_back" onclick="goBack()"><a href="javascript:void(0);"><img src="<?=DIR?>/imgs/common/ic/ic_back.svg" alt=""></a></p>
         <div class="box_search">
           <input type="search" list="suggestions" placeholder="search">
           <datalist id="suggestions">
@@ -35,7 +35,8 @@
       
     <section class="service_form_main yakiniku">
       <div class="box_img">
-        <img src="<?=DIR?>/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト">
+        <p class="img"><img src="<?=DIR?>/imgs/common/svc/svc_pt_01.jpg" alt="焼肉店バイト"></p>
+        <i class="btn_close view_sp" onclick="goBack()"><a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" width="16.004" height="16" viewBox="0 0 16.004 16"><path d="M21.184,19.289,26.9,13.573a1.339,1.339,0,1,0-1.894-1.894l-5.716,5.716-5.716-5.716a1.339,1.339,0,1,0-1.894,1.894L17.4,19.289,11.679,25A1.339,1.339,0,0,0,13.573,26.9l5.716-5.716L25.005,26.9A1.339,1.339,0,0,0,26.9,25Z" transform="translate(-11.285 -11.289)"/></svg></a></i>
       </div>
       <div class="con_info">
         <div class="box_main">
@@ -80,8 +81,13 @@
 
 
     <!-- <script src="./serviceWorker.js"></script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        pageTitM.innerHTML = 'アルバイト';
+      });
+    </script>
     <script src="../../../js/common.js"></script>
-    <script src="../../../js/service.js"></script>
+    <script src="../../../js/service_main.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

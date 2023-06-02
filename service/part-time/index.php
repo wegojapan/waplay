@@ -126,6 +126,12 @@
 
 
     <!-- <script src="./serviceWorker.js"></script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        pageTitM.innerHTML = 'アルバイト';
+      });
+    </script>
+
     <script src="../../js/common.js"></script>
     <script src="../../js/service.js"></script>
 
